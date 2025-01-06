@@ -1,0 +1,109 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="adversative" type="multinuc"/>
+			<rel name="adversative" type="rst"/>
+			<rel name="attribution" type="rst"/>
+			<rel name="causal" type="rst"/>
+			<rel name="context-background" type="rst"/>
+			<rel name="context-circumstance" type="rst"/>
+			<rel name="contingency-condition" type="rst"/>
+			<rel name="elaboration" type="rst"/>
+			<rel name="evaluation-comment" type="rst"/>
+			<rel name="explanation" type="rst"/>
+			<rel name="joint" type="multinuc"/>
+			<rel name="mode" type="rst"/>
+			<rel name="organization" type="multinuc"/>
+			<rel name="organization" type="rst"/>
+			<rel name="purpose" type="rst"/>
+			<rel name="restatement" type="rst"/>
+			<rel name="same-unit" type="multinuc"/>
+			<rel name="topic" type="rst"/>
+		</relations>
+	</header>
+	<body>
+		<segment id="1" parent="43" relname="joint">I thank you, Madam President, for convening this emergency meeting on the situation in Ukraine.</segment>
+		<segment id="2" parent="43" relname="joint">I also thank Assistant Secretary-General Oscar Fernandez-Taranco for his briefing on the worrying situation in eastern Ukraine.</segment>
+		<segment id="3" parent="44" relname="span">We are very alarmed by reports of increased tensions in eastern Ukraine in the past several days.</segment>
+		<segment id="4" parent="82" relname="span">We condemn the attack</segment>
+		<segment id="5" parent="4" relname="elaboration">that killed a State security officer and wounded five others in the eastern city of Slovyansk.</segment>
+		<segment id="6" parent="82" relname="elaboration">The perpetrators of that criminal act should be brought to justice.</segment>
+		<segment id="7" parent="46" relname="organization">I take this opportunity to echo the Secretary-General's call to all sides to work towards calming the situation.</segment>
+		<segment id="8" parent="9" relname="context-circumstance">After numerous calls for the de-escalation of the crisis,</segment>
+		<segment id="9" parent="45" relname="span">the situation has become more complex for the diverse Ukrainian community.</segment>
+		<segment id="10" parent="81" relname="span">It is imperative to protect the rights of the citizens of Ukraine</segment>
+		<segment id="11" parent="10" relname="elaboration">regardless of ethnic background.</segment>
+		<segment id="12" parent="48" relname="span">We reiterate our call for an inclusive dialogue, a frank and open discussion</segment>
+		<segment id="13" parent="12" relname="elaboration">that is mutually beneficial for all the parties concerned.</segment>
+		<segment id="14" parent="52" relname="attribution">Although Rwanda agrees in principle</segment>
+		<segment id="15" parent="51" relname="span">that Ukraine,</segment>
+		<segment id="16" parent="15" relname="elaboration">like any other country,</segment>
+		<segment id="17" parent="52" relname="same-unit">has a right to self-defence and to promote its territorial integrity,</segment>
+		<segment id="18" parent="54" relname="span">its acts should be proportional.</segment>
+		<segment id="19" parent="55" relname="span">We discourage any military act that would put the lives of innocent civilians in danger.</segment>
+		<segment id="20" parent="19" relname="elaboration">Rwanda remains of the View that military action will only worsen the already tense situation.</segment>
+		<segment id="21" parent="57" relname="span">We encourage all the parties involved,</segment>
+		<segment id="22" parent="21" relname="context-circumstance">particularly in the current situation,</segment>
+		<segment id="23" parent="58" relname="same-unit">to exercise full restraint.</segment>
+		<segment id="24" parent="59" relname="span">It is vital to allow the diplomatic efforts</segment>
+		<segment id="25" parent="24" relname="elaboration">that have already been deployed to work.</segment>
+		<segment id="26" parent="63" relname="explanation">The international community cannot watch another crisis slip out of its hands.</segment>
+		<segment id="27" parent="63" relname="span">We must act on what we stand for</segment>
+		<segment id="28" parent="27" relname="elaboration">- peace and security.</segment>
+		<segment id="29" parent="65" relname="span">We welcome the discussion among the United States, Ukraine and Russia</segment>
+		<segment id="30" parent="29" relname="context-circumstance">due to take place on 17 April.</segment>
+		<segment id="31" parent="71" relname="span">We encourage United Nations participation in those talks.</segment>
+		<segment id="32" parent="69" relname="attribution">In conclusion, let me reiterate</segment>
+		<segment id="33" parent="66" relname="span">that the Security Council,</segment>
+		<segment id="34" parent="33" relname="elaboration">the only world body in charge of maintaining international peace and security,</segment>
+		<segment id="35" parent="67" relname="same-unit">must work towards restoring its own unity</segment>
+		<segment id="36" parent="67" relname="purpose">in order to be able to defend the unity, sovereignty and territorial integrity of a States Members of the United Nations,</segment>
+		<segment id="37" parent="77" relname="span">while addressing the interests of the countries of the region.</segment>
+		<segment id="38" parent="39" relname="attribution">We recognize</segment>
+		<segment id="39" parent="73" relname="span">that there are political interests involved.</segment>
+		<segment id="40" parent="74" relname="span">However, we should not forget that ordinary Ukrainians are caught in the midst of this conflict;</segment>
+		<segment id="41" parent="40" relname="elaboration">all they want and ask for is a peaceful country.</segment>
+		<segment id="42" parent="76" relname="span">This we should all be mindful of.</segment>
+		<group id="43" type="multinuc" parent="79" relname="organization"/>
+		<group id="44" type="span" parent="49" relname="explanation"/>
+		<group id="45" type="span" parent="46" relname="joint"/>
+		<group id="46" type="multinuc" parent="47" relname="span"/>
+		<group id="47" type="span" parent="48" relname="context-background"/>
+		<group id="48" type="span" parent="49" relname="span"/>
+		<group id="49" type="span" parent="50" relname="span"/>
+		<group id="50" type="span" parent="62" relname="span"/>
+		<group id="51" type="span" parent="52" relname="same-unit"/>
+		<group id="52" type="multinuc" parent="53" relname="span"/>
+		<group id="53" type="span" parent="18" relname="adversative"/>
+		<group id="54" type="span" parent="55" relname="elaboration"/>
+		<group id="55" type="span" parent="56" relname="span"/>
+		<group id="56" type="span" parent="61" relname="joint"/>
+		<group id="57" type="span" parent="58" relname="same-unit"/>
+		<group id="58" type="multinuc" parent="60" relname="span"/>
+		<group id="59" type="span" parent="58" relname="elaboration"/>
+		<group id="60" type="span" parent="61" relname="joint"/>
+		<group id="61" type="multinuc" parent="50" relname="elaboration"/>
+		<group id="62" type="span" parent="79" relname="span"/>
+		<group id="63" type="span" parent="64" relname="span"/>
+		<group id="64" type="span" parent="72" relname="explanation"/>
+		<group id="65" type="span" parent="72" relname="joint"/>
+		<group id="66" type="span" parent="67" relname="same-unit"/>
+		<group id="67" type="multinuc" parent="68" relname="span"/>
+		<group id="68" type="span" parent="69" relname="span"/>
+		<group id="69" type="span" parent="70" relname="span"/>
+		<group id="70" type="span" parent="31" relname="elaboration"/>
+		<group id="71" type="span" parent="72" relname="joint"/>
+		<group id="72" type="multinuc" parent="78" relname="span"/>
+		<group id="73" type="span" parent="74" relname="adversative"/>
+		<group id="74" type="span" parent="75" relname="span"/>
+		<group id="75" type="span" parent="42" relname="elaboration"/>
+		<group id="76" type="span" parent="37" relname="elaboration"/>
+		<group id="77" type="span" parent="68" relname="context-circumstance"/>
+		<group id="78" type="span" parent="62" relname="context-background"/>
+		<group id="79" type="span" parent="80" relname="span"/>
+		<group id="80" type="span" />
+		<group id="81" type="span" parent="46" relname="joint"/>
+		<group id="82" type="span" parent="83" relname="span"/>
+		<group id="83" type="span" parent="3" relname="elaboration"/>
+	</body>
+</rst>

@@ -1,0 +1,147 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="attribution" type="rst"/>
+			<rel name="background" type="rst"/>
+			<rel name="cause" type="rst"/>
+			<rel name="condition" type="rst"/>
+			<rel name="contrast" type="multinuc"/>
+			<rel name="contrast" type="rst"/>
+			<rel name="elaboration" type="rst"/>
+			<rel name="enablement" type="rst"/>
+			<rel name="evaluation" type="rst"/>
+			<rel name="explanation" type="rst"/>
+			<rel name="joint" type="multinuc"/>
+			<rel name="manner-means" type="rst"/>
+			<rel name="same-unit" type="multinuc"/>
+			<rel name="summary" type="rst"/>
+			<rel name="temporal" type="multinuc"/>
+			<rel name="textual-organization" type="multinuc"/>
+			<rel name="textual-organization" type="rst"/>
+			<rel name="topic-comment" type="rst"/>
+		</relations>
+	</header>
+	<body>
+		<segment id="1" parent="119" relname="textual-organization">I shall now make a statement in my capacity as the representative of Luxembourg.</segment>
+		<segment id="2" parent="66" relname="evaluation">Luxembourg deeply regrets</segment>
+		<segment id="3" parent="63" relname="span">that the draft resolution</segment>
+		<segment id="4" parent="3" relname="explanation">(S/2104/189).</segment>
+		<segment id="5" parent="63" relname="elaboration">proposed by the United States ofAmerica,</segment>
+		<segment id="6" parent="65" relname="same-unit">on the situation in Ukraine was not adopted</segment>
+		<segment id="7" parent="65" relname="explanation">because of the vote against it by Russia, a permanent member of the Council.</segment>
+		<segment id="8" parent="69" relname="joint">Luxembourg voted in favour of the draft resolution</segment>
+		<segment id="9" parent="68" relname="span">and is also a sponsor of the text,</segment>
+		<segment id="10" parent="9" relname="elaboration">as did many United Nations States Members.</segment>
+		<segment id="11" parent="70" relname="span">Why?</segment>
+		<segment id="12" parent="11" relname="explanation">Because the draft resolution was based on principles and dialogue.</segment>
+		<segment id="13" parent="121" relname="span">First,</segment>
+		<segment id="14" parent="13" relname="elaboration">with regard to the principles,</segment>
+		<segment id="15" parent="73" relname="span">the draft resolution was intended to recall the purposes and principles of the United Nations,</segment>
+		<segment id="16" parent="15" relname="elaboration">as set out in particular in Article 2 of the Charter.</segment>
+		<segment id="17" parent="108" relname="span">The draft resolution was intended to reaffirm the Security Council's support for the sovereignty, independence, unity and the territorial integrity of Ukraine within its internationally recognized borders.</segment>
+		<segment id="18" parent="17" relname="evaluation">The Security Council should be unanimous in upholding those principles.</segment>
+		<segment id="19" parent="109" relname="attribution">The Charter ofthe United Nations states</segment>
+		<segment id="20" parent="21" relname="manner-means">that in discharging its duties</segment>
+		<segment id="21" parent="109" relname="span">the Security Council "shall act in accordance with the purposes and principles of the United Nations".</segment>
+		<segment id="22" parent="113" relname="contrast">Today, the Russian veto prevented the Security Council from complying with that provision.</segment>
+		<segment id="23" parent="100" relname="span">With regard to dialogue,</segment>
+		<segment id="24" parent="23" relname="elaboration">in accordance with Chapter VI of the Charter of the United Nations,</segment>
+		<segment id="25" parent="104" relname="span">the draft resolution under consideration by the Council this morning was intended to urge all parties to seek a peaceful settlement immediately through direct political dialogue,</segment>
+		<segment id="26" parent="103" relname="joint">to exercise restraint,</segment>
+		<segment id="27" parent="102" relname="span">to refrain from any unilateral action and any inflammatory rhetoric</segment>
+		<segment id="28" parent="27" relname="elaboration">that might increase tension and to engage fully in international mediation efforts.</segment>
+		<segment id="29" parent="106" relname="span">However, the referendum organized for tomorrow in Crimea is intended to change the status of the Ukrainian territory against the will of Ukraine.</segment>
+		<segment id="30" parent="31" relname="condition">If the referendum were to take place,</segment>
+		<segment id="31" parent="105" relname="span">it would constitute a unilateral act that could very seriously destabilize Ukraine and the entire the region.</segment>
+		<segment id="32" parent="98" relname="span">Pursuant to the Charter of the United Nations, Member States have conferred upon the Security Council the primary responsibility</segment>
+		<segment id="33" parent="32" relname="enablement">for maintaining international peace and security.</segment>
+		<segment id="34" parent="99" relname="contrast">Today, the Russian veto prevented the Security Council from assuming that responsibility in the interest of peace and security in Ukraine and Europe.</segment>
+		<segment id="35" parent="94" relname="span">The referendum organized for tomorrow in Crimea runs contrary to Ukraine's Constitution,</segment>
+		<segment id="36" parent="37" relname="attribution">which stipulates</segment>
+		<segment id="37" parent="93" relname="span">that the territory of Ukraine is indivisible and inviolable.</segment>
+		<segment id="38" parent="95" relname="joint">The referendum is also contrary to the Constitution of the Autonomous Republic of Crimea.</segment>
+		<segment id="39" parent="96" relname="span">The international community can in no way recognize its outcome.</segment>
+		<segment id="40" parent="91" relname="span">The referendum of 16 March is part of a vicious cycle.</segment>
+		<segment id="41" parent="85" relname="span">The decision taken on 1 March by the Council of the Russian Federation</segment>
+		<segment id="42" parent="41" relname="elaboration">to authorize the use of the Russian armed forces on Ukrainian territory, and the subsequent actions undertaken,</segment>
+		<segment id="43" parent="86" relname="same-unit">constitute a flagrant violation of international law.</segment>
+		<segment id="44" parent="88" relname="span">Those actions violate the commitments Russia entered into with regard to Ukraine within the framework of the Budapest Memorandum of 1994 and the Treaty of Friendship, Cooperation and Partnership Agreement between Russia and Ukraine,</segment>
+		<segment id="45" parent="44" relname="background">signed in 1997.</segment>
+		<segment id="46" parent="89" relname="condition">Had it been adopted,</segment>
+		<segment id="47" parent="89" relname="span">the draft resolution would have helped to put an end to that vicious cycle and the nationalist escalation</segment>
+		<segment id="48" parent="47" relname="elaboration">that accompanies it.</segment>
+		<segment id="49" parent="83" relname="span">Today's vote is a failure</segment>
+		<segment id="50" parent="49" relname="elaboration">- a failure for the Security Council and the United Nations,</segment>
+		<segment id="51" parent="84" relname="span">but also, and above all, a failure for Russia.</segment>
+		<segment id="52" parent="76" relname="attribution">Would it be naive to hope that,</segment>
+		<segment id="53" parent="75" relname="contrast">despite that failure,</segment>
+		<segment id="54" parent="75" relname="span">we can still find a peaceful solution to the crisis</segment>
+		<segment id="55" parent="54" relname="elaboration">that Russia is imposing on Ukraine and the international community?</segment>
+		<segment id="56" parent="78" relname="span">For its part, Luxembourg will not abandon that hope.</segment>
+		<segment id="57" parent="74" relname="same-unit">Even if diplomatic efforts have not yet borne fruit</segment>
+		<segment id="58" parent="74" relname="same-unit">,</segment>
+		<segment id="59" parent="79" relname="span">they must continue to achieve a solution</segment>
+		<segment id="60" parent="59" relname="elaboration">that respects the political independence, sovereignty, unity and territorial integrity of Ukraine, in the interest of peace, stability and prosperity in Europe.</segment>
+		<segment id="61" parent="81" relname="joint">I resume my functions as President of the Council.</segment>
+		<segment id="62" parent="81" relname="joint">I give the floor to the representative of Ukraine.</segment>
+		<group id="63" type="span" parent="64" relname="span"/>
+		<group id="64" type="span" parent="65" relname="same-unit"/>
+		<group id="65" type="multinuc" parent="66" relname="span"/>
+		<group id="66" type="span" parent="67" relname="span"/>
+		<group id="67" type="span" parent="120" relname="joint"/>
+		<group id="68" type="span" parent="69" relname="joint"/>
+		<group id="69" type="multinuc" parent="71" relname="span"/>
+		<group id="70" type="span" parent="69" relname="explanation"/>
+		<group id="71" type="span" parent="120" relname="joint"/>
+		<group id="72" type="multinuc" parent="111" relname="background"/>
+		<group id="73" type="span" parent="72" relname="same-unit"/>
+		<group id="74" type="multinuc" parent="79" relname="contrast"/>
+		<group id="75" type="span" parent="76" relname="span"/>
+		<group id="76" type="span" parent="77" relname="span"/>
+		<group id="77" type="span" parent="56" relname="contrast"/>
+		<group id="78" type="span" parent="80" relname="background"/>
+		<group id="79" type="span" parent="80" relname="span"/>
+		<group id="80" type="span" parent="82" relname="span"/>
+		<group id="81" type="multinuc" parent="117" relname="textual-organization"/>
+		<group id="82" type="span" parent="117" relname="span"/>
+		<group id="83" type="span" parent="51" relname="contrast"/>
+		<group id="84" type="span" parent="116" relname="span"/>
+		<group id="85" type="span" parent="86" relname="same-unit"/>
+		<group id="86" type="multinuc" parent="87" relname="span"/>
+		<group id="87" type="span" parent="40" relname="elaboration"/>
+		<group id="88" type="span" parent="86" relname="elaboration"/>
+		<group id="89" type="span" parent="90" relname="span"/>
+		<group id="90" type="span" parent="91" relname="elaboration"/>
+		<group id="91" type="span" parent="92" relname="span"/>
+		<group id="92" type="span" parent="96" relname="elaboration"/>
+		<group id="93" type="span" parent="35" relname="elaboration"/>
+		<group id="94" type="span" parent="95" relname="joint"/>
+		<group id="95" type="multinuc" parent="39" relname="explanation"/>
+		<group id="96" type="span" parent="97" relname="span"/>
+		<group id="97" type="span" parent="114" relname="elaboration"/>
+		<group id="98" type="span" parent="99" relname="contrast"/>
+		<group id="99" type="multinuc" parent="114" relname="joint"/>
+		<group id="100" type="span" parent="101" relname="same-unit"/>
+		<group id="101" type="multinuc" parent="107" relname="contrast"/>
+		<group id="102" type="span" parent="103" relname="joint"/>
+		<group id="103" type="multinuc" parent="25" relname="elaboration"/>
+		<group id="104" type="span" parent="101" relname="same-unit"/>
+		<group id="105" type="span" parent="29" relname="elaboration"/>
+		<group id="106" type="span" parent="107" relname="contrast"/>
+		<group id="107" type="multinuc" parent="114" relname="joint"/>
+		<group id="108" type="span" parent="111" relname="span"/>
+		<group id="109" type="span" parent="110" relname="span"/>
+		<group id="110" type="span" parent="108" relname="elaboration"/>
+		<group id="111" type="span" parent="112" relname="span"/>
+		<group id="112" type="span" parent="113" relname="contrast"/>
+		<group id="113" type="multinuc" parent="114" relname="joint"/>
+		<group id="114" type="multinuc" parent="115" relname="span"/>
+		<group id="115" type="span" parent="84" relname="evaluation"/>
+		<group id="116" type="span" parent="82" relname="contrast"/>
+		<group id="117" type="span" parent="118" relname="span"/>
+		<group id="118" type="span" parent="119" relname="span"/>
+		<group id="119" type="span" />
+		<group id="120" type="multinuc" parent="118" relname="background"/>
+		<group id="121" type="span" parent="72" relname="same-unit"/>
+	</body>
+</rst>

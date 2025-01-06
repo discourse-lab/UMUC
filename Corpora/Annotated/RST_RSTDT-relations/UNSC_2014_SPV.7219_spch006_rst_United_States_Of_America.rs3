@@ -1,0 +1,383 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="attribution" type="rst"/>
+			<rel name="background" type="rst"/>
+			<rel name="cause" type="rst"/>
+			<rel name="condition" type="rst"/>
+			<rel name="contrast" type="multinuc"/>
+			<rel name="contrast" type="rst"/>
+			<rel name="elaboration" type="rst"/>
+			<rel name="enablement" type="rst"/>
+			<rel name="evaluation" type="rst"/>
+			<rel name="explanation" type="rst"/>
+			<rel name="joint" type="multinuc"/>
+			<rel name="manner-means" type="rst"/>
+			<rel name="same-unit" type="multinuc"/>
+			<rel name="summary" type="rst"/>
+			<rel name="temporal" type="multinuc"/>
+			<rel name="textual-organization" type="multinuc"/>
+			<rel name="textual-organization" type="rst"/>
+			<rel name="topic-comment" type="rst"/>
+		</relations>
+	</header>
+	<body>
+		<segment id="1" parent="194" relname="span">Yesterday we were all shocked by the downing of Malaysia Airlines Flight 17.</segment>
+		<segment id="2" parent="188" relname="span">All 298 people aboard</segment>
+		<segment id="3" parent="2" relname="elaboration">- 283 passangers and 15 crew members -</segment>
+		<segment id="4" parent="189" relname="same-unit">were killed.</segment>
+		<segment id="5" parent="6" relname="background">As we stared at the passanger list yesterday,</segment>
+		<segment id="6" parent="190" relname="span">we saw next to three of the passangers' names a capital "I".</segment>
+		<segment id="7" parent="8" relname="attribution">As we now know,</segment>
+		<segment id="8" parent="191" relname="span">that letter stands for "infant".</segment>
+		<segment id="9" parent="200" relname="span">To the families and friends of the victims, it is impossible to find words to express our condolences.</segment>
+		<segment id="10" parent="195" relname="span">We can only commit to them</segment>
+		<segment id="11" parent="196" relname="span">that we will not rest</segment>
+		<segment id="12" parent="11" relname="condition">until we find out what happened.</segment>
+		<segment id="13" parent="198" relname="span">A full, credible and unimpeded international investigation must begin immediately.</segment>
+		<segment id="14" parent="197" relname="joint">The perpetrators must be brought to justice;</segment>
+		<segment id="15" parent="197" relname="joint">they must not be sheltered by any State Member of the United Nations.</segment>
+		<segment id="16" parent="207" relname="textual-organization">Let me share with the Council our assesment of the evidence so far.</segment>
+		<segment id="17" parent="202" relname="span">We assess that Malaysia Airlines Flight 17,</segment>
+		<segment id="18" parent="17" relname="elaboration">carrying 298 people from Amsterdan to Kuala Lumpur,</segment>
+		<segment id="19" parent="204" relname="span">was likely downed by a surface-to-air missile</segment>
+		<segment id="20" parent="19" relname="summary">(SAM)</segment>
+		<segment id="21" parent="204" relname="elaboration">- an SA-11 -</segment>
+		<segment id="22" parent="205" relname="elaboration">operated from a separatist-held location in eastern Ukraine.</segment>
+		<segment id="23" parent="210" relname="joint">The airliner was travelling at a cruise altitude of 33,000 feet,</segment>
+		<segment id="24" parent="210" relname="joint">and its speed was typical for an airliner along an established flight corridor frequented by commercial traffic.</segment>
+		<segment id="25" parent="211" relname="span">The flight was transmiting its assigned transponder code,</segment>
+		<segment id="26" parent="25" relname="elaboration">corresponding with its flight plan,</segment>
+		<segment id="27" parent="212" relname="joint">and flight tracking data was publicly available on the Internet.</segment>
+		<segment id="28" parent="213" relname="evaluation">There was nothing threatening or provocative about MH-17.</segment>
+		<segment id="29" parent="215" relname="same-unit">Of the operational SAM.</segment>
+		<segment id="30" parent="215" relname="same-unit">systems</segment>
+		<segment id="31" parent="215" relname="elaboration">located near the border,</segment>
+		<segment id="32" parent="217" relname="same-unit">only the SA-Il, SA-20 and SA-22 systems are capable of hitting an aircraft at the flight's altitude of 33,000 feet.</segment>
+		<segment id="33" parent="218" relname="span">We can rule out shorter-range SAMSs known to be in separatist hands,</segment>
+		<segment id="34" parent="33" relname="elaboration">including man-portable air defence systems, and SA-8 and SA-13 systems,</segment>
+		<segment id="35" parent="218" relname="elaboration">which are not capable of hitting an aircraft at that altitude.</segment>
+		<segment id="36" parent="220" relname="same-unit">Early Thursday, an SA-ll SAM.</segment>
+		<segment id="37" parent="220" relname="same-unit">system was reported near Zahnitkiv by a western reporter,</segment>
+		<segment id="38" parent="222" relname="span">and separatists were spotted hours before the incident with an SA-Il system at a location close to the site</segment>
+		<segment id="39" parent="38" relname="elaboration">where the plane went down.</segment>
+		<segment id="40" parent="225" relname="joint">Separatists initially claimed responsibility for shooting down a military transport plane,</segment>
+		<segment id="41" parent="224" relname="span">and posted videos</segment>
+		<segment id="42" parent="41" relname="elaboration">that are now being connected to the Malaysia Airlines crash.</segment>
+		<segment id="43" parent="226" relname="span">Separatist leaders also boasted on social media about shooting down a plane,</segment>
+		<segment id="44" parent="43" relname="contrast">but later deleted those messages.</segment>
+		<segment id="45" parent="46" relname="explanation">Because of the technical complexity of the SA-11, it is unlikely that the separatists could effectively operate the system without assistance from knowledgeable personnel.</segment>
+		<segment id="46" parent="228" relname="span">Therefore, we cannot rule out technical assistance from Russian personnel in operating the systems.</segment>
+		<segment id="47" parent="229" relname="contrast">The Ukrainians do have SA-ll systems in their inventory;</segment>
+		<segment id="48" parent="229" relname="same-unit">however, we are not aware of any Ukrainian SAM.</segment>
+		<segment id="49" parent="229" relname="same-unit">systems in the area of the shoot-down.</segment>
+		<segment id="50" parent="231" relname="span">More important, since the beginning of the crisis Ukrainian air defences have not fired a single missile,</segment>
+		<segment id="51" parent="50" relname="contrast">despite several alleged violations of their airspace by Russian aircraft.</segment>
+		<segment id="52" parent="241" relname="span">This also follows a pattern of actions by Russian-backed separatists.</segment>
+		<segment id="53" parent="234" relname="span">On 13 June, separatists shot down a Ukrainian transport plane</segment>
+		<segment id="54" parent="53" relname="elaboration">carrying 40 paratroopers and 9 crew members.</segment>
+		<segment id="55" parent="236" relname="span">On 24 June,</segment>
+		<segment id="56" parent="235" relname="span">as the Council was meeting to welcome Ukraine's unilateral ceasefire</segment>
+		<segment id="57" parent="56" relname="explanation">(see S/PV.7205),</segment>
+		<segment id="58" parent="238" relname="span">we received word that separatists had downed a Ukrainian helicopter,</segment>
+		<segment id="59" parent="58" relname="elaboration">killing all nine aboard.</segment>
+		<segment id="60" parent="240" relname="span">On 14 July, separatists claimed credit for downing a Ukrainian military cargo plane</segment>
+		<segment id="61" parent="60" relname="elaboration">flying at 6,000 metres.</segment>
+		<segment id="62" parent="239" relname="temporal">And on 16 July they claimed credit for the downing of a Ukrainian fighter jet.</segment>
+		<segment id="63" parent="64" relname="condition">If indeed Russian-backed separatists were behind this attack on a civilian airliner,</segment>
+		<segment id="64" parent="242" relname="span">they and their backers would have good reason to cover up evidence of their crime.</segment>
+		<segment id="65" parent="244" relname="span">It is therefore extremely important that an investigation be commenced immediately.</segment>
+		<segment id="66" parent="246" relname="span">In the first instance, the special monitoring mission the of the Organization for Security and Cooperation in Europe should act as a first responder,</segment>
+		<segment id="67" parent="245" relname="span">thereby laying the foundation for efforts by other international organizations and individual nations,</segment>
+		<segment id="68" parent="67" relname="elaboration">including those whose citizens were victims of the tragedy.</segment>
+		<segment id="69" parent="70" relname="attribution">Yesterday, President Obama assured Ukraine's President Poroshenko</segment>
+		<segment id="70" parent="247" relname="span">that United States experts would offer all possible assistance upon his request.</segment>
+		<segment id="71" parent="72" relname="background">President Poroshenko has invited the independent and credible International Civil Aviation Organization to join an investigation.</segment>
+		<segment id="72" parent="249" relname="span">International investigators must be granted immediate, full and unfettered access to the crash site.</segment>
+		<segment id="73" parent="250" relname="span">All those concerned</segment>
+		<segment id="74" parent="73" relname="elaboration">- Russia, pro-Russian separatists and Ukraine -</segment>
+		<segment id="75" parent="251" relname="same-unit">should agree to support an immediate ceasefire to facilitate access by international investigators.</segment>
+		<segment id="76" parent="251" relname="enablement">In that regard, we look to the monitoring misson also to reach agreement with separatists and others in the region to make that possible.</segment>
+		<segment id="77" parent="254" relname="joint">All evidence must remain undisturbed</segment>
+		<segment id="78" parent="254" relname="joint">and any evidence removed from the site by the Russian-backed separatists operating in the area should be promptly returned and handed over.</segment>
+		<segment id="79" parent="254" relname="elaboration">Russia needs to help make that happen.</segment>
+		<segment id="80" parent="259" relname="contrast">While it make take us some time to firmly establish who shot down a plane filled with innocents,</segment>
+		<segment id="81" parent="257" relname="span">most Council members and most members of the international community have been warning for months about the devastation</segment>
+		<segment id="82" parent="81" relname="elaboration">that would come</segment>
+		<segment id="83" parent="258" relname="span">if Russia did not stop what it started</segment>
+		<segment id="84" parent="83" relname="summary">- if it did not reign in what it unleashed.</segment>
+		<segment id="85" parent="263" relname="textual-organization">The context for yesterday's horror is clear:</segment>
+		<segment id="86" parent="261" relname="span">separatist forces</segment>
+		<segment id="87" parent="86" relname="elaboration">backed by the Russian Government</segment>
+		<segment id="88" parent="262" relname="same-unit">continue to destabilize Ukraine</segment>
+		<segment id="89" parent="263" relname="joint">and undermine the efforts of Ukraine's elected leaders to build a democratic Ukraine that is stable, unified, secure and able to determine its own future.</segment>
+		<segment id="90" parent="91" relname="attribution">Russia says</segment>
+		<segment id="91" parent="267" relname="span">that it seeks peace in Ukraine,</segment>
+		<segment id="92" parent="268" relname="span">but we have repeatedly provided the Council with evidence of Russia's continued support to the separatists.</segment>
+		<segment id="93" parent="270" relname="span">Time after time, we have called on the Russian Government to de-escalate the situation</segment>
+		<segment id="94" parent="269" relname="joint">by stopping the flow of fighters and weapons into Ukraine,</segment>
+		<segment id="95" parent="269" relname="joint">pressing separatists to agree to a ceasefire</segment>
+		<segment id="96" parent="269" relname="joint">and release all hostages,</segment>
+		<segment id="97" parent="269" relname="joint">and support a road map for negotiations.</segment>
+		<segment id="98" parent="271" relname="span">Time after time, President Putin has committed to working towards dialogue and peace</segment>
+		<segment id="99" parent="98" relname="elaboration">- in Geneva in April, in Normandy in June and in Berlin earlier this month -</segment>
+		<segment id="100" parent="272" relname="joint">and every single time he has broken that commitment.</segment>
+		<segment id="101" parent="285" relname="textual-organization">Here is what we know.</segment>
+		<segment id="102" parent="276" relname="joint">In the past few weeks, Russia has increased the number of tanks, armoured vehicles and rocket launchers in south-west Russia.</segment>
+		<segment id="103" parent="276" relname="joint">More advanced air defence systems have also arrived.</segment>
+		<segment id="104" parent="280" relname="span">Moscow recently transferred Soviet- era tanks and artillery to the separatists, and several military vehicles crossed the border.</segment>
+		<segment id="105" parent="106" relname="background">After recapturing several Ukrainian cities last weekend,</segment>
+		<segment id="106" parent="277" relname="span">Ukrainian officials discovered caches of weapons long associated with Russian stockpiles, including MANPADs, mines, grenades, meals ready to eat, vehicles and a pontoon bridge.</segment>
+		<segment id="107" parent="278" relname="span">Ukrainian forces have discovered large amounts of other Russian-provided military equipment,</segment>
+		<segment id="108" parent="357" relname="span">including accompanying documentation</segment>
+		<segment id="109" parent="108" relname="elaboration">verifying Russian origin,</segment>
+		<segment id="110" parent="356" relname="same-unit">in the areas they have liberated from separatists in recent days.</segment>
+		<segment id="111" parent="283" relname="joint">Recruiting efforts for separatist fighters are expanding inside Russia,</segment>
+		<segment id="112" parent="113" relname="attribution">and separatists have openly said</segment>
+		<segment id="113" parent="282" relname="span">that they were looking for volunteers with experience in operating heavy weapons such as tanks and air defences.</segment>
+		<segment id="114" parent="283" relname="elaboration">Russia has allowed officials from the Donetsk People's Republic to establish a recruiting office in Moscow.</segment>
+		<segment id="115" parent="286" relname="span">Ukrainian pilot Nadia Savchenko,</segment>
+		<segment id="116" parent="115" relname="elaboration">who has long had a distinguished career in the Ukrainian military,</segment>
+		<segment id="117" parent="287" relname="same-unit">was taken by separatists in mid-June.</segment>
+		<segment id="118" parent="289" relname="same-unit">She is now being held</segment>
+		<segment id="119" parent="120" relname="topic-comment">- where? -</segment>
+		<segment id="120" parent="288" relname="span">in a prison in Voronezh, Russia.</segment>
+		<segment id="121" parent="122" relname="attribution">According to the Ukrainian Government,</segment>
+		<segment id="122" parent="291" relname="span">she was transferred to Russia by separatists.</segment>
+		<segment id="123" parent="297" relname="joint">Russia continues to redeploy new forces extremely close to the Ukrainian border.</segment>
+		<segment id="124" parent="294" relname="temporal">In addition, on Monday, a Ukrainian air force cargo plane was shot down in Ukrainian air space,</segment>
+		<segment id="125" parent="294" relname="temporal">and on Wednesday a Ukrainian fighter jet was also shot down in Ukrainian air space.</segment>
+		<segment id="126" parent="127" relname="attribution">In both instances, the Ukrainian Government believes</segment>
+		<segment id="127" parent="295" relname="span">that the planes were fired on from Russian territory.</segment>
+		<segment id="128" parent="129" relname="cause">It is because of such continued destabilizing Russian actions</segment>
+		<segment id="129" parent="299" relname="span">that the United States imposed sanctions on the defence, energy and financial sectors of the Russian economy, including financial institutions.</segment>
+		<segment id="130" parent="300" relname="joint">The measures include freezing the assets ofRussian defence companies</segment>
+		<segment id="131" parent="300" relname="joint">and blocking new financing of some of Russia's most important banks and energy companies.</segment>
+		<segment id="132" parent="302" relname="contrast">The sanctions are significant,</segment>
+		<segment id="133" parent="302" relname="span">but they are also targeted and designed to have the maximum impact on the Russian calculus</segment>
+		<segment id="134" parent="133" relname="contrast">while limiting the impact on the Russian people and any spillover effects on our interests or those of our allies.</segment>
+		<segment id="135" parent="305" relname="temporal">This week, the European Union also announced expanded sanctions on Russia.</segment>
+		<segment id="136" parent="306" relname="textual-organization">The message is unified and clear:</segment>
+		<segment id="137" parent="138" relname="condition">if President Putin continues to choose escalation over de-escalation,</segment>
+		<segment id="138" parent="306" relname="span">the international community will continue to impose costs on Russia.</segment>
+		<segment id="139" parent="310" relname="span">But that is not what any of us want.</segment>
+		<segment id="140" parent="308" relname="span">We and our allies remain committed to a diplomatic solution,</segment>
+		<segment id="141" parent="309" relname="span">as are the Ukrainian Government and the Ukrainian people,</segment>
+		<segment id="142" parent="141" relname="elaboration">who have seen their neighbours, friends and family members killed in a needless conflict.</segment>
+		<segment id="143" parent="322" relname="span">President Poroshenko has consistently backed up his words with actions.</segment>
+		<segment id="144" parent="313" relname="joint">He proposed a comprehensive peace plan</segment>
+		<segment id="145" parent="313" relname="joint">and declared a unilateral ceasefire,</segment>
+		<segment id="146" parent="313" relname="elaboration">both of which were cynically rejected by the illegal armed groups and their backers in Moscow.</segment>
+		<segment id="147" parent="316" relname="span">President Poroshenko's plan offered amnesty to separatists</segment>
+		<segment id="148" parent="315" relname="joint">who voluntarily laid down their arms</segment>
+		<segment id="149" parent="315" relname="joint">and who are not guilty of capital crimes.</segment>
+		<segment id="150" parent="317" relname="joint">He committed to providing a safe corridor for Russian fighters to return to Russia.</segment>
+		<segment id="151" parent="318" relname="joint">He established a job-creation programme for the affected areas,</segment>
+		<segment id="152" parent="318" relname="joint">made an offer of broad decentralization and dialogue with eastern regions, including the promise of early local elections,</segment>
+		<segment id="153" parent="318" relname="joint">and granted increased local control over language, holidays and customs.</segment>
+		<segment id="154" parent="320" relname="joint">President Poroshenko has also reached out to the regions of eastern Ukraine</segment>
+		<segment id="155" parent="319" relname="span">and is pursuing constitutional reforms</segment>
+		<segment id="156" parent="155" relname="elaboration">that will give local regions more authority to choose their regional leaders and protect locally spoken languages.</segment>
+		<segment id="157" parent="158" relname="attribution">He has said</segment>
+		<segment id="158" parent="321" relname="span">that he will meet with separatists in any safe location, inside or outside Ukraine.</segment>
+		<segment id="159" parent="323" relname="span">The goal of the United States throughout the crisis in Ukraine has been consistent,</segment>
+		<segment id="160" parent="159" relname="elaboration">namely, to support a stable, peaceful and democratic Ukraine.</segment>
+		<segment id="161" parent="323" relname="elaboration">We will not be satisfied with a temporary halt to violence.</segment>
+		<segment id="162" parent="325" relname="joint">Russia must stop destabilizing Ukraine</segment>
+		<segment id="163" parent="325" relname="joint">and allow all the people of Ukraine to decide their country's future through a democratic political process.</segment>
+		<segment id="164" parent="328" relname="background">As we sit here,</segment>
+		<segment id="165" parent="327" relname="span">the remains of nearly 300 people</segment>
+		<segment id="166" parent="165" relname="elaboration">- innocent infants, children, women and men -</segment>
+		<segment id="167" parent="328" relname="same-unit">are strewn across a blackened, smouldering landscape in Ukraine.</segment>
+		<segment id="168" parent="169" relname="explanation">The victims came from at least nine different nations;</segment>
+		<segment id="169" parent="330" relname="span">they could just as easily have come from any of ours.</segment>
+		<segment id="170" parent="331" relname="span">We must treat all of them as our own victims.</segment>
+		<segment id="171" parent="355" relname="joint">We have a duty to each and every one of those individuals, their families and their countries to determine why that jet fell out of the sky</segment>
+		<segment id="172" parent="355" relname="joint">and to hold the perpetrators accountable.</segment>
+		<segment id="173" parent="333" relname="span">We must stop at nothing</segment>
+		<segment id="174" parent="173" relname="enablement">to bring those responsible to justice.</segment>
+		<segment id="175" parent="338" relname="span">This appalling attack occurred in the context of a crisis</segment>
+		<segment id="176" parent="337" relname="joint">that has been fuelled by Russian support for separatists through arms, weapons and training,</segment>
+		<segment id="177" parent="337" relname="joint">by the Russian failure to follow through on its commitments</segment>
+		<segment id="178" parent="337" relname="joint">and by its failure to adhere to the fundamental principles of the United Nations Charter.</segment>
+		<segment id="179" parent="343" relname="background">The tragedy only underscores the urgency and the determination</segment>
+		<segment id="180" parent="343" relname="span">with which we insist that Russia immediately take concrete steps</segment>
+		<segment id="181" parent="341" relname="joint">to de-escalate the situation in Ukraine,</segment>
+		<segment id="182" parent="341" relname="joint">support a sustainable ceasefire</segment>
+		<segment id="183" parent="342" relname="span">and follow the path towards peace</segment>
+		<segment id="184" parent="183" relname="elaboration">that the Ukrainian Government has consistently offered.</segment>
+		<segment id="185" parent="186" relname="elaboration">This war can be ended.</segment>
+		<segment id="186" parent="339" relname="span">Russia can end this war.</segment>
+		<segment id="187" parent="340" relname="span">Russia must end this war.</segment>
+		<group id="188" type="span" parent="189" relname="same-unit"/>
+		<group id="189" type="multinuc" parent="193" relname="joint"/>
+		<group id="190" type="span" parent="192" relname="span"/>
+		<group id="191" type="span" parent="190" relname="elaboration"/>
+		<group id="192" type="span" parent="193" relname="joint"/>
+		<group id="193" type="multinuc" parent="1" relname="elaboration"/>
+		<group id="194" type="span" parent="9" relname="background"/>
+		<group id="195" type="span" parent="199" relname="span"/>
+		<group id="196" type="span" parent="10" relname="elaboration"/>
+		<group id="197" type="multinuc" parent="13" relname="explanation"/>
+		<group id="198" type="span" parent="195" relname="elaboration"/>
+		<group id="199" type="span" parent="201" relname="span"/>
+		<group id="200" type="span" parent="199" relname="contrast"/>
+		<group id="201" type="span" parent="349" relname="explanation"/>
+		<group id="202" type="span" parent="203" relname="same-unit"/>
+		<group id="203" type="multinuc" parent="207" relname="span"/>
+		<group id="204" type="span" parent="205" relname="span"/>
+		<group id="205" type="span" parent="206" relname="span"/>
+		<group id="206" type="span" parent="203" relname="same-unit"/>
+		<group id="207" type="span" parent="208" relname="span"/>
+		<group id="208" type="span" parent="209" relname="span"/>
+		<group id="209" type="span" parent="347" relname="span"/>
+		<group id="210" type="multinuc" parent="213" relname="joint"/>
+		<group id="211" type="span" parent="212" relname="joint"/>
+		<group id="212" type="multinuc" parent="213" relname="joint"/>
+		<group id="213" type="multinuc" parent="214" relname="span"/>
+		<group id="214" type="span" parent="203" relname="explanation"/>
+		<group id="215" type="multinuc" parent="216" relname="span"/>
+		<group id="216" type="span" parent="217" relname="same-unit"/>
+		<group id="217" type="multinuc" parent="223" relname="joint"/>
+		<group id="218" type="span" parent="219" relname="span"/>
+		<group id="219" type="span" parent="223" relname="joint"/>
+		<group id="220" type="multinuc" parent="221" relname="joint"/>
+		<group id="221" type="multinuc" parent="223" relname="joint"/>
+		<group id="222" type="span" parent="221" relname="joint"/>
+		<group id="223" type="multinuc" parent="208" relname="explanation"/>
+		<group id="224" type="span" parent="225" relname="joint"/>
+		<group id="225" type="multinuc" parent="227" relname="joint"/>
+		<group id="226" type="span" parent="227" relname="joint"/>
+		<group id="227" type="multinuc" parent="209" relname="explanation"/>
+		<group id="228" type="span" parent="233" relname="contrast"/>
+		<group id="229" type="multinuc" parent="230" relname="span"/>
+		<group id="230" type="span" parent="232" relname="joint"/>
+		<group id="231" type="span" parent="232" relname="joint"/>
+		<group id="232" type="multinuc" parent="233" relname="contrast"/>
+		<group id="233" type="multinuc" parent="227" relname="joint"/>
+		<group id="234" type="span" parent="239" relname="temporal"/>
+		<group id="235" type="span" parent="55" relname="background"/>
+		<group id="236" type="span" parent="237" relname="same-unit"/>
+		<group id="237" type="multinuc" parent="239" relname="temporal"/>
+		<group id="238" type="span" parent="237" relname="same-unit"/>
+		<group id="239" type="multinuc" parent="52" relname="elaboration"/>
+		<group id="240" type="span" parent="239" relname="temporal"/>
+		<group id="241" type="span" parent="242" relname="explanation"/>
+		<group id="242" type="span" parent="243" relname="span"/>
+		<group id="243" type="span" parent="65" relname="explanation"/>
+		<group id="244" type="span" parent="348" relname="span"/>
+		<group id="245" type="span" parent="66" relname="cause"/>
+		<group id="246" type="span" parent="248" relname="joint"/>
+		<group id="247" type="span" parent="248" relname="joint"/>
+		<group id="248" type="multinuc" parent="253" relname="background"/>
+		<group id="249" type="span" parent="253" relname="joint"/>
+		<group id="250" type="span" parent="251" relname="same-unit"/>
+		<group id="251" type="multinuc" parent="252" relname="span"/>
+		<group id="252" type="span" parent="253" relname="joint"/>
+		<group id="253" type="multinuc" parent="256" relname="span"/>
+		<group id="254" type="multinuc" parent="255" relname="span"/>
+		<group id="255" type="span" parent="253" relname="joint"/>
+		<group id="256" type="span" parent="348" relname="manner-means"/>
+		<group id="257" type="span" parent="259" relname="span"/>
+		<group id="258" type="span" parent="257" relname="condition"/>
+		<group id="259" type="span" parent="260" relname="span"/>
+		<group id="260" type="span" parent="264" relname="background"/>
+		<group id="261" type="span" parent="262" relname="same-unit"/>
+		<group id="262" type="multinuc" parent="263" relname="joint"/>
+		<group id="263" type="multinuc" parent="264" relname="span"/>
+		<group id="264" type="span" parent="265" relname="span"/>
+		<group id="265" type="span" parent="266" relname="span"/>
+		<group id="266" type="span" parent="275" relname="span"/>
+		<group id="267" type="span" parent="92" relname="contrast"/>
+		<group id="268" type="span" parent="274" relname="joint"/>
+		<group id="269" type="multinuc" parent="93" relname="enablement"/>
+		<group id="270" type="span" parent="273" relname="contrast"/>
+		<group id="271" type="span" parent="272" relname="joint"/>
+		<group id="272" type="multinuc" parent="273" relname="contrast"/>
+		<group id="273" type="multinuc" parent="274" relname="joint"/>
+		<group id="274" type="multinuc" parent="265" relname="elaboration"/>
+		<group id="275" type="span" parent="312" relname="cause"/>
+		<group id="276" type="multinuc" parent="281" relname="span"/>
+		<group id="277" type="span" parent="279" relname="joint"/>
+		<group id="278" type="span" parent="356" relname="same-unit"/>
+		<group id="279" type="multinuc" parent="104" relname="explanation"/>
+		<group id="280" type="span" parent="276" relname="elaboration"/>
+		<group id="281" type="span" parent="285" relname="joint"/>
+		<group id="282" type="span" parent="283" relname="joint"/>
+		<group id="283" type="multinuc" parent="284" relname="span"/>
+		<group id="284" type="span" parent="293" relname="joint"/>
+		<group id="285" type="multinuc" parent="298" relname="span"/>
+		<group id="286" type="span" parent="287" relname="same-unit"/>
+		<group id="287" type="multinuc" parent="290" relname="temporal"/>
+		<group id="288" type="span" parent="289" relname="same-unit"/>
+		<group id="289" type="multinuc" parent="290" relname="temporal"/>
+		<group id="290" type="multinuc" parent="292" relname="span"/>
+		<group id="291" type="span" parent="290" relname="elaboration"/>
+		<group id="292" type="span" parent="293" relname="joint"/>
+		<group id="293" type="multinuc" parent="285" relname="joint"/>
+		<group id="294" type="multinuc" parent="296" relname="span"/>
+		<group id="295" type="span" parent="294" relname="elaboration"/>
+		<group id="296" type="span" parent="297" relname="joint"/>
+		<group id="297" type="multinuc" parent="285" relname="joint"/>
+		<group id="298" type="span" parent="266" relname="explanation"/>
+		<group id="299" type="span" parent="301" relname="span"/>
+		<group id="300" type="multinuc" parent="299" relname="elaboration"/>
+		<group id="301" type="span" parent="304" relname="span"/>
+		<group id="302" type="span" parent="303" relname="span"/>
+		<group id="303" type="span" parent="301" relname="elaboration"/>
+		<group id="304" type="span" parent="305" relname="temporal"/>
+		<group id="305" type="multinuc" parent="311" relname="background"/>
+		<group id="306" type="span" parent="307" relname="span"/>
+		<group id="307" type="span" parent="311" relname="span"/>
+		<group id="308" type="span" parent="139" relname="elaboration"/>
+		<group id="309" type="span" parent="140" relname="elaboration"/>
+		<group id="310" type="span" parent="307" relname="evaluation"/>
+		<group id="311" type="span" parent="312" relname="span"/>
+		<group id="312" type="span" parent="351" relname="span"/>
+		<group id="313" type="multinuc" parent="314" relname="span"/>
+		<group id="314" type="span" parent="317" relname="joint"/>
+		<group id="315" type="multinuc" parent="147" relname="elaboration"/>
+		<group id="316" type="span" parent="317" relname="joint"/>
+		<group id="317" type="multinuc" parent="143" relname="explanation"/>
+		<group id="318" type="multinuc" parent="317" relname="joint"/>
+		<group id="319" type="span" parent="320" relname="joint"/>
+		<group id="320" type="multinuc" parent="317" relname="joint"/>
+		<group id="321" type="span" parent="317" relname="joint"/>
+		<group id="322" type="span" parent="352" relname="contrast"/>
+		<group id="323" type="span" parent="324" relname="span"/>
+		<group id="324" type="span" parent="325" relname="explanation"/>
+		<group id="325" type="multinuc" parent="326" relname="span"/>
+		<group id="326" type="span" parent="336" relname="joint"/>
+		<group id="327" type="span" parent="328" relname="same-unit"/>
+		<group id="328" type="multinuc" parent="329" relname="span"/>
+		<group id="329" type="span" parent="334" relname="background"/>
+		<group id="330" type="span" parent="170" relname="explanation"/>
+		<group id="331" type="span" parent="332" relname="span"/>
+		<group id="332" type="span" parent="334" relname="span"/>
+		<group id="333" type="span" parent="332" relname="elaboration"/>
+		<group id="334" type="span" parent="335" relname="span"/>
+		<group id="335" type="span" parent="336" relname="joint"/>
+		<group id="336" type="multinuc" parent="353" relname="summary"/>
+		<group id="337" type="multinuc" parent="175" relname="elaboration"/>
+		<group id="338" type="span" parent="345" relname="span"/>
+		<group id="339" type="span" parent="187" relname="explanation"/>
+		<group id="340" type="span" parent="346" relname="span"/>
+		<group id="341" type="multinuc" parent="180" relname="enablement"/>
+		<group id="342" type="span" parent="341" relname="joint"/>
+		<group id="343" type="span" parent="344" relname="span"/>
+		<group id="344" type="span" parent="338" relname="elaboration"/>
+		<group id="345" type="span" parent="340" relname="elaboration"/>
+		<group id="346" type="span" />
+		<group id="347" type="span" parent="244" relname="explanation"/>
+		<group id="348" type="span" parent="349" relname="span"/>
+		<group id="349" type="span" parent="350" relname="span"/>
+		<group id="350" type="span" parent="353" relname="joint"/>
+		<group id="351" type="span" parent="352" relname="contrast"/>
+		<group id="352" type="multinuc" parent="353" relname="joint"/>
+		<group id="353" type="multinuc" parent="354" relname="span"/>
+		<group id="354" type="span" />
+		<group id="355" type="multinuc" parent="331" relname="elaboration"/>
+		<group id="356" type="multinuc" parent="279" relname="joint"/>
+		<group id="357" type="span" parent="107" relname="elaboration"/>
+	</body>
+</rst>

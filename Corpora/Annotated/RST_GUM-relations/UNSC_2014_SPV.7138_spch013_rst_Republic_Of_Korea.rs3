@@ -1,0 +1,43 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="adversative" type="multinuc"/>
+			<rel name="adversative" type="rst"/>
+			<rel name="attribution" type="rst"/>
+			<rel name="causal" type="rst"/>
+			<rel name="context-background" type="rst"/>
+			<rel name="context-circumstance" type="rst"/>
+			<rel name="contingency-condition" type="rst"/>
+			<rel name="elaboration" type="rst"/>
+			<rel name="evaluation-comment" type="rst"/>
+			<rel name="explanation" type="rst"/>
+			<rel name="joint" type="multinuc"/>
+			<rel name="mode" type="rst"/>
+			<rel name="organization" type="multinuc"/>
+			<rel name="organization" type="rst"/>
+			<rel name="purpose" type="rst"/>
+			<rel name="restatement" type="rst"/>
+			<rel name="same-unit" type="multinuc"/>
+			<rel name="topic" type="rst"/>
+		</relations>
+	</header>
+	<body>
+		<segment id="1" parent="12" relname="span">The Republic of Korea voted in favour of the draft resolution contained in document S/2014/189,</segment>
+		<segment id="2" parent="10" relname="attribution">as we firmly believe</segment>
+		<segment id="3" parent="10" relname="joint">that the unity and territorial integrity of Ukraine should be fully respected</segment>
+		<segment id="4" parent="10" relname="joint">and that the future of Ukraine should be decided by the Ukrainians themselves without any intervention or influence by outside forces.</segment>
+		<segment id="5" parent="6" relname="attribution">We think</segment>
+		<segment id="6" parent="13" relname="span">that the draft resolution clearly embodies those principles.</segment>
+		<segment id="7" parent="14" relname="adversative">It is regrettable that the draft resolution was not adopted by the Security Council today.</segment>
+		<segment id="8" parent="9" relname="attribution">Still, we very much hope</segment>
+		<segment id="9" parent="14" relname="span">that today's failure will not close the window on a peaceful and diplomatic solution to the crisis.</segment>
+		<group id="10" type="multinuc" parent="11" relname="span"/>
+		<group id="11" type="span" parent="1" relname="explanation"/>
+		<group id="12" type="span" parent="16" relname="span"/>
+		<group id="13" type="span" parent="12" relname="elaboration"/>
+		<group id="14" type="span" parent="15" relname="span"/>
+		<group id="15" type="span" parent="17" relname="span"/>
+		<group id="16" type="span" parent="15" relname="adversative"/>
+		<group id="17" type="span" />
+	</body>
+</rst>

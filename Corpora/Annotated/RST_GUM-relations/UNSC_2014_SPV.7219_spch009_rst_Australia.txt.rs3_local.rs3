@@ -1,0 +1,213 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="adversative" type="multinuc"/>
+			<rel name="adversative" type="rst"/>
+			<rel name="attribution" type="rst"/>
+			<rel name="causal" type="rst"/>
+			<rel name="context-background" type="rst"/>
+			<rel name="context-circumstance" type="rst"/>
+			<rel name="contingency-condition" type="rst"/>
+			<rel name="elaboration" type="rst"/>
+			<rel name="evaluation-comment" type="rst"/>
+			<rel name="explanation" type="rst"/>
+			<rel name="joint" type="multinuc"/>
+			<rel name="mode" type="rst"/>
+			<rel name="organization" type="multinuc"/>
+			<rel name="organization" type="rst"/>
+			<rel name="purpose" type="rst"/>
+			<rel name="restatement" type="rst"/>
+			<rel name="same-unit" type="multinuc"/>
+			<rel name="topic" type="rst"/>
+		</relations>
+	</header>
+	<body>
+		<segment id="1" parent="98" relname="context-background">The downing of Malaysia Airlines Flight MH-l7 in Ukrainian territory on 17 July has shocked the world.</segment>
+		<segment id="2" parent="98" relname="joint">We have witnessed the tragic death of298 people.</segment>
+		<segment id="3" parent="98" relname="joint">There were 28 Australians on board Flight MH-17.</segment>
+		<segment id="4" parent="100" relname="span">Our nation is in mourning for all the victims.</segment>
+		<segment id="5" parent="102" relname="span">The news</segment>
+		<segment id="6" parent="5" relname="elaboration">that the lives of 80 children were lost</segment>
+		<segment id="7" parent="103" relname="same-unit">is devastating.</segment>
+		<segment id="8" parent="105" relname="span">Tomorrow, flags will be flown at half-mast across Australia.</segment>
+		<segment id="9" parent="106" relname="joint">We extend our heartfelt sympathy and condolences to the families of all the victims of the tragedy</segment>
+		<segment id="10" parent="106" relname="joint">and to their countries of nationality.</segment>
+		<segment id="11" parent="106" relname="elaboration">Our particular thoughts are with the Governments and the people of the Netherlands and Malaysia.</segment>
+		<segment id="12" parent="110" relname="span">There is mounting evidence</segment>
+		<segment id="13" parent="109" relname="joint">that the crash was caused by a missile strike</segment>
+		<segment id="14" parent="108" relname="span">and that the aeroplane was brought down over territory</segment>
+		<segment id="15" parent="14" relname="elaboration">not controlled by the Ukrainian authorities.</segment>
+		<segment id="16" parent="112" relname="span">There is increasing credible information</segment>
+		<segment id="17" parent="111" relname="span">that that was conducted by separatist militia groups,</segment>
+		<segment id="18" parent="17" relname="elaboration">acting with the assistance of others.</segment>
+		<segment id="19" parent="114" relname="joint">We owe it to the victims of this tragedy and their families to unequivocally establish the facts behind the incident</segment>
+		<segment id="20" parent="114" relname="joint">and to find out exactly what happened and who is responsible.</segment>
+		<segment id="21" parent="118" relname="same-unit">If,</segment>
+		<segment id="22" parent="23" relname="evaluation-comment">as appears increasingly likely,</segment>
+		<segment id="23" parent="117" relname="span">Flight MH-17 was brought down by a missile,</segment>
+		<segment id="24" parent="120" relname="same-unit">then that is,</segment>
+		<segment id="25" parent="26" relname="attribution">as Australia's Prime Minister Tony Abbott has said,</segment>
+		<segment id="26" parent="119" relname="span">"an unspeakable crime",</segment>
+		<segment id="27" parent="121" relname="joint">and the perpetrators must be brought swiftly to justice.</segment>
+		<segment id="28" parent="123" relname="context-background">There must be a full, thorough and impartial international investigation.</segment>
+		<segment id="29" parent="123" relname="span">We thank Under-Secretary-General Feltman for his message</segment>
+		<segment id="30" parent="127" relname="joint">that the United Nations is fully prepared to cooperate with any investigation</segment>
+		<segment id="31" parent="125" relname="span">and that the International Civil Aviation Organization</segment>
+		<segment id="32" parent="31" relname="restatement">(ICAO)</segment>
+		<segment id="33" parent="126" relname="same-unit">has offered its investigative capacity.</segment>
+		<segment id="34" parent="128" relname="span">We also welcome Mr. Feltman's information</segment>
+		<segment id="35" parent="34" relname="elaboration">that ICAO and the Government of Ukraine are communicating on the issue of an investigation.</segment>
+		<segment id="36" parent="130" relname="joint">There must be immediate preservation of the crash site,</segment>
+		<segment id="37" parent="130" relname="joint">and unfettered access for independent investigators.</segment>
+		<segment id="38" parent="132" relname="span">Safe access must also be provided</segment>
+		<segment id="39" parent="38" relname="purpose">to allow fro the recovery of the bodies of those who lost their lives in the tragedy.</segment>
+		<segment id="40" parent="134" relname="span">Undertakings</segment>
+		<segment id="41" parent="133" relname="span">brokered by the trilateral contact group with armed separatists</segment>
+		<segment id="42" parent="41" relname="elaboration">who control the territory in which the crash occurred</segment>
+		<segment id="43" parent="134" relname="purpose">to allow access</segment>
+		<segment id="44" parent="135" relname="same-unit">must be upheld.</segment>
+		<segment id="45" parent="46" relname="attribution">Our Prime Minister has made it clear</segment>
+		<segment id="46" parent="139" relname="span">that Russia's full cooperation with all investigations is expected.</segment>
+		<segment id="47" parent="140" relname="span">The Council has just issued a press statement</segment>
+		<segment id="48" parent="47" relname="elaboration">calling for investigation, accountability and immediate access to the crash site.</segment>
+		<segment id="49" parent="141" relname="span">That is welcome,</segment>
+		<segment id="50" parent="142" relname="attribution">but Australia believes,</segment>
+		<segment id="51" parent="52" relname="context-circumstance">given the gravity of the incident,</segment>
+		<segment id="52" parent="142" relname="span">that it is not a sufficient indication of the Council's resolve.</segment>
+		<segment id="53" parent="145" relname="attribution">Australia believes</segment>
+		<segment id="54" parent="145" relname="span">the Council should adopt a draft resolution</segment>
+		<segment id="55" parent="54" relname="elaboration">that emphasizes the need for access to be granted to the crash site and for a full, thorough, independent and international investigation to be carried out.</segment>
+		<segment id="56" parent="187" relname="span">This is the nineteenth time</segment>
+		<segment id="57" parent="56" relname="elaboration">that the Council has met to discuss the situation in Ukraine</segment>
+		<segment id="58" parent="187" relname="context-circumstance">since the crisis began.</segment>
+		<segment id="59" parent="148" relname="span">Time and time again, the overwhelming majority of the Security Council has called for a end to the violence and destablization.</segment>
+		<segment id="60" parent="149" relname="joint">Council members have consistently called for a de-escalation of tensions,</segment>
+		<segment id="61" parent="149" relname="joint">for separatists to lay down their weapons</segment>
+		<segment id="62" parent="149" relname="joint">and for genuine dialogue to commence.</segment>
+		<segment id="63" parent="150" relname="evaluation-comment">It is time for the equivocation and dissembling and false narratives of some to stop.</segment>
+		<segment id="64" parent="153" relname="span">In the three weeks since the Council last discussed the situation in Ukraine</segment>
+		<segment id="65" parent="64" relname="explanation">(see S/PV.7205),</segment>
+		<segment id="66" parent="154" relname="span">the security situation in the east has become increasingly dire.</segment>
+		<segment id="67" parent="155" relname="joint">Separatists have ignored repeated calls to disarm</segment>
+		<segment id="68" parent="155" relname="joint">and have continued their attacks on Ukrainian military forces, facilities and border posts.</segment>
+		<segment id="69" parent="155" relname="explanation">Two Ukrainian military cargo planes were downed in eastern Ukraine in the past week alone.</segment>
+		<segment id="70" parent="159" relname="span">The Ukrainian armed forces have responded firmly to those attacks.</segment>
+		<segment id="71" parent="158" relname="joint">They has every right to restore law and order,</segment>
+		<segment id="72" parent="158" relname="joint">and they have underlined their commitment to do so in proportionate manner.</segment>
+		<segment id="73" parent="161" relname="span">Russia has a crucial role to play in de-escalating this persistently dangerous crisis.</segment>
+		<segment id="74" parent="163" relname="joint">It must end its provocations</segment>
+		<segment id="75" parent="163" relname="joint">and any support for separatist forces.</segment>
+		<segment id="76" parent="164" relname="joint">It must control its border with Ukraine</segment>
+		<segment id="77" parent="164" relname="joint">and prevent the flow of weapons, equipment and fighters from Russia into Ukraine.</segment>
+		<segment id="78" parent="166" relname="span">Russia must withdraw the large number of troops</segment>
+		<segment id="79" parent="78" relname="elaboration">it has again amassed on the Ukrainian border.</segment>
+		<segment id="80" parent="167" relname="joint">It must actively work to de-escalate tensions</segment>
+		<segment id="81" parent="167" relname="joint">and use its considerable influence with separatist groups in Ukraine to that end.</segment>
+		<segment id="82" parent="83" relname="context-background">Further political efforts are essential.</segment>
+		<segment id="83" parent="171" relname="span">The four-party talks in Berlin in the past two weeks showed some promise.</segment>
+		<segment id="84" parent="169" relname="joint">The parties agreed on the need for a sustainable ceasefire,</segment>
+		<segment id="85" parent="169" relname="joint">the resumption of the contact group,</segment>
+		<segment id="86" parent="170" relname="span">control of border crossing points</segment>
+		<segment id="87" parent="168" relname="span">monitored by the Organization for Security and Cooperation in Europe</segment>
+		<segment id="88" parent="87" relname="restatement">(OSCE)</segment>
+		<segment id="89" parent="169" relname="joint">and an extension of the work of the OSCE observer mission to include border monitoring activities.</segment>
+		<segment id="90" parent="91" relname="explanation">But we have yet to see results;</segment>
+		<segment id="91" parent="182" relname="span">those efforts must be redoubled.</segment>
+		<segment id="92" parent="93" relname="attribution">We thought</segment>
+		<segment id="93" parent="173" relname="span">that the situation in Ukraine had already caused too much tragedy.</segment>
+		<segment id="94" parent="173" relname="elaboration">The horrific loss of Flight MH-17 has added immeasurably to that toll.</segment>
+		<segment id="95" parent="175" relname="span">It is time for the international community to stand as one</segment>
+		<segment id="96" parent="174" relname="joint">to ensure that those responsible for that tragic crime are held to account</segment>
+		<segment id="97" parent="174" relname="joint">and to make every effort to bring to an end the violence and destabilization in Ukraine.</segment>
+		<group id="98" type="multinuc" parent="99" relname="span"/>
+		<group id="99" type="span" parent="100" relname="context-background"/>
+		<group id="100" type="span" parent="101" relname="span"/>
+		<group id="101" type="span" parent="8" relname="causal"/>
+		<group id="102" type="span" parent="103" relname="same-unit"/>
+		<group id="103" type="multinuc" parent="4" relname="evaluation-comment"/>
+		<group id="104" type="multinuc" parent="179" relname="organization"/>
+		<group id="105" type="span" parent="104" relname="joint"/>
+		<group id="106" type="multinuc" parent="107" relname="span"/>
+		<group id="107" type="span" parent="104" relname="joint"/>
+		<group id="108" type="span" parent="109" relname="joint"/>
+		<group id="109" type="multinuc" parent="12" relname="elaboration"/>
+		<group id="110" type="span" parent="113" relname="joint"/>
+		<group id="111" type="span" parent="16" relname="elaboration"/>
+		<group id="112" type="span" parent="113" relname="joint"/>
+		<group id="113" type="multinuc" parent="114" relname="explanation"/>
+		<group id="114" type="multinuc" parent="115" relname="span"/>
+		<group id="115" type="span" parent="116" relname="span"/>
+		<group id="116" type="span" parent="178" relname="explanation"/>
+		<group id="117" type="span" parent="118" relname="same-unit"/>
+		<group id="118" type="multinuc" parent="121" relname="contingency-condition"/>
+		<group id="119" type="span" parent="120" relname="same-unit"/>
+		<group id="120" type="multinuc" parent="121" relname="joint"/>
+		<group id="121" type="multinuc" parent="122" relname="span"/>
+		<group id="122" type="span" parent="115" relname="evaluation-comment"/>
+		<group id="123" type="span" parent="124" relname="span"/>
+		<group id="124" type="span" parent="129" relname="joint"/>
+		<group id="125" type="span" parent="126" relname="same-unit"/>
+		<group id="126" type="multinuc" parent="127" relname="joint"/>
+		<group id="127" type="multinuc" parent="29" relname="elaboration"/>
+		<group id="128" type="span" parent="129" relname="joint"/>
+		<group id="129" type="multinuc" parent="137" relname="context-background"/>
+		<group id="130" type="multinuc" parent="131" relname="joint"/>
+		<group id="131" type="multinuc" parent="137" relname="span"/>
+		<group id="132" type="span" parent="131" relname="joint"/>
+		<group id="133" type="span" parent="40" relname="elaboration"/>
+		<group id="134" type="span" parent="136" relname="span"/>
+		<group id="135" type="multinuc" parent="131" relname="joint"/>
+		<group id="136" type="span" parent="135" relname="same-unit"/>
+		<group id="137" type="span" parent="138" relname="span"/>
+		<group id="138" type="span" parent="152" relname="context-background"/>
+		<group id="139" type="span" parent="131" relname="elaboration"/>
+		<group id="140" type="span" parent="49" relname="evaluation-comment"/>
+		<group id="141" type="span" parent="143" relname="adversative"/>
+		<group id="142" type="span" parent="143" relname="span"/>
+		<group id="143" type="span" parent="144" relname="span"/>
+		<group id="144" type="span" parent="146" relname="topic"/>
+		<group id="145" type="span" parent="146" relname="span"/>
+		<group id="146" type="span" parent="147" relname="span"/>
+		<group id="147" type="span" parent="152" relname="span"/>
+		<group id="148" type="span" parent="150" relname="span"/>
+		<group id="149" type="multinuc" parent="148" relname="elaboration"/>
+		<group id="150" type="span" parent="151" relname="span"/>
+		<group id="151" type="span" parent="147" relname="explanation"/>
+		<group id="152" type="span" parent="178" relname="span"/>
+		<group id="153" type="span" parent="66" relname="context-circumstance"/>
+		<group id="154" type="span" parent="157" relname="span"/>
+		<group id="155" type="multinuc" parent="156" relname="span"/>
+		<group id="156" type="span" parent="154" relname="elaboration"/>
+		<group id="157" type="span" parent="160" relname="span"/>
+		<group id="158" type="multinuc" parent="70" relname="explanation"/>
+		<group id="159" type="span" parent="157" relname="causal"/>
+		<group id="160" type="span" parent="162" relname="joint"/>
+		<group id="161" type="span" parent="162" relname="joint"/>
+		<group id="162" type="multinuc" parent="176" relname="causal"/>
+		<group id="163" type="multinuc" parent="165" relname="joint"/>
+		<group id="164" type="multinuc" parent="165" relname="joint"/>
+		<group id="165" type="multinuc" parent="73" relname="mode"/>
+		<group id="166" type="span" parent="165" relname="joint"/>
+		<group id="167" type="multinuc" parent="165" relname="joint"/>
+		<group id="168" type="span" parent="86" relname="elaboration"/>
+		<group id="169" type="multinuc" parent="171" relname="explanation"/>
+		<group id="170" type="span" parent="169" relname="joint"/>
+		<group id="171" type="span" parent="172" relname="span"/>
+		<group id="172" type="span" parent="182" relname="adversative"/>
+		<group id="173" type="span" parent="185" relname="span"/>
+		<group id="174" type="multinuc" parent="95" relname="purpose"/>
+		<group id="175" type="span" parent="184" relname="span"/>
+		<group id="176" type="span" parent="177" relname="span"/>
+		<group id="177" type="span" parent="180" relname="mode"/>
+		<group id="178" type="span" parent="179" relname="span"/>
+		<group id="179" type="span" parent="180" relname="span"/>
+		<group id="180" type="span" parent="181" relname="span"/>
+		<group id="181" type="span" />
+		<group id="182" type="span" parent="183" relname="span"/>
+		<group id="183" type="span" parent="184" relname="explanation"/>
+		<group id="184" type="span" parent="176" relname="span"/>
+		<group id="185" type="span" parent="175" relname="explanation"/>
+		<group id="186" type="span" parent="59" relname="context-background"/>
+		<group id="187" type="span" parent="186" relname="span"/>
+	</body>
+</rst>

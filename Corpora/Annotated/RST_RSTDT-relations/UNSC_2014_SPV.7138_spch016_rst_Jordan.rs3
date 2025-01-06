@@ -1,0 +1,38 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="attribution" type="rst"/>
+			<rel name="background" type="rst"/>
+			<rel name="cause" type="rst"/>
+			<rel name="condition" type="rst"/>
+			<rel name="contrast" type="multinuc"/>
+			<rel name="contrast" type="rst"/>
+			<rel name="elaboration" type="rst"/>
+			<rel name="enablement" type="rst"/>
+			<rel name="evaluation" type="rst"/>
+			<rel name="explanation" type="rst"/>
+			<rel name="joint" type="multinuc"/>
+			<rel name="manner-means" type="rst"/>
+			<rel name="same-unit" type="multinuc"/>
+			<rel name="summary" type="rst"/>
+			<rel name="temporal" type="multinuc"/>
+			<rel name="textual-organization" type="multinuc"/>
+			<rel name="textual-organization" type="rst"/>
+			<rel name="topic-comment" type="rst"/>
+		</relations>
+	</header>
+	<body>
+		<segment id="1" parent="12" relname="joint">Jordan has voted in favour ofthe draft resolution contained in document S/2014/189 out of its respect for Ukraine's sovereignty, territorial integrity and political independence and non-interference in its internal affairs.</segment>
+		<segment id="2" parent="8" relname="span">Moreover, it calls for adherence to the purposes and principles of the Charter of the United Nations,</segment>
+		<segment id="3" parent="2" relname="elaboration">especially Article 1,</segment>
+		<segment id="4" parent="9" relname="joint">and to the use of peaceful means to settle disputes.</segment>
+		<segment id="5" parent="10" relname="span">Jordan confirms the importance of upholding the territorial integrity of Ukraine and subjecting all its territories,</segment>
+		<segment id="6" parent="5" relname="elaboration">including Crimea,</segment>
+		<segment id="7" parent="11" relname="same-unit">to Ukrainian sovereignty, in accordance with the principles of international law and relevant international resolutions, including the 1994 Budapest Memorandum and the 1997 Treaty on Friendship, Cooperation and Partnership.</segment>
+		<group id="8" type="span" parent="9" relname="joint"/>
+		<group id="9" type="multinuc" parent="12" relname="joint"/>
+		<group id="10" type="span" parent="11" relname="same-unit"/>
+		<group id="11" type="multinuc" parent="12" relname="joint"/>
+		<group id="12" type="multinuc" />
+	</body>
+</rst>

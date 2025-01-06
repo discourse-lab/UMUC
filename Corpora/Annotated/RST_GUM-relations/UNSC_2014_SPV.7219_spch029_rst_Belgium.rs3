@@ -1,0 +1,67 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="adversative" type="multinuc"/>
+			<rel name="adversative" type="rst"/>
+			<rel name="attribution" type="rst"/>
+			<rel name="causal" type="rst"/>
+			<rel name="context-background" type="rst"/>
+			<rel name="context-circumstance" type="rst"/>
+			<rel name="contingency-condition" type="rst"/>
+			<rel name="elaboration" type="rst"/>
+			<rel name="evaluation-comment" type="rst"/>
+			<rel name="explanation" type="rst"/>
+			<rel name="joint" type="multinuc"/>
+			<rel name="mode" type="rst"/>
+			<rel name="organization" type="multinuc"/>
+			<rel name="organization" type="rst"/>
+			<rel name="purpose" type="rst"/>
+			<rel name="restatement" type="rst"/>
+			<rel name="same-unit" type="multinuc"/>
+			<rel name="topic" type="rst"/>
+		</relations>
+	</header>
+	<body>
+		<segment id="1" parent="22" relname="joint">I would like to thank you, Mr. President, for giving me the opportunity to participate in this meeting.</segment>
+		<segment id="2" parent="22" relname="joint">I would also like to thank Under-Secretary-General Feltman for his briefing.</segment>
+		<segment id="3" parent="23" relname="joint">On behalf of the Government and the people of Belgium, I would like first to express my most heartfelt condolences to the Government of Malaysia,</segment>
+		<segment id="4" parent="24" relname="span">as well as to the families and friends of the 298 people</segment>
+		<segment id="5" parent="25" relname="span">who were aboard the Malaysia Airlines plane</segment>
+		<segment id="6" parent="5" relname="elaboration">shot down in eastern Ukraine.</segment>
+		<segment id="7" parent="23" relname="context-background">There were five Belgian nationals among the victims.</segment>
+		<segment id="8" parent="29" relname="span">Our thoughts are with those who mourn today, in particular the friends and families and the Government of the Netherlands,</segment>
+		<segment id="9" parent="8" relname="elaboration">a country close to us.</segment>
+		<segment id="10" parent="30" relname="span">Like others</segment>
+		<segment id="11" parent="10" relname="elaboration">who preceded me</segment>
+		<segment id="12" parent="31" relname="same-unit">have done,</segment>
+		<segment id="13" parent="36" relname="span">Belgium launches an appeal to all the parties</segment>
+		<segment id="14" parent="15" relname="adversative">to guarantee full access to the disaster site, not only for the search and rescue teams</segment>
+		<segment id="15" parent="35" relname="span">but also for the investigators.</segment>
+		<segment id="16" parent="32" relname="span">A full, detailed, thorough and impartial international investigation should be conducted</segment>
+		<segment id="17" parent="16" relname="purpose">to determine the exact circumstances surrounding the MH-17 disaster.</segment>
+		<segment id="18" parent="33" relname="span">In that regard, Belgium supports the proposal of Australia</segment>
+		<segment id="19" parent="34" relname="span">that the Security Council adopt a draft resolution</segment>
+		<segment id="20" parent="19" relname="elaboration">that stresses the need for guaranteed access to the site and for the conduct of a full, independent international investigation.</segment>
+		<segment id="21" parent="40" relname="span">We owe it to the victims and their families, as well as to ourselves, to shed full light on what happened yesterday in eastern Ukraine.</segment>
+		<group id="22" type="multinuc" parent="27" relname="organization"/>
+		<group id="23" type="multinuc" parent="26" relname="span"/>
+		<group id="24" type="span" parent="23" relname="joint"/>
+		<group id="25" type="span" parent="4" relname="elaboration"/>
+		<group id="26" type="span" parent="27" relname="span"/>
+		<group id="27" type="span" parent="28" relname="span"/>
+		<group id="28" type="span" parent="40" relname="context-background"/>
+		<group id="29" type="span" parent="26" relname="elaboration"/>
+		<group id="30" type="span" parent="31" relname="same-unit"/>
+		<group id="31" type="multinuc" parent="36" relname="context-circumstance"/>
+		<group id="32" type="span" parent="38" relname="span"/>
+		<group id="33" type="span" parent="38" relname="elaboration"/>
+		<group id="34" type="span" parent="18" relname="elaboration"/>
+		<group id="35" type="span" parent="13" relname="purpose"/>
+		<group id="36" type="span" parent="37" relname="span"/>
+		<group id="37" type="span" parent="32" relname="explanation"/>
+		<group id="38" type="span" parent="39" relname="span"/>
+		<group id="39" type="span" parent="21" relname="explanation"/>
+		<group id="40" type="span" parent="41" relname="span"/>
+		<group id="41" type="span" />
+	</body>
+</rst>

@@ -1,0 +1,112 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="adversative" type="multinuc"/>
+			<rel name="adversative" type="rst"/>
+			<rel name="attribution" type="rst"/>
+			<rel name="causal" type="rst"/>
+			<rel name="context-background" type="rst"/>
+			<rel name="context-circumstance" type="rst"/>
+			<rel name="contingency-condition" type="rst"/>
+			<rel name="elaboration" type="rst"/>
+			<rel name="evaluation-comment" type="rst"/>
+			<rel name="explanation" type="rst"/>
+			<rel name="joint" type="multinuc"/>
+			<rel name="mode" type="rst"/>
+			<rel name="organization" type="multinuc"/>
+			<rel name="organization" type="rst"/>
+			<rel name="purpose" type="rst"/>
+			<rel name="restatement" type="rst"/>
+			<rel name="same-unit" type="multinuc"/>
+			<rel name="topic" type="rst"/>
+		</relations>
+	</header>
+	<body>
+		<segment id="1" parent="47" relname="joint">I would like to thank you, Madam President, for convening this emergency meeting on Ukraine,</segment>
+		<segment id="2" parent="45" relname="span">and Mr. Jeffrey Feltman,</segment>
+		<segment id="3" parent="2" relname="elaboration">Under-Secretary-General for Political Affairs,</segment>
+		<segment id="4" parent="46" relname="same-unit">for his briefing on the developments in the situation in eastern Ukraine.</segment>
+		<segment id="5" parent="48" relname="attribution">We believe, however,</segment>
+		<segment id="6" parent="7" relname="adversative">that the Ukrainian people and the international community will not judge us on the number of public briefings we organize in the Council or the toughness of our statements,</segment>
+		<segment id="7" parent="48" relname="span">but on our political will and how we use our influence to effectively help Ukrainians resolve the crisis in their country.</segment>
+		<segment id="8" parent="51" relname="span">We are witnessing a situation</segment>
+		<segment id="9" parent="8" relname="elaboration">that is deteriorating every day</segment>
+		<segment id="10" parent="52" relname="span">and leading slowly to an open war</segment>
+		<segment id="11" parent="10" relname="elaboration">that might involve countries of the region and beyond.</segment>
+		<segment id="12" parent="54" relname="joint">Indeed, the developments of the last few weeks are alarming</segment>
+		<segment id="13" parent="54" relname="joint">and have immensely undermined the diplomatic efforts to defuse the situation.</segment>
+		<segment id="14" parent="56" relname="span">We condemn in the strongest terms the attempt made to assassinate Hennadiy Kernes,</segment>
+		<segment id="15" parent="14" relname="elaboration">the Mayor of Kharkiv, Ukraine's second-largest city,</segment>
+		<segment id="16" parent="58" relname="span">as well as the illegal detention of the military monitors from the Organization for Security and Cooperation in Europe</segment>
+		<segment id="17" parent="16" relname="restatement">(OSCE)</segment>
+		<segment id="18" parent="59" relname="same-unit">and their Ukrainian staff,</segment>
+		<segment id="19" parent="59" relname="elaboration">which is a serious violation of the current agreement,</segment>
+		<segment id="20" parent="61" relname="joint">and we demand their immediate release.</segment>
+		<segment id="21" parent="64" relname="joint">While we welcome the joint de-escalation measures agreed on in Geneva on 17 April</segment>
+		<segment id="22" parent="64" relname="joint">and involving the main stakeholders as a step towards a tangible solution to the crisis,</segment>
+		<segment id="23" parent="63" relname="span">we are concerned about the fact</segment>
+		<segment id="24" parent="23" relname="elaboration">that many of those measures have not been implemented.</segment>
+		<segment id="25" parent="66" relname="joint">We urge all parties to implement their parts of the agreement,</segment>
+		<segment id="26" parent="66" relname="joint">and especially to disarm all military groups and restore all seized buildings.</segment>
+		<segment id="27" parent="70" relname="joint">The OSCE monitors must be allowed to play a role</segment>
+		<segment id="28" parent="69" relname="span">and to fulfil their mandate</segment>
+		<segment id="29" parent="28" relname="elaboration">as stipulated in the joint declaration.</segment>
+		<segment id="30" parent="81" relname="organization">In the meantime, Rwanda reiterates its call for respect for Ukraine's independence, sovereignty and territorial integrity.</segment>
+		<segment id="31" parent="32" relname="adversative">We believe in the right to peaceful demonstration,</segment>
+		<segment id="32" parent="72" relname="span">but we firmly condemn the use of violence, the seizure of public buildings and the installation of illegal checkpoints by armed protesters.</segment>
+		<segment id="33" parent="74" relname="attribution">We therefore believe</segment>
+		<segment id="34" parent="74" relname="span">that Ukraine, like any other country, has a right to restore public order,</segment>
+		<segment id="35" parent="34" relname="contingency-condition">provided that right is exercised in a proportionate manner.</segment>
+		<segment id="36" parent="76" relname="adversative">Nonetheless, the crisis in eastern Ukraine is not merely a matter of public order</segment>
+		<segment id="37" parent="76" relname="span">but a political issue</segment>
+		<segment id="38" parent="79" relname="span">that must be resolved through genuine dialogue with all Ukrainian parties,</segment>
+		<segment id="39" parent="38" relname="elaboration">with a view to ensuring sustainable peace and equal rights for all, including the Russian-speaking minority.</segment>
+		<segment id="40" parent="77" relname="attribution">To conclude, we reiterate our strong belief</segment>
+		<segment id="41" parent="77" relname="span">that while public meetings of the Council are important for its members</segment>
+		<segment id="42" parent="41" relname="purpose">to continue monitoring this crisis,</segment>
+		<segment id="43" parent="84" relname="span">the only way to solve the crisis in Ukraine is through the exercise of political will and the influence of all the countries and regional organizations involved,</segment>
+		<segment id="44" parent="43" relname="purpose">in order to ensure a political and diplomatic solution to the conflict.</segment>
+		<group id="45" type="span" parent="46" relname="same-unit"/>
+		<group id="46" type="multinuc" parent="47" relname="joint"/>
+		<group id="47" type="multinuc" parent="49" relname="adversative"/>
+		<group id="48" type="span" parent="49" relname="span"/>
+		<group id="49" type="span" parent="50" relname="span"/>
+		<group id="50" type="span" parent="83" relname="organization"/>
+		<group id="51" type="span" parent="53" relname="joint"/>
+		<group id="52" type="span" parent="53" relname="joint"/>
+		<group id="53" type="multinuc" parent="55" relname="joint"/>
+		<group id="54" type="multinuc" parent="55" relname="joint"/>
+		<group id="55" type="multinuc" parent="57" relname="context-background"/>
+		<group id="56" type="span" parent="57" relname="joint"/>
+		<group id="57" type="multinuc" parent="62" relname="span"/>
+		<group id="58" type="span" parent="59" relname="same-unit"/>
+		<group id="59" type="multinuc" parent="60" relname="span"/>
+		<group id="60" type="span" parent="61" relname="joint"/>
+		<group id="61" type="multinuc" parent="57" relname="joint"/>
+		<group id="62" type="span" parent="71" relname="joint"/>
+		<group id="63" type="span" parent="65" relname="span"/>
+		<group id="64" type="multinuc" parent="63" relname="adversative"/>
+		<group id="65" type="span" parent="66" relname="explanation"/>
+		<group id="66" type="multinuc" parent="67" relname="span"/>
+		<group id="67" type="span" parent="68" relname="span"/>
+		<group id="68" type="span" parent="71" relname="joint"/>
+		<group id="69" type="span" parent="70" relname="joint"/>
+		<group id="70" type="multinuc" parent="67" relname="explanation"/>
+		<group id="71" type="multinuc" parent="83" relname="span"/>
+		<group id="72" type="span" parent="73" relname="explanation"/>
+		<group id="73" type="span" parent="75" relname="span"/>
+		<group id="74" type="span" parent="73" relname="span"/>
+		<group id="75" type="span" parent="80" relname="adversative"/>
+		<group id="76" type="span" parent="80" relname="span"/>
+		<group id="77" type="span" parent="78" relname="span"/>
+		<group id="78" type="span" parent="84" relname="adversative"/>
+		<group id="79" type="span" parent="37" relname="contingency-condition"/>
+		<group id="80" type="span" parent="81" relname="span"/>
+		<group id="81" type="span" parent="82" relname="span"/>
+		<group id="82" type="span" parent="71" relname="joint"/>
+		<group id="83" type="span" parent="86" relname="span"/>
+		<group id="84" type="span" parent="85" relname="span"/>
+		<group id="85" type="span" parent="71" relname="restatement"/>
+		<group id="86" type="span" />
+	</body>
+</rst>

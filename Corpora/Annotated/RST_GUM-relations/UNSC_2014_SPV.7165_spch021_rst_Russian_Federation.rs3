@@ -1,0 +1,73 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="adversative" type="multinuc"/>
+			<rel name="adversative" type="rst"/>
+			<rel name="attribution" type="rst"/>
+			<rel name="causal" type="rst"/>
+			<rel name="context-background" type="rst"/>
+			<rel name="context-circumstance" type="rst"/>
+			<rel name="contingency-condition" type="rst"/>
+			<rel name="elaboration" type="rst"/>
+			<rel name="evaluation-comment" type="rst"/>
+			<rel name="explanation" type="rst"/>
+			<rel name="joint" type="multinuc"/>
+			<rel name="mode" type="rst"/>
+			<rel name="organization" type="multinuc"/>
+			<rel name="organization" type="rst"/>
+			<rel name="purpose" type="rst"/>
+			<rel name="restatement" type="rst"/>
+			<rel name="same-unit" type="multinuc"/>
+			<rel name="topic" type="rst"/>
+		</relations>
+	</header>
+	<body>
+		<segment id="1" parent="26" relname="topic">I certainly do not want to prolong our meeting here this evening.</segment>
+		<segment id="2" parent="25" relname="span">The simplest of answers would be to again read the statement</segment>
+		<segment id="3" parent="2" relname="attribution">I made earlier,</segment>
+		<segment id="4" parent="25" relname="elaboration">which refletcts our vision and position.</segment>
+		<segment id="5" parent="28" relname="span">However, allow me a very brief comment.</segment>
+		<segment id="6" parent="30" relname="span">A great deal has been said here about some sort of wrong interpretation of our positions and statements in various forums and situations.</segment>
+		<segment id="7" parent="29" relname="span">Our Ukrainian colleague even began to depict some fantastic scenario</segment>
+		<segment id="8" parent="7" relname="elaboration">of how he views the further developments unfolding in Ukraine.</segment>
+		<segment id="9" parent="31" relname="span">The only scenario that I would want to hear</segment>
+		<segment id="10" parent="9" relname="elaboration">- but do not -</segment>
+		<segment id="11" parent="32" relname="same-unit">is one</segment>
+		<segment id="12" parent="32" relname="elaboration">that includes genuine efforts by the authorities in Kyiv to implement the Geneva document.</segment>
+		<segment id="13" parent="14" relname="attribution">Mr.Feltman began by saying</segment>
+		<segment id="14" parent="35" relname="span">that there were various interpretation of that document.</segment>
+		<segment id="15" parent="16" relname="causal">The document is so simple,</segment>
+		<segment id="16" parent="36" relname="span">there is nothing to interpret.</segment>
+		<segment id="17" parent="18" relname="adversative">There is nothing to be done</segment>
+		<segment id="18" parent="39" relname="span">but to implement it.</segment>
+		<segment id="19" parent="40" relname="span">Let us do so.</segment>
+		<segment id="20" parent="41" relname="adversative">Russia helped to draw it up.</segment>
+		<segment id="21" parent="41" relname="span">But the actions backing it up need to be taken, first and foremost, by the authorities in Kyiv,</segment>
+		<segment id="22" parent="21" relname="contingency-condition">if that is what they are.</segment>
+		<segment id="23" parent="42" relname="span">Unfortunately, their lack of action is reflected in the statement</segment>
+		<segment id="24" parent="23" relname="attribution">I made here earlier today.</segment>
+		<group id="25" type="span" parent="26" relname="span"/>
+		<group id="26" type="span" parent="27" relname="span"/>
+		<group id="27" type="span" parent="5" relname="adversative"/>
+		<group id="28" type="span" parent="46" relname="organization"/>
+		<group id="29" type="span" parent="6" relname="elaboration"/>
+		<group id="30" type="span" parent="33" relname="context-background"/>
+		<group id="31" type="span" parent="32" relname="same-unit"/>
+		<group id="32" type="multinuc" parent="33" relname="span"/>
+		<group id="33" type="span" parent="34" relname="span"/>
+		<group id="34" type="span" parent="45" relname="context-background"/>
+		<group id="35" type="span" parent="37" relname="adversative"/>
+		<group id="36" type="span" parent="37" relname="span"/>
+		<group id="37" type="span" parent="38" relname="span"/>
+		<group id="38" type="span" parent="19" relname="explanation"/>
+		<group id="39" type="span" parent="36" relname="elaboration"/>
+		<group id="40" type="span" parent="45" relname="span"/>
+		<group id="41" type="span" parent="43" relname="span"/>
+		<group id="42" type="span" parent="44" relname="adversative"/>
+		<group id="43" type="span" parent="44" relname="adversative"/>
+		<group id="44" type="multinuc" parent="40" relname="elaboration"/>
+		<group id="45" type="span" parent="46" relname="span"/>
+		<group id="46" type="span" parent="47" relname="span"/>
+		<group id="47" type="span" />
+	</body>
+</rst>

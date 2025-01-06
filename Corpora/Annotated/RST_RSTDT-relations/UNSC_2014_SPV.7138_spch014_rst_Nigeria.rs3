@@ -1,0 +1,72 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="attribution" type="rst"/>
+			<rel name="background" type="rst"/>
+			<rel name="cause" type="rst"/>
+			<rel name="condition" type="rst"/>
+			<rel name="contrast" type="multinuc"/>
+			<rel name="contrast" type="rst"/>
+			<rel name="elaboration" type="rst"/>
+			<rel name="enablement" type="rst"/>
+			<rel name="evaluation" type="rst"/>
+			<rel name="explanation" type="rst"/>
+			<rel name="joint" type="multinuc"/>
+			<rel name="manner-means" type="rst"/>
+			<rel name="same-unit" type="multinuc"/>
+			<rel name="summary" type="rst"/>
+			<rel name="temporal" type="multinuc"/>
+			<rel name="textual-organization" type="multinuc"/>
+			<rel name="textual-organization" type="rst"/>
+			<rel name="topic-comment" type="rst"/>
+		</relations>
+	</header>
+	<body>
+		<segment id="1" parent="26" relname="span">Nigeria voted in favour of the draft resolution contained in document S/2014/ 189</segment>
+		<segment id="2" parent="25" relname="span">because it reflects the principles embodied in the Charter of the United Nations,</segment>
+		<segment id="3" parent="2" relname="elaboration">which obliges all States to refrain in their international relations from the threat or use of force against the territorial integrity or political independence of any Member State.</segment>
+		<segment id="4" parent="26" relname="explanation">The United Nations Charter also obliges States to settle their disputes by peaceful means.</segment>
+		<segment id="5" parent="27" relname="background">All throughout the crisis in Ukraine, Nigeria has consistently and unequivocally called on all concerned to abide by those principles in the interests of international peace and security.</segment>
+		<segment id="6" parent="29" relname="span">The draft resolution,</segment>
+		<segment id="7" parent="8" relname="contrast">which is not a country-specific draft resolution</segment>
+		<segment id="8" parent="30" relname="span">but one that underscores universally agreed principles and the sanctity of international law,</segment>
+		<segment id="9" parent="32" relname="span">also mentions the Budapest Memorandum of 1994,</segment>
+		<segment id="10" parent="31" relname="span">which provides a framework</segment>
+		<segment id="11" parent="10" relname="elaboration">within which the crisis could be peacefully resolved.</segment>
+		<segment id="12" parent="13" relname="explanation">We have consistently called for dialogue, mediation, restraint and an end to hostile rhetoric.</segment>
+		<segment id="13" parent="40" relname="span">Therefore, Nigeria is fundamentally opposed to the threat or use of force in settling international disputes.</segment>
+		<segment id="14" parent="34" relname="joint">The lessons of history are not far-fetched,</segment>
+		<segment id="15" parent="34" relname="joint">and we remain vigilant that the mistakes of history not be repeated by those alive today.</segment>
+		<segment id="16" parent="39" relname="span">Nigeria has consistently advocated for mediation and the pacific settlement of disputes, including territorial disputes.</segment>
+		<segment id="17" parent="16" relname="elaboration">Our willing submission to the rule of the International Court of Justice in our dispute with the Republic of Cameroon should serve as a beacon and an inspiration to law-abiding nations.</segment>
+		<segment id="18" parent="36" relname="span">Nigeria is vehemently opposed to unilateral secession or forceful excision of territory</segment>
+		<segment id="19" parent="18" relname="contrast">designed to alter the configuration of States in their internationally recognized boundaries.</segment>
+		<segment id="20" parent="35" relname="background">Standing on that fundamental principle,</segment>
+		<segment id="21" parent="35" relname="span">Nigeria is opposed to any unilateral declaration by a component part of a State</segment>
+		<segment id="22" parent="21" relname="elaboration">that will alter the configuration of the State to which it appropriately belongs.</segment>
+		<segment id="23" parent="44" relname="span">It is therefore needless to restate that the impending referendum in Crimea is not in consonance with the Constitution of Ukraine.</segment>
+		<segment id="24" parent="23" relname="evaluation">The consequences of any defiance are better imagined than described.</segment>
+		<group id="25" type="span" parent="1" relname="explanation"/>
+		<group id="26" type="span" parent="27" relname="span"/>
+		<group id="27" type="span" parent="28" relname="span"/>
+		<group id="28" type="span" parent="45" relname="background"/>
+		<group id="29" type="span" parent="33" relname="same-unit"/>
+		<group id="30" type="span" parent="6" relname="elaboration"/>
+		<group id="31" type="span" parent="9" relname="elaboration"/>
+		<group id="32" type="span" parent="33" relname="same-unit"/>
+		<group id="33" type="multinuc" parent="41" relname="background"/>
+		<group id="34" type="multinuc" parent="40" relname="elaboration"/>
+		<group id="35" type="span" parent="37" relname="span"/>
+		<group id="36" type="span" parent="37" relname="explanation"/>
+		<group id="37" type="span" parent="38" relname="span"/>
+		<group id="38" type="span" parent="43" relname="joint"/>
+		<group id="39" type="span" parent="43" relname="joint"/>
+		<group id="40" type="span" parent="41" relname="span"/>
+		<group id="41" type="span" parent="42" relname="span"/>
+		<group id="42" type="span" parent="43" relname="joint"/>
+		<group id="43" type="multinuc" parent="44" relname="explanation"/>
+		<group id="44" type="span" parent="45" relname="span"/>
+		<group id="45" type="span" parent="46" relname="span"/>
+		<group id="46" type="span" />
+	</body>
+</rst>

@@ -1,0 +1,78 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="attribution" type="rst"/>
+			<rel name="background" type="rst"/>
+			<rel name="cause" type="rst"/>
+			<rel name="condition" type="rst"/>
+			<rel name="contrast" type="multinuc"/>
+			<rel name="contrast" type="rst"/>
+			<rel name="elaboration" type="rst"/>
+			<rel name="enablement" type="rst"/>
+			<rel name="evaluation" type="rst"/>
+			<rel name="explanation" type="rst"/>
+			<rel name="joint" type="multinuc"/>
+			<rel name="manner-means" type="rst"/>
+			<rel name="same-unit" type="multinuc"/>
+			<rel name="summary" type="rst"/>
+			<rel name="temporal" type="multinuc"/>
+			<rel name="textual-organization" type="multinuc"/>
+			<rel name="textual-organization" type="rst"/>
+			<rel name="topic-comment" type="rst"/>
+		</relations>
+	</header>
+	<body>
+		<segment id="1" parent="28" relname="span">Japan voted in favour of resolution 2272</segment>
+		<segment id="2" parent="1" relname="elaboration">(2016),</segment>
+		<segment id="3" parent="28" relname="attribution">proposed by the United States.</segment>
+		<segment id="4" parent="30" relname="span">Since we spoke on our views on sexual exploitation and abuse in the Chamber yesterday</segment>
+		<segment id="5" parent="4" relname="explanation">(see S/PV.7642),</segment>
+		<segment id="6" parent="31" relname="textual-organization">I wish to emphasize only one point,</segment>
+		<segment id="7" parent="8" relname="attribution">which is why we think</segment>
+		<segment id="8" parent="31" relname="span">that this resolution is important and necessary.</segment>
+		<segment id="9" parent="33" relname="span">Japan supports the Secretary-General's decision to repatriate contingents</segment>
+		<segment id="10" parent="9" relname="condition">when there is a demonstrated pattern of misconduct.</segment>
+		<segment id="11" parent="12" relname="contrast">That measure is aimed not at pointing a finger at contingents,</segment>
+		<segment id="12" parent="34" relname="span">but at protecting civilians where peacekeepers are deployed.</segment>
+		<segment id="13" parent="34" relname="elaboration">Its purpose is also to urge troop- and police-contributing countries to take action.</segment>
+		<segment id="14" parent="37" relname="joint">We need to realize that investigating allegations of sexual exploitation and abuse is the primary responsibility oftroop- and police-contributing countries,</segment>
+		<segment id="15" parent="37" relname="joint">and they have to take appropriate actions against the allegations</segment>
+		<segment id="16" parent="37" relname="joint">and hold personnel accountable for sexual exploitation and abuse.</segment>
+		<segment id="17" parent="42" relname="span">In doing so, the United Nations will ensure that its peacekeepers,</segment>
+		<segment id="18" parent="17" relname="elaboration">who are sometimes the last hope for people suffering in conflicts,</segment>
+		<segment id="19" parent="43" relname="same-unit">are deployed to protect people.</segment>
+		<segment id="20" parent="44" relname="topic-comment">By taking the appropriate actions,</segment>
+		<segment id="21" parent="44" relname="span">they can also preserve the honour of the vast majority of peacekeepers from Africa, the Asia-Pacific, Latin America and the Caribbean, and Europe, including my own country, Japan,</segment>
+		<segment id="22" parent="21" relname="elaboration">which are fulfilling their tasks seriously in difficult circumstances.</segment>
+		<segment id="23" parent="47" relname="span">It is our belief that resolution 2272</segment>
+		<segment id="24" parent="23" relname="elaboration">(2016)</segment>
+		<segment id="25" parent="48" relname="same-unit">will send a clear message</segment>
+		<segment id="26" parent="49" relname="span">that the Security Council fully supports the zero-tolerance policy</segment>
+		<segment id="27" parent="26" relname="attribution">called for by the Secretary-General.</segment>
+		<group id="28" type="span" parent="29" relname="span"/>
+		<group id="29" type="span" parent="41" relname="span"/>
+		<group id="30" type="span" parent="32" relname="background"/>
+		<group id="31" type="span" parent="32" relname="span"/>
+		<group id="32" type="span" parent="40" relname="span"/>
+		<group id="33" type="span" parent="35" relname="background"/>
+		<group id="34" type="span" parent="35" relname="span"/>
+		<group id="35" type="span" parent="36" relname="span"/>
+		<group id="36" type="span" parent="37" relname="explanation"/>
+		<group id="37" type="multinuc" parent="38" relname="span"/>
+		<group id="38" type="span" parent="39" relname="span"/>
+		<group id="39" type="span" parent="29" relname="explanation"/>
+		<group id="40" type="span" parent="38" relname="background"/>
+		<group id="41" type="span" parent="52" relname="span"/>
+		<group id="42" type="span" parent="43" relname="same-unit"/>
+		<group id="43" type="multinuc" parent="46" relname="joint"/>
+		<group id="44" type="span" parent="45" relname="span"/>
+		<group id="45" type="span" parent="46" relname="joint"/>
+		<group id="46" type="multinuc" parent="50" relname="background"/>
+		<group id="47" type="span" parent="48" relname="same-unit"/>
+		<group id="48" type="multinuc" parent="50" relname="span"/>
+		<group id="49" type="span" parent="48" relname="elaboration"/>
+		<group id="50" type="span" parent="51" relname="span"/>
+		<group id="51" type="span" parent="41" relname="explanation"/>
+		<group id="52" type="span" />
+	</body>
+</rst>

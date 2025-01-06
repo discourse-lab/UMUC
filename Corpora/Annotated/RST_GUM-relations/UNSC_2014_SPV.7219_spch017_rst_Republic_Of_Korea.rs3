@@ -1,0 +1,64 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="adversative" type="multinuc"/>
+			<rel name="adversative" type="rst"/>
+			<rel name="attribution" type="rst"/>
+			<rel name="causal" type="rst"/>
+			<rel name="context-background" type="rst"/>
+			<rel name="context-circumstance" type="rst"/>
+			<rel name="contingency-condition" type="rst"/>
+			<rel name="elaboration" type="rst"/>
+			<rel name="evaluation-comment" type="rst"/>
+			<rel name="explanation" type="rst"/>
+			<rel name="joint" type="multinuc"/>
+			<rel name="mode" type="rst"/>
+			<rel name="organization" type="multinuc"/>
+			<rel name="organization" type="rst"/>
+			<rel name="purpose" type="rst"/>
+			<rel name="restatement" type="rst"/>
+			<rel name="same-unit" type="multinuc"/>
+			<rel name="topic" type="rst"/>
+		</relations>
+	</header>
+	<body>
+		<segment id="1" parent="21" relname="organization">I would like to thank Under-Secretary-General Feltman for his briefing on the tragic incident in Ukraine.</segment>
+		<segment id="2" parent="21" relname="joint">The Republic of Korea expresses its utmost shock and outrage at the downing of the Malaysia Airlines passenger plane in eastern Ukraine yesterday.</segment>
+		<segment id="3" parent="21" relname="joint">We deplore the loss of nearly 300 innocent civilian lives aboard that commercial airliner.</segment>
+		<segment id="4" parent="22" relname="span">On behalf of the people and the Government of the Republic of Korea, I extend my deepest condolences to the people and Governments of Australia, Belgium, Canada, Germany, Indonesia, Malaysia, the Netherlands, the Philippines and the United Kingdom and other affected countries.</segment>
+		<segment id="5" parent="4" relname="elaboration">Our hearts go out to the families of the victims at this difficult time.</segment>
+		<segment id="6" parent="24" relname="span">A thorough and independent international investigation,</segment>
+		<segment id="7" parent="6" relname="elaboration">involving, among others, the International Civil Aviation Organization,</segment>
+		<segment id="8" parent="25" relname="same-unit">must be conducted immediately.</segment>
+		<segment id="9" parent="30" relname="joint">Whoever is responsible for the tragedy must be held fully accountable.</segment>
+		<segment id="10" parent="28" relname="contingency-condition">If this incident turns out to have been caused by a deliberate attack,</segment>
+		<segment id="11" parent="26" relname="span">the Republic of Korea,</segment>
+		<segment id="12" parent="11" relname="elaboration">itself a former victim of hostilities against a civilian airlines,</segment>
+		<segment id="13" parent="27" relname="same-unit">believes</segment>
+		<segment id="14" parent="28" relname="span">that the international community should do everything in its power to bring the perpetrators to justice as quickly as possible.</segment>
+		<segment id="15" parent="31" relname="span">No one should be allowed, for any reason, to get away with killing so many innocent people,</segment>
+		<segment id="16" parent="15" relname="elaboration">who had nothing to do with what is happening on the ground.</segment>
+		<segment id="17" parent="38" relname="span">We support the ongoing efforts to bring stability to Ukraine, in particular the efforts of the United Nations, the European Union, the Organization for Security and Cooperation in Europe and bilateral partners.</segment>
+		<segment id="18" parent="32" relname="span">Such efforts,</segment>
+		<segment id="19" parent="18" relname="elaboration">aimed at de-escalating the violence in eastern Ukraine,</segment>
+		<segment id="20" parent="33" relname="same-unit">should continue despite the daunting challenges.</segment>
+		<group id="21" type="multinuc" parent="23" relname="span"/>
+		<group id="22" type="span" parent="21" relname="joint"/>
+		<group id="23" type="span" parent="36" relname="organization"/>
+		<group id="24" type="span" parent="25" relname="same-unit"/>
+		<group id="25" type="multinuc" parent="30" relname="joint"/>
+		<group id="26" type="span" parent="27" relname="same-unit"/>
+		<group id="27" type="multinuc" parent="14" relname="attribution"/>
+		<group id="28" type="span" parent="29" relname="span"/>
+		<group id="29" type="span" parent="34" relname="span"/>
+		<group id="30" type="multinuc" parent="34" relname="evaluation-comment"/>
+		<group id="31" type="span" parent="29" relname="explanation"/>
+		<group id="32" type="span" parent="33" relname="same-unit"/>
+		<group id="33" type="multinuc" parent="17" relname="elaboration"/>
+		<group id="34" type="span" parent="35" relname="span"/>
+		<group id="35" type="span" parent="36" relname="joint"/>
+		<group id="36" type="multinuc" parent="37" relname="span"/>
+		<group id="37" type="span" />
+		<group id="38" type="span" parent="36" relname="joint"/>
+	</body>
+</rst>

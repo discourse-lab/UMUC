@@ -1,0 +1,49 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="attribution" type="rst"/>
+			<rel name="background" type="rst"/>
+			<rel name="cause" type="rst"/>
+			<rel name="condition" type="rst"/>
+			<rel name="contrast" type="multinuc"/>
+			<rel name="contrast" type="rst"/>
+			<rel name="elaboration" type="rst"/>
+			<rel name="enablement" type="rst"/>
+			<rel name="evaluation" type="rst"/>
+			<rel name="explanation" type="rst"/>
+			<rel name="joint" type="multinuc"/>
+			<rel name="manner-means" type="rst"/>
+			<rel name="same-unit" type="multinuc"/>
+			<rel name="summary" type="rst"/>
+			<rel name="temporal" type="multinuc"/>
+			<rel name="textual-organization" type="multinuc"/>
+			<rel name="textual-organization" type="rst"/>
+			<rel name="topic-comment" type="rst"/>
+		</relations>
+	</header>
+	<body>
+		<segment id="1" parent="22" relname="textual-organization">I would like to thank Assistant Secretary-General Fernandez-Taranco for his briefing.</segment>
+		<segment id="2" parent="16" relname="span">China is deeply worried about the recent escalation of the situation in Ukraine.</segment>
+		<segment id="3" parent="14" relname="attribution">We hope</segment>
+		<segment id="4" parent="14" relname="joint">that the relevant parties will remain calm,</segment>
+		<segment id="5" parent="14" relname="joint">exercise restraint</segment>
+		<segment id="6" parent="14" relname="joint">and avoid any further deterioration of the situation.</segment>
+		<segment id="7" parent="17" relname="joint">Settling the question of Ukraine involves the interests and concerns of all parties.</segment>
+		<segment id="8" parent="17" relname="joint">It should be considered in a balanced manner.</segment>
+		<segment id="9" parent="18" relname="span">Political and diplomatic channels should continue to be pursued</segment>
+		<segment id="10" parent="9" relname="enablement">in order to narrow differences and settle the issue within the framework of law and order.</segment>
+		<segment id="11" parent="20" relname="span">China has consistently called on the international community to make constructive efforts and employ good offices</segment>
+		<segment id="12" parent="11" relname="enablement">to ease the situation in Ukraine,</segment>
+		<segment id="13" parent="21" relname="joint">and will continue to support the international community in those endeavours.</segment>
+		<group id="14" type="multinuc" parent="15" relname="span"/>
+		<group id="15" type="span" parent="2" relname="elaboration"/>
+		<group id="16" type="span" parent="19" relname="span"/>
+		<group id="17" type="multinuc" parent="16" relname="topic-comment"/>
+		<group id="18" type="span" parent="17" relname="joint"/>
+		<group id="19" type="span" parent="21" relname="background"/>
+		<group id="20" type="span" parent="21" relname="joint"/>
+		<group id="21" type="multinuc" parent="22" relname="span"/>
+		<group id="22" type="span" parent="23" relname="span"/>
+		<group id="23" type="span" />
+	</body>
+</rst>

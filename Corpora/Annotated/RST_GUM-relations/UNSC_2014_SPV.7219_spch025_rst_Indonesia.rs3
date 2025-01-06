@@ -1,0 +1,76 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="adversative" type="multinuc"/>
+			<rel name="adversative" type="rst"/>
+			<rel name="attribution" type="rst"/>
+			<rel name="causal" type="rst"/>
+			<rel name="context-background" type="rst"/>
+			<rel name="context-circumstance" type="rst"/>
+			<rel name="contingency-condition" type="rst"/>
+			<rel name="elaboration" type="rst"/>
+			<rel name="evaluation-comment" type="rst"/>
+			<rel name="explanation" type="rst"/>
+			<rel name="joint" type="multinuc"/>
+			<rel name="mode" type="rst"/>
+			<rel name="organization" type="multinuc"/>
+			<rel name="organization" type="rst"/>
+			<rel name="purpose" type="rst"/>
+			<rel name="restatement" type="rst"/>
+			<rel name="same-unit" type="multinuc"/>
+			<rel name="topic" type="rst"/>
+		</relations>
+	</header>
+	<body>
+		<segment id="1" parent="40" relname="organization">I thank the President for convening today's meeting.</segment>
+		<segment id="2" parent="27" relname="span">As a matter of priority,</segment>
+		<segment id="3" parent="2" relname="elaboration">on behalf of the Government and the people of Indonesia,</segment>
+		<segment id="4" parent="29" relname="span">I wish to express our deepest condolences to all affected nations, especially our good neighbour Malaysia, over the deaths of the 298 civilian passengers and crew aboard Malaysia Airlines Flight MH-17,</segment>
+		<segment id="5" parent="4" relname="elaboration">which crashed yesterday as it was flying over eastern Ukraine.</segment>
+		<segment id="6" parent="28" relname="elaboration">As the Council may be aware, 12 Indonesian citizens were confirmed among the deceased.</segment>
+		<segment id="7" parent="30" relname="elaboration">Our thoughts and prayers are with the families of the victims.</segment>
+		<segment id="8" parent="32" relname="span">Allow me also to take this opportunity to sincerely thank the delegations</segment>
+		<segment id="9" parent="8" relname="elaboration">that have expressed their sympathy and condolences to Indonesia.</segment>
+		<segment id="10" parent="11" relname="attribution">According to various sources and reports,</segment>
+		<segment id="11" parent="33" relname="span">the airplane was presumably shot down by a surface-to-air missile.</segment>
+		<segment id="12" parent="13" relname="contingency-condition">If that is indeed the case,</segment>
+		<segment id="13" parent="34" relname="span">such a heinous act is tantamount to a grave violation of international law, in particular international humanitarian law.</segment>
+		<segment id="14" parent="42" relname="span">In that regard, Indonesia calls upon the Security Council to take immediate steps to enable a thorough, transparent and independent international investigation to be conducted upon this horrendous incident.</segment>
+		<segment id="15" parent="14" relname="elaboration">Indonesia stands ready to join and support such an investigation.</segment>
+		<segment id="16" parent="35" relname="attribution">If the investigation concludes</segment>
+		<segment id="17" parent="35" relname="span">that the crash was indeed intentionally caused by human factors,</segment>
+		<segment id="18" parent="17" relname="elaboration">be it a missile strike or otherwise,</segment>
+		<segment id="19" parent="20" relname="attribution">Indonesia demands</segment>
+		<segment id="20" parent="44" relname="span">that the perpetrators of such a heinous and inhuman crime be brought to justice to the fullest extent of the law.</segment>
+		<segment id="21" parent="36" relname="joint">As a precautionary measure, yesterday my President instructed all Indonesian airlines to exercise the utmost caution</segment>
+		<segment id="22" parent="36" relname="joint">and to avoid the airspace in and around conflict areas, including that of Ukraine.</segment>
+		<segment id="23" parent="39" relname="same-unit">In conclusion,</segment>
+		<segment id="24" parent="25" relname="elaboration">as a member of the Association of Southeast Ansian Nations family,</segment>
+		<segment id="25" parent="37" relname="span">Indonesia reiterates its solidarity with the Government and the people of Malaysia,</segment>
+		<segment id="26" parent="38" relname="joint">as well as with the countries whose citizens have fallen victim to this tragedy.</segment>
+		<group id="27" type="span" parent="28" relname="same-unit"/>
+		<group id="28" type="multinuc" parent="30" relname="span"/>
+		<group id="29" type="span" parent="28" relname="same-unit"/>
+		<group id="30" type="span" parent="31" relname="span"/>
+		<group id="31" type="span" parent="40" relname="joint"/>
+		<group id="32" type="span" parent="40" relname="joint"/>
+		<group id="33" type="span" parent="34" relname="context-background"/>
+		<group id="34" type="span" parent="43" relname="span"/>
+		<group id="35" type="span" parent="45" relname="span"/>
+		<group id="36" type="multinuc" parent="49" relname="joint"/>
+		<group id="37" type="span" parent="38" relname="joint"/>
+		<group id="38" type="multinuc" parent="39" relname="same-unit"/>
+		<group id="39" type="multinuc" parent="49" relname="joint"/>
+		<group id="40" type="multinuc" parent="41" relname="span"/>
+		<group id="41" type="span" parent="49" relname="context-background"/>
+		<group id="42" type="span" parent="47" relname="span"/>
+		<group id="43" type="span" parent="42" relname="explanation"/>
+		<group id="44" type="span" parent="46" relname="span"/>
+		<group id="45" type="span" parent="44" relname="contingency-condition"/>
+		<group id="46" type="span" parent="47" relname="elaboration"/>
+		<group id="47" type="span" parent="48" relname="span"/>
+		<group id="48" type="span" parent="49" relname="joint"/>
+		<group id="49" type="multinuc" parent="50" relname="span"/>
+		<group id="50" type="span" />
+	</body>
+</rst>

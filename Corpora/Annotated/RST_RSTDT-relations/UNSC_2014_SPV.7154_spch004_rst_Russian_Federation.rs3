@@ -1,0 +1,171 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="attribution" type="rst"/>
+			<rel name="background" type="rst"/>
+			<rel name="cause" type="rst"/>
+			<rel name="condition" type="rst"/>
+			<rel name="contrast" type="multinuc"/>
+			<rel name="contrast" type="rst"/>
+			<rel name="elaboration" type="rst"/>
+			<rel name="enablement" type="rst"/>
+			<rel name="evaluation" type="rst"/>
+			<rel name="explanation" type="rst"/>
+			<rel name="joint" type="multinuc"/>
+			<rel name="manner-means" type="rst"/>
+			<rel name="same-unit" type="multinuc"/>
+			<rel name="summary" type="rst"/>
+			<rel name="temporal" type="multinuc"/>
+			<rel name="textual-organization" type="multinuc"/>
+			<rel name="textual-organization" type="rst"/>
+			<rel name="topic-comment" type="rst"/>
+		</relations>
+	</header>
+	<body>
+		<segment id="1" parent="2" relname="explanation">The Russian Federation has called for this emergency meeting of the Security Council</segment>
+		<segment id="2" parent="76" relname="span">because of the serious dangerous evolution of the situation in south-eastern Ukraine.</segment>
+		<segment id="3" parent="77" relname="span">We have pointed out on several occasions,</segment>
+		<segment id="4" parent="3" relname="elaboration">including in this Chamber,</segment>
+		<segment id="5" parent="78" relname="span">that the reckless actions</segment>
+		<segment id="6" parent="5" relname="elaboration">that led to the coup d'etat by the self-proclaimed Kyiv authorities</segment>
+		<segment id="7" parent="79" relname="same-unit">threaten to definitively destroy the fragile mosaic of Ukrainian society.</segment>
+		<segment id="8" parent="82" relname="span">The authorities do not wish to listen to those who do not accept the imposed dominance of Kyiv by national radicals and chauvinistic, Russophobic and anti-Semitic forces,</segment>
+		<segment id="9" parent="8" relname="elaboration">whom they perceive as a threat to their human dignity and to their very lives.</segment>
+		<segment id="10" parent="89" relname="span">Grotesque Russophobia and entrenched hatred have become the norm in the Verkhovna Rada as well.</segment>
+		<segment id="11" parent="86" relname="attribution">A few days ago, a member of Parliament belonging to the chauvinist Svoboda party said this about the Russian-speaking inhabitants of Ukraine:</segment>
+		<segment id="12" parent="83" relname="span">"I would have acted much more harshly.</segment>
+		<segment id="13" parent="12" relname="elaboration">I would simply have shot them.</segment>
+		<segment id="14" parent="85" relname="span">The enemy is prevailing in our land.</segment>
+		<segment id="15" parent="84" relname="joint">They should have been chased out in 1654.</segment>
+		<segment id="16" parent="84" relname="joint">These creatures deserve only one thing - death."</segment>
+		<segment id="17" parent="87" relname="background">It should be noted that this was said by a woman.</segment>
+		<segment id="18" parent="91" relname="span">We can only imagine the thoughts</segment>
+		<segment id="19" parent="18" relname="elaboration">that must be churning in the minds of her brutal fellow partisans.</segment>
+		<segment id="20" parent="92" relname="joint">And that is not even the most radical group on the Ukrainian political spectrum.</segment>
+		<segment id="21" parent="93" relname="joint">Should we be surprised that the peaceful political protects</segment>
+		<segment id="22" parent="93" relname="joint">and the call by the people of south-eastern Ukraine for their aspirations to be heard</segment>
+		<segment id="23" parent="95" relname="span">have been met by the Rada with draconic laws</segment>
+		<segment id="24" parent="23" relname="elaboration">entailing long-term prison sentences for separatism?</segment>
+		<segment id="25" parent="97" relname="attribution">The events of the past two days have shown</segment>
+		<segment id="26" parent="96" relname="span">that,</segment>
+		<segment id="27" parent="26" relname="background">following our many calls for the organization of inclusive national political dialogue,</segment>
+		<segment id="28" parent="97" relname="same-unit">a measure of common sense has prevailed in Kyiv.</segment>
+		<segment id="29" parent="99" relname="span">Prime Minister Yatsenyuk went to Donetsk;</segment>
+		<segment id="30" parent="100" relname="span">although he did not meet with the protesters,</segment>
+		<segment id="31" parent="30" relname="contrast">he did say the right things about dialogue, decentralization and his desire to find a way out of the problem.</segment>
+		<segment id="32" parent="104" relname="textual-organization">What is the situation today?</segment>
+		<segment id="33" parent="142" relname="joint">We have been told that restraint will be exercised</segment>
+		<segment id="34" parent="143" relname="span">and a peaceful solution found to the situation</segment>
+		<segment id="35" parent="34" relname="elaboration">that takes into account the opinions of the various groupings of the Ukrainian population.</segment>
+		<segment id="36" parent="142" relname="attribution">That has been confirmed by our Western interlocutors.</segment>
+		<segment id="37" parent="38" relname="attribution">However, on 13 April the Verkhovna Rada-appointed President Turchynov stated</segment>
+		<segment id="38" parent="106" relname="span">that the Ukrainian Security Council had decided to launch a full-scale anti-terrorist operation, including the use of the armed forces.</segment>
+		<segment id="39" parent="109" relname="same-unit">However,</segment>
+		<segment id="40" parent="107" relname="contrast">unlike the Maidan demonstrators,</segment>
+		<segment id="41" parent="107" relname="joint">the protesters have terrorized no one,</segment>
+		<segment id="42" parent="107" relname="joint">have used no bulldozers against the authorioties,</segment>
+		<segment id="43" parent="107" relname="joint">and thrown no Molotov cocktails.</segment>
+		<segment id="44" parent="112" relname="cause">It is no coincidence that law-enforcement officers were present among the Maidan protestors.</segment>
+		<segment id="45" parent="112" relname="span">Now the Kyiv authorities must use force</segment>
+		<segment id="46" parent="45" relname="enablement">to suppress other areas of the country.</segment>
+		<segment id="47" parent="116" relname="attribution">According to Turchynov,</segment>
+		<segment id="48" parent="116" relname="span">the people of south-eastern Ukraine must end their protests by the morning of Monday, 14 April,</segment>
+		<segment id="49" parent="48" relname="condition">lest armed force be used.</segment>
+		<segment id="50" parent="117" relname="span">However, the protesters' interests and opinions have not been taken into account or even discussed.</segment>
+		<segment id="51" parent="118" relname="joint">As a result, blood has already been shed in the South-East</segment>
+		<segment id="52" parent="118" relname="joint">and the situation is extremely dangerous.</segment>
+		<segment id="53" parent="120" relname="span">Any further escalation of the situation must be swiftly stopped.</segment>
+		<segment id="54" parent="122" relname="span">The international community must require the Maidan henchmen</segment>
+		<segment id="55" parent="54" relname="elaboration">who seized power in Kyiv</segment>
+		<segment id="56" parent="123" relname="same-unit">to cease their war against their own people</segment>
+		<segment id="57" parent="124" relname="joint">and to implement all the commitments under the 21 February agreement.</segment>
+		<segment id="58" parent="126" relname="span">The Western sponsors of the Maidan henchmen,</segment>
+		<segment id="59" parent="125" relname="span">in particular those who stood as witnesses to the agreement and the United States,</segment>
+		<segment id="60" parent="59" relname="elaboration">which is their backer,</segment>
+		<segment id="61" parent="127" relname="same-unit">are obligated to end their support, dissociate themselves from neo-Nazis and other extremists, stop the use of force against the Ukrainian people, and begin forthwith a genuine national dialogue with the full participation of all regions, in the interests of the speedy implementation of radical constitutional reform.</segment>
+		<segment id="62" parent="128" relname="joint">It is the West that must determine the opportunity for avoiding civil war in Ukraine.</segment>
+		<segment id="63" parent="129" relname="span">Some people,</segment>
+		<segment id="64" parent="63" relname="elaboration">including in this Chamber,</segment>
+		<segment id="65" parent="130" relname="joint">do not wish to recognize the real reasons for the events in Ukraine</segment>
+		<segment id="66" parent="130" relname="joint">and are forever seeing the hand of Moscow in the South-East.</segment>
+		<segment id="67" parent="140" relname="span">Enough is enough.</segment>
+		<segment id="68" parent="133" relname="attribution">They must stop claiming</segment>
+		<segment id="69" parent="133" relname="joint">that we have deployed our army along the border with that country and are practically already at the English Channel,</segment>
+		<segment id="70" parent="135" relname="span">and that we have sent agents</segment>
+		<segment id="71" parent="70" relname="enablement">to coordinate the protests in Ukraine.</segment>
+		<segment id="72" parent="138" relname="joint">It must be understood that south-eastern Ukraine and its people are deeply worried about their future</segment>
+		<segment id="73" parent="136" relname="span">and that they do not want anyone,</segment>
+		<segment id="74" parent="73" relname="elaboration">especially the nationalist radicals,</segment>
+		<segment id="75" parent="137" relname="same-unit">to impose their will on them.</segment>
+		<group id="76" type="span" parent="81" relname="span"/>
+		<group id="77" type="span" parent="79" relname="attribution"/>
+		<group id="78" type="span" parent="79" relname="same-unit"/>
+		<group id="79" type="multinuc" parent="80" relname="span"/>
+		<group id="80" type="span" parent="76" relname="background"/>
+		<group id="81" type="span" parent="102" relname="span"/>
+		<group id="82" type="span" parent="90" relname="joint"/>
+		<group id="83" type="span" parent="86" relname="joint"/>
+		<group id="84" type="multinuc" parent="14" relname="elaboration"/>
+		<group id="85" type="span" parent="86" relname="joint"/>
+		<group id="86" type="multinuc" parent="87" relname="span"/>
+		<group id="87" type="span" parent="88" relname="span"/>
+		<group id="88" type="span" parent="10" relname="explanation"/>
+		<group id="89" type="span" parent="90" relname="joint"/>
+		<group id="90" type="multinuc" parent="81" relname="explanation"/>
+		<group id="91" type="span" parent="92" relname="joint"/>
+		<group id="92" type="multinuc" parent="90" relname="joint"/>
+		<group id="93" type="multinuc" parent="94" relname="span"/>
+		<group id="94" type="span" parent="90" relname="joint"/>
+		<group id="95" type="span" parent="93" relname="elaboration"/>
+		<group id="96" type="span" parent="97" relname="same-unit"/>
+		<group id="97" type="multinuc" parent="98" relname="span"/>
+		<group id="98" type="span" parent="101" relname="joint"/>
+		<group id="99" type="span" parent="101" relname="joint"/>
+		<group id="100" type="span" parent="29" relname="contrast"/>
+		<group id="101" type="multinuc" parent="103" relname="contrast"/>
+		<group id="102" type="span" parent="103" relname="contrast"/>
+		<group id="103" type="multinuc" parent="144" relname="explanation"/>
+		<group id="104" type="span" parent="105" relname="span"/>
+		<group id="105" type="span" parent="111" relname="contrast"/>
+		<group id="106" type="span" parent="110" relname="contrast"/>
+		<group id="107" type="multinuc" parent="108" relname="span"/>
+		<group id="108" type="span" parent="109" relname="same-unit"/>
+		<group id="109" type="multinuc" parent="110" relname="contrast"/>
+		<group id="110" type="multinuc" parent="111" relname="contrast"/>
+		<group id="111" type="multinuc" parent="121" relname="joint"/>
+		<group id="112" type="span" parent="113" relname="span"/>
+		<group id="113" type="span" parent="114" relname="background"/>
+		<group id="114" type="span" parent="115" relname="span"/>
+		<group id="115" type="span" parent="50" relname="contrast"/>
+		<group id="116" type="span" parent="114" relname="span"/>
+		<group id="117" type="span" parent="118" relname="cause"/>
+		<group id="118" type="multinuc" parent="119" relname="span"/>
+		<group id="119" type="span" parent="53" relname="explanation"/>
+		<group id="120" type="span" parent="121" relname="joint"/>
+		<group id="121" type="multinuc" parent="141" relname="explanation"/>
+		<group id="122" type="span" parent="123" relname="same-unit"/>
+		<group id="123" type="multinuc" parent="124" relname="joint"/>
+		<group id="124" type="multinuc" parent="132" relname="span"/>
+		<group id="125" type="span" parent="58" relname="elaboration"/>
+		<group id="126" type="span" parent="127" relname="same-unit"/>
+		<group id="127" type="multinuc" parent="128" relname="joint"/>
+		<group id="128" type="multinuc" parent="124" relname="elaboration"/>
+		<group id="129" type="span" parent="131" relname="same-unit"/>
+		<group id="130" type="multinuc" parent="131" relname="same-unit"/>
+		<group id="131" type="multinuc" parent="128" relname="joint"/>
+		<group id="132" type="span" parent="141" relname="joint"/>
+		<group id="133" type="multinuc" parent="134" relname="span"/>
+		<group id="134" type="span" parent="139" relname="joint"/>
+		<group id="135" type="span" parent="133" relname="joint"/>
+		<group id="136" type="span" parent="137" relname="same-unit"/>
+		<group id="137" type="multinuc" parent="138" relname="joint"/>
+		<group id="138" type="multinuc" parent="139" relname="joint"/>
+		<group id="139" type="multinuc" parent="67" relname="elaboration"/>
+		<group id="140" type="span" parent="141" relname="joint"/>
+		<group id="141" type="multinuc" parent="144" relname="span"/>
+		<group id="142" type="multinuc" parent="104" relname="span"/>
+		<group id="143" type="span" parent="142" relname="joint"/>
+		<group id="144" type="span" parent="145" relname="span"/>
+		<group id="145" type="span" />
+	</body>
+</rst>
