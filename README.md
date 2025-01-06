@@ -1,7 +1,5 @@
 # UMUC: UP Multilayer UNSC Corpus
 
-------------------------------
-
 
 The *UP Multilayer UNSC Corpus (UMUC)* is a corpus for the analysis of diplomatic speeches given in the UN Security Council (UNSC).
 Our corpus contains a small subset of speeches selected from the original [UN Security Council Debates Corpus](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/KGVSYH) containing over 25 years of digitizing meeting notes.
@@ -29,7 +27,6 @@ additionally speeches from countries having more than one contribution to the de
 
 ## Raw Data
 
----
 ### [Raw](corpora%2FRaw)
 Directories containing selected raw speeches (one .txt file per speech) from the original UN Security Debates Corpus.
 ### [Preproc_Text](corpora%2FRaw%2FPreproc_Text)
@@ -67,10 +64,8 @@ CSV-Table with one pragraph per row.
 
 ## Annotated Data
 
----
 ### UNSCon: UNSC Conflicts Corpus
 
----
 A dataset of 87 speeches given in the UNSC with annotations for (verbal) conflicts, specifically tailored to diplomatic 
 language. We define a conflict as an expression of critique  or distancing from the positions or actions of another 
 country present at the Council during the debate. 
@@ -122,7 +117,6 @@ Folder with rs3 file per speech, automatically mapped to RST-DT classes and RST-
 
 ## Code
 
----
 ### Prequirements
 To reproduce ownload the requirements by typing in your terminal:
 `pip -r requirements.txt`
@@ -138,7 +132,6 @@ Scripts to map RST relations for out project to RST-DT classes and GUM relations
 
 ## Other Projects on the UNSC Debates corpus
 
----
 
 ### UNSC-NE
 UNSC-NE is a Named Entity (NE) add-on to the UNSC Debates corpus using DBpedia-spotlight. 
@@ -157,7 +150,6 @@ for the Political and Social Sciences.
 
 The code and dataset are available [here](https://codeberg.org/Stian/UNSC-Graph).
 
-
 The graph combines previously disconnected data sources including from the UNSC Repertoire, the UN Library, 
 Wikidata, and from metadata extracted from the speeches themselves like topics and participants.
 The graph also includes country mentions in a speech, geographical neighbours of countries mentioned, as well as 
@@ -165,7 +157,6 @@ sentiment scores. By linking the graph to Wikidata, the graph includes additiona
 extend the coverage of country mentions beyond existing NER-based approaches.
 
 ### Political Argument Mining
-
 This project is focused on argumentation mining framed through the tasks of argument detection (predict whether the utterance is an argument or not) and argument component identification (predict whether the argumentative utterance is a claim or a premise).
 As part of the project, a novel corpus of argument annotations was created based on diplomatic speeches given during gatherings of the UNSC. The corpus contains 144 speeches from 2014 to 2018, dedicated to the conflict in Ukraine, named UC(Ukraine Conflict)-UNSC. The speeches were annotated analogically to USElecDeb and the labels include claims, premises or none of these.
 
