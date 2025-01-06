@@ -27,14 +27,14 @@ additionally speeches from countries having more than one contribution to the de
 
 ## Raw Data
 
-### [Raw](corpora%2FRaw)
+### [Raw](Corpora%2FRaw)
 Directories containing selected raw speeches (one .txt file per speech) from the original UN Security Debates Corpus.
-### [Preproc_Text](corpora%2FRaw%2FPreproc_Text)
+### [Preproc_Text](Corpora%2FRaw%2FPreproc_Text)
 Directories containing one .txt file per speech preprocessed with [02_preprocess.py](Code%2Fcorpus_preprocessing%2F02_preprocess.py).
-### [EDUs](corpora%2FRaw%2FEDUs) and [Sentences](corpora%2FRaw%2FSentences) 
+### [EDUs](Corpora%2FRaw%2FEDUs) and [Sentences](Corpora%2FRaw%2FSentences) 
 Directories containing one .txt file per speech with preprocessed, newline-seperated EDUs / sentences.
 
-### [main_edus.csv](corpora%2FRaw%2Fmain_edus.csv)
+### [main_edus.csv](Corpora%2FRaw%2Fmain_edus.csv)
 CSV-Table with one EDU per row.
 * **filename**: filename in `/EDUs` directory with countryname
 * **fileid**: Basename of file (without .txt) as given in the original *UN Security Debates Corpus*.
@@ -45,7 +45,7 @@ CSV-Table with one EDU per row.
 * **speech_edu_id**: Counter ID for EDU inside the speech
 * **text_edu**: EDU string from speech
 
-### [main_sents.csv](corpora%2FRaw%2Fmain_sents.csv)
+### [main_sents.csv](Corpora%2FRaw%2Fmain_sents.csv)
 CSV-Table with one sentence per row.
   * **filename** and **fileid** same as in `main_edus.csv`
   * **char_start_offset**: Character offset start of sentence
@@ -53,7 +53,7 @@ CSV-Table with one sentence per row.
   * **text**: Sentence string from speech
   * **tokenized**: Tokenized sentence from speech
 
-### [main_para.csv](corpora%2FRaw%2Fmain_para.csv) 
+### [main_para.csv](Corpora%2FRaw%2Fmain_para.csv) 
 CSV-Table with one pragraph per row.
   * **filename**: Filename in /Preprocess folder with countryname
   * **fileid**: Basename of file (without .txt) as given in the original *UN Security Debates Corpus*
@@ -78,7 +78,7 @@ There are four main types of conflicts annotated:
 For more information on the annotation guidelines, see our [paper](https://aclanthology.org/2024.lrec-main.716.pdf).
 This repository includes a corrected version of the original Conflicts corpus ([github](https://github.com/linatal/UNSCon)).
 
-### [main_conflicts.csv](corpora%2FAnnotated%2FConflicts%2Fmain_conflicts.csv)
+### [main_conflicts.csv](Corpora%2FAnnotated%2FConflicts%2Fmain_conflicts.csv)
 
 Metadata:
 * **filename, fileid, char_start_offset_edu, char_end_offset_edu, speech_edu_id, text_edu** same as in `main_edus.csv`
