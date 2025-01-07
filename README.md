@@ -4,7 +4,7 @@
 The *UP Multilayer UNSC Corpus (UMUC)* is a corpus for the analysis of diplomatic speeches given in the UN Security Council (UNSC).
 Our corpus contains a small subset of speeches selected from the original [UN Security Council Debates Corpus](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/KGVSYH) containing over 25 years of digitizing meeting notes.
 
-We preprocessed the speeches deleting unneccsary line breaks, removed text that are not the speech, and segmented the texts into either Elementary Discourse Units or sentences.
+We preprocessed the speeches deleting unnecessary line breaks, removed text that are not the speech, and segmented the texts into either Elementary Discourse Units or sentences.
 In addition to the raw texts, we present annotations for different phenomena: verbal Conflicts, discourse structures using Rhetorical Structure Theory, and automatic average Sentiments using a dictionary-based approach.
 
 The section "Other Projects" list some links to other projects (Argumentation Mining, NER, Knowledge Graph) done with other parts of the UNSC Debates Corpus which were developed in cooperation with/at our AngCL group at Potsdam Univeristy.
