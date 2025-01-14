@@ -7,7 +7,7 @@ Our corpus contains a small subset of speeches selected from the original [UN Se
 We preprocessed the speeches deleting unnecessary line breaks, removed text that are not the speech, and segmented the texts into either Elementary Discourse Units or sentences.
 In addition to the raw texts, we present annotations for different phenomena: verbal Conflicts, discourse structures using Rhetorical Structure Theory, and automatic average Sentiments using a dictionary-based approach.
 
-The section "Other Projects" list some links to other projects (Argumentation Mining, NER, Knowledge Graph) done with other parts of the UNSC Debates Corpus which were developed in cooperation with/at our AngCL group at Potsdam Univeristy.
+The section "Other Projects" lists some links to other projects (Argumentation Mining, NER, Knowledge Graph) done with other parts of the UNSC Debates Corpus which were developed in cooperation with/at our AngCL group at Potsdam Univeristy.
 
 For more information about this work, please see our papers.
 
@@ -70,10 +70,10 @@ A dataset of 87 speeches given in the UNSC with annotations for (verbal) conflic
 language. We define a conflict as an expression of critique  or distancing from the positions or actions of another 
 country present at the Council during the debate. 
 There are four main types of conflicts annotated: 
-* Direct Negative Evaluation: Describe Conflicts where the speaker directly directs the critique to another country.
-* Indirect Negative Evaluation: Describe Conflicts where some intermediate entity serving as a proxy is criticized instead of the other country directly.
-* Challenge: Challenging statements accuse another coun try of not telling the truth.
-* Correction: Corrections rectify the allegedly false statement.
+* _Direct Negative Evaluation_: Describe Conflicts where the speaker directly directs the critique to another country.
+* _Indirect Negative Evaluation_: Describe Conflicts where some intermediate entity serving as a proxy is criticized instead of the other country directly.
+* _Challenge_: Challenging statements accuse another coun try of not telling the truth.
+* _Correction_: Corrections rectify the allegedly false statement.
 
 For more information on the annotation guidelines, see our [paper](https://aclanthology.org/2024.lrec-main.716.pdf).
 This repository includes a corrected version of the original Conflicts corpus ([github](https://github.com/linatal/UNSCon)).
@@ -101,8 +101,8 @@ Taken from `main_edus.csv`:
 EDU-based Conflict annotations mapped to sentences. For overlapping labels, we simply used the first label for the sentence.
 
 ### UNSC-RST: Rhetorical Structures
-87 speeches given in the UNSC analyzed from the perspective of Rhetorical Structure Theory
-(RST) (Mann and Thompson, 1988) to study study rhetorical style in diplomatic speech. RST aims to capture the structure of a text by
+The corpus contains 87 speeches given in the UNSC analyzed from the perspective of Rhetorical Structure Theory
+(RST) (Mann and Thompson, 1988) to study rhetorical style in diplomatic speech. RST aims to capture the structure of a text by
 combining its elementary discourse units (EDUs) into one single, hierarchical tree structure.
 
 For more information on the annotation guidelines, see our 
