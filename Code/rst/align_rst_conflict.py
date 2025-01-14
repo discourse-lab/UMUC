@@ -6,6 +6,8 @@ import lxml.etree
 from pathlib import Path
 import pandas as pd
 import spacy
+from get_rst_subtrees import get_subtrees_per_paragraph
+
 nlp = spacy.load('en_core_web_lg')
 xmlp = lxml.etree.XMLParser(strip_cdata=False, resolve_entities=False, encoding='utf-8', remove_comments=True)
 
@@ -52,7 +54,6 @@ def align(csvf, rst_dir):
             debug_list2 = []
             debug_list3 = []
             count_rst_segements = len(rstree.getroot().findall('.//segment'))
-
 
             #assert df_file.shape[0] == count_rst_segements, name
             if df_file.shape[0] != count_rst_segements:
@@ -115,13 +116,19 @@ def get_tokens(df_aligned):
     df_aligned['len_tokens_edus'] = big_len_tok_list
     return df_aligned
 
+
+
 def main():
     rst_dir = Path('../Corpora/Annotated/RST_original')
     csvf = Path('../Corpora/Annotated/Conflicts/main_conflicts.csv')
     output_file = Path('../Corpora/Annotated/conflicts_rst_aligned.csv')
     df_aligned = align(csvf, rst_dir)
-    df = get_tokens(df_aligned)
-    df.to_csv(output_file)
+    df_tokens = get_tokens(df_aligned)
+
+
+    # get paragraph-based relations
+    df_sub = get_subtrees_per_paragraph(df_tokens)
+    df_sub.to_csv(output_file)
 
 
 if __name__ == '__main__':
