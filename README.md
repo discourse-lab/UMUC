@@ -64,8 +64,7 @@ CSV-Table with one pragraph per row.
 
 ## Annotated Data
 
-### UNSCon: UNSC Conflicts Corpus
-### [Conflicts](Corpora%2FAnnotated%2FConflicts)
+### UNSCon: UNSC Conflicts Corpus: [Conflicts](Corpora%2FAnnotated%2FConflicts)
 
 A dataset of 87 speeches given in the UNSC with annotations for (verbal) conflicts, specifically tailored to diplomatic 
 language. We define a conflict as an expression of critique  or distancing from the positions or actions of another 
@@ -135,6 +134,30 @@ Folder with rs3 file per speech, automatically mapped to RST-DT classes and RST-
 
 ### Merged UNSC-RST and UNSCon table: [conflicts_rst_aligned.csv](Corpora%2FAnnotated%2Fconflicts_rst_aligned.csv)
 Table with aligned Conflicts and simplified RST label annotations.  
+
+Metadata:
+* **filename, fileid, char_start_offset_edu, char_end_offset_edu, speech_edu_id, text_edu** same as in `main_edus.csv`
+Conflict Annotations:
+* **Conflict_Type, Conflict_Target, Target_Country_Name** same as in `main_conflicts.csv`
+RST: 
+* **rstree_nodeid_chain**: A list of node IDs extracted from rs3 files. The node IDs lists are organized starting from 
+the leaf nodes and going up to the root node.
+* **rstree_relation_leave**: The leaf node relation for the EDU. For example, if the relation is 'Circumstance', the
+EDU is annotated as describing the circumstances related to the content of the EDU to which the relation points. 
+* **rstree_relation_chain**: A list of relations extracted from rs3 files. The relations lists are organized starting from 
+the leaf nodes and going up to the root node.
+* **rstree_edges**: Number of edges starting from the leaf node, going up to the root node.
+* **sat_value_rstree**: Number of Satelites starting from the leaf node, going up to the root node.
+* **rstree_nodeid_chain_subtree** and **rstree_relation_chain_subtree** and **rstree_edges_subtree** and
+**sat_value_subtree**: same as the columns before, but only for the paragraph subtree.
+
+Other: 
+* **tokenized_edus**: EDUs tokenized using SpaCy.
+* **len_tokens_edus**: Number of tokens in EDU.
+* **paragraph_id_consecutive**: Since the original paragraph IDs also counted double newlines, which were then later removed 
+as they did not contain any text, the original IDs have gaps. 
+This column provides consecutive IDs without gaps.
+* **paragraph_id_consecutive_per_file**: Same as the column before, but per file.
 
 ## Code
 
