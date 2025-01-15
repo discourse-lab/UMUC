@@ -65,6 +65,7 @@ CSV-Table with one pragraph per row.
 ## Annotated Data
 
 ### UNSCon: UNSC Conflicts Corpus
+### [Conflicts](Corpora%2FAnnotated%2FConflicts)
 
 A dataset of 87 speeches given in the UNSC with annotations for (verbal) conflicts, specifically tailored to diplomatic 
 language. We define a conflict as an expression of critique  or distancing from the positions or actions of another 
@@ -76,9 +77,11 @@ There are four main types of conflicts annotated:
 * _Correction_: Corrections rectify the allegedly false statement.
 
 For more information on the annotation guidelines, see our [paper](https://aclanthology.org/2024.lrec-main.716.pdf).
-This repository includes a corrected version of the original Conflicts corpus ([github](https://github.com/linatal/UNSCon)).
+This repository includes a corrected version of the original Conflicts corpus ([GitHub](https://github.com/linatal/UNSCon)).
 
-### [main_conflicts.csv](Corpora%2FAnnotated%2FConflicts%2Fmain_conflicts.csv)
+#### [main_conflicts_not_preprocessed.csv](Corpora%2FAnnotated%2FConflicts%2Fmain_conflicts_not_preprocessed.csv)
+Table containing the speeches with Conflict annotations and metadata, with evaporate labels columns, derived from the 
+original annotation output. A more concise representation of the dataset is in [main_conflicts.csv](Corpora%2FAnnotated%2FConflicts%2Fmain_conflicts.csv).  
 
 Metadata:
 * **filename, fileid, char_start_offset_edu, char_end_offset_edu, speech_edu_id, text_edu** same as in `main_edus.csv`
@@ -96,7 +99,21 @@ Taken from `main_edus.csv`:
 * **char_start_offset_edu_original** and **char_end_offset_edu_original**: Character offset taken from `main_edus.csv`
 * **speech_sentence_id** and **paragraph_id**: taken from `main_edus.csv`
 
-### [main_conflicts_sents.csv](Corpora%2FAnnotated%2FConflicts%2Fmain_conflicts_sents.csv)
+
+#### [main_conflicts.csv](Corpora%2FAnnotated%2FConflicts%2Fmain_conflicts.csv)
+Table with speeches, Conflict labels and metadata, with summarized  and renamed columns for labels. The Table is the output from [04_conflicts_table_preprocessing.py](Code%2Fcorpus_preprocessing%2F04_conflicts_table_preprocessing.py)
+taking [main_conflicts_not_preprocessed.csv](Corpora%2FAnnotated%2FConflicts%2Fmain_conflicts_not_preprocessed.csv) as input.
+
+Metadata:
+* **filename, fileid, char_start_offset_edu, char_end_offset_edu, speech_edu_id, text_edu** same as in `main_edus.csv`
+
+Conflict Annotations: 
+* **Conflict_Type**: Conflict labels: _Indirect_Negeval_, _Direct_NegEval_, _Challenge_ or _Correction_
+* **Conflict_Target**: Council Target Types (_Speaker or Speech_, _Country_, _Group of Countries_, _UNSC_, _Self-targeting_, _Underspecified_)
+* **Target_Country_Name**: Name of Target Country
+
+
+#### [main_conflicts_sents.csv](Corpora%2FAnnotated%2FConflicts%2Fmain_conflicts_sents.csv)
 
 EDU-based Conflict annotations mapped to sentences. For overlapping labels, we simply used the first label for the sentence.
 
@@ -107,13 +124,17 @@ combining its elementary discourse units (EDUs) into one single, hierarchical tr
 
 For more information on the annotation guidelines, see our 
 [paper](https://aclanthology.org/2024.lrec-main.716.pdf).
-This repository includes a corrected version of the original RST corpus ([github](https://github.com/linatal/rhetorical_UNSC)), as well as versions mapped to other RST relation sets, namely to the RST-DT and GUM relation classes.
+This repository includes a corrected version of the original RST corpus ([GitHub](https://github.com/linatal/rhetorical_UNSC)), as well as versions mapped to other RST relation sets, namely to the RST-DT and GUM relation classes.
 
 ### [RST_original](Corpora%2FAnnotated%2FRST_original)
 Folder with rs3 file per speech, using annotation labels as described in our paper.
 
 ### [RST_RSTDT-relations](Corpora%2FAnnotated%2FRST_RSTDT-relations) and [RST_GUM-relations](Corpora%2FAnnotated%2FRST_GUM-relations)
 Folder with rs3 file per speech, automatically mapped to RST-DT classes and RST-GUM relations using [mapping_relations.py](Code%2Frst%2Fmapping_relations.py).
+
+
+### Merged UNSC-RST and UNSCon table: [conflicts_rst_aligned.csv](Corpora%2FAnnotated%2Fconflicts_rst_aligned.csv)
+Table with aligned Conflicts and simplified RST label annotations.  
 
 ## Code
 
