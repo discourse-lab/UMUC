@@ -2,7 +2,6 @@
 Input: folder with rst files /data/07_rst, conflicts table ../data/main_conflicts.csv
 Output: aligned conflicts-rst table'''
 import lxml.etree
-#from configparser import ConfigParser
 from pathlib import Path
 import pandas as pd
 import spacy

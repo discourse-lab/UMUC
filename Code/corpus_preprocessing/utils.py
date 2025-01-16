@@ -2,12 +2,12 @@ import os
 import sys
 from pathlib import Path
 
+
 def create_dir(checked_path):
     # checks if output dir exists, if not creates one
     if not os.path.exists(checked_path):
         os.mkdir(checked_path)
         print("Successfully created the %s" % checked_path)
-
 
 
 def check_dir(checked_path):

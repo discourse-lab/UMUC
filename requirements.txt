@@ -1,2 +1,5 @@
 spacy==3.5.3
-pandas
+pandas~=2.2.3
+
+numpy~=1.26.4
+lxml~=5.3.0

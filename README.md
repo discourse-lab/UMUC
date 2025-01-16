@@ -72,11 +72,11 @@ country present at the Council during the debate.
 There are four main types of conflicts annotated: 
 * _Direct Negative Evaluation_: Describe Conflicts where the speaker directly directs the critique to another country.
 * _Indirect Negative Evaluation_: Describe Conflicts where some intermediate entity serving as a proxy is criticized instead of the other country directly.
-* _Challenge_: Challenging statements accuse another coun try of not telling the truth.
+* _Challenge_: Challenging statements accuse another country of not telling the truth.
 * _Correction_: Corrections rectify the allegedly false statement.
 
 For more information on the annotation guidelines, see our [paper](https://aclanthology.org/2024.lrec-main.716.pdf).
-This repository includes a corrected version of the original Conflicts corpus ([GitHub](https://github.com/linatal/UNSCon)).
+This repository includes a corrected version of the original UNSC Conflicts corpus UNSCon ([GitHub](https://github.com/linatal/UNSCon)).
 
 #### [main_conflicts_not_preprocessed.csv](Corpora%2FAnnotated%2FConflicts%2Fmain_conflicts_not_preprocessed.csv)
 Table containing the speeches with Conflict annotations and metadata, with evaporate labels columns, derived from the 
@@ -118,7 +118,7 @@ EDU-based Conflict annotations mapped to sentences. For overlapping labels, we s
 
 ### UNSC-RST: Rhetorical Structures
 The corpus contains 87 speeches given in the UNSC analyzed from the perspective of Rhetorical Structure Theory
-(RST) (Mann and Thompson, 1988) to study rhetorical style in diplomatic speech. RST aims to capture the structure of a text by
+(RST) ([Mann and Thompson](https://www.sfu.ca/rst/05bibliographies/bibs/Mann_Thompson_1988.pdf), 1988) to study rhetorical style in diplomatic speech. RST aims to capture the structure of a text by
 combining its elementary discourse units (EDUs) into one single, hierarchical tree structure.
 
 For more information on the annotation guidelines, see our 
@@ -162,17 +162,20 @@ This column provides consecutive IDs without gaps.
 ## Code
 
 ### Prequirements
-To reproduce ownload the requirements by typing in your terminal:
+To reproduce the corpus preprocessing steps, download the requirements by typing in your terminal:
 `pip -r requirements.txt`
 
 For SpaCy, download language model:
 `python -m spacy download en_core_web_lg`
 
 ### [03_corpus_structure.py](Code%2Fcorpus_preprocessing%2F03_corpus_structure.py)
-Script that takes the raw texts and output files `main_sents.csv` and `main_para.csv`. `main_edus.csv` was created using output from Inception annotation tool.
+Script that takes the raw texts and output files [main_sents.csv](Corpora%2FRaw%2Fmain_sents.csv) and [main_para.csv](Corpora%2FRaw%2Fmain_para.csv). [main_edus.csv](Corpora%2FRaw%2Fmain_edus.csv) was created using output from Inception annotation tool.
 
 ### [rst](Code%2Frst)
 Scripts to map RST relations for out project to RST-DT classes and GUM relations. 
+
+### [04_conflicts_table_preprocessing.py](Code%2Fcorpus_preprocessing%2F04_conflicts_table_preprocessing.py)
+Script to preprocess the conflict table, condensing it by summarizing Conflict label columns. Takes [main_conflicts_not_preprocessed.csv](Corpora%2FAnnotated%2FConflicts%2Fmain_conflicts_not_preprocessed.csv) as input and gives [main_conflicts.csv](Corpora%2FAnnotated%2FConflicts%2Fmain_conflicts.csv) as output.
 
 ## Other Projects on the UNSC Debates corpus
 
