@@ -5,7 +5,7 @@ import lxml.etree
 from pathlib import Path
 import pandas as pd
 import spacy
-from get_rst_subtrees import get_subtrees_per_paragraph
+from get_rst_subtrees import get_subtrees_per_paragraph, ids_to_consecutive
 
 nlp = spacy.load('en_core_web_lg')
 xmlp = lxml.etree.XMLParser(strip_cdata=False, resolve_entities=False, encoding='utf-8', remove_comments=True)
@@ -15,11 +15,10 @@ def get_root_path(node, tree, path):
     if 'parent' in node.attrib:
         parent_id = node.get('parent')
         parent_node = [x for x in tree.getroot().find('.//body') if x.get('id') == parent_id]
-
         assert len(parent_node) == 1
+
         path.append(parent_node[0])
         get_root_path(parent_node[0], tree, path)
-
     return path
 
 
@@ -41,11 +40,9 @@ def align(csvf, rst_dir):
     df_f = df[~df['fileid'].isin(temp)]
 
     for rstf in listi:
-
         name = rstf.name[:26]
         # get rows in df for file
         df_file = df_f[df_f.fileid == name]
-
         if len(df_file):
             rstree = lxml.etree.parse(str(rstf), parser=xmlp)
             debug_list = []
@@ -60,9 +57,7 @@ def align(csvf, rst_dir):
                 break
 
             for segment in rstree.getroot().findall('.//segment'):
-
                 rootpath = get_root_path(segment, rstree, [segment])
-
                 id_chain = [x.get('id') for x in rootpath]
                 id_rel = id_chain[0]
                 relation_chain = [x.get('relname') for x in rootpath]
@@ -83,10 +78,8 @@ def align(csvf, rst_dir):
                 #debug
         elif df_file.shape[0] != count_rst_segements and len(df_file):
             print(name, "num conflict edus:", df_file[0], "num rst edus:", count_rst_segements)
-
         else:
             print("File: ", name, "file is missing in Conflicts csv.")
-
 
     assert len(big_list_id) == len(big_list_id_chain) == len(big_list_relation_chain), 'Problem l. 86'
 
@@ -99,6 +92,7 @@ def align(csvf, rst_dir):
     df_f['paragraph_id'] = df_f['paragraph_id'].astype("Int64")
     df_f['speech_sentence_id'] = df_f['speech_sentence_id'].astype("Int64")
     return df_f
+
 
 def get_tokens(df_aligned):
     # tokenize edus
@@ -116,7 +110,6 @@ def get_tokens(df_aligned):
     return df_aligned
 
 
-
 def main():
     rst_dir = Path('../Corpora/Annotated/RST_original')
     csvf = Path('../Corpora/Annotated/Conflicts/main_conflicts.csv')
@@ -124,9 +117,9 @@ def main():
     df_aligned = align(csvf, rst_dir)
     df_tokens = get_tokens(df_aligned)
 
-
     # get paragraph-based relations
-    df_sub = get_subtrees_per_paragraph(df_tokens)
+    df_consec = ids_to_consecutive(df_tokens)
+    df_sub = get_subtrees_per_paragraph(df_consec)
     df_sub.to_csv(output_file)
 
 

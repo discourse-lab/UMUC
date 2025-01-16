@@ -1,10 +1,11 @@
 import pandas as pd
 from collections import Counter
 import numpy as np
+import re
 
 
-def to_consecutive(df_notcon):
-    paragraph_id_list = df_notcon['paragraph_id'].tolist()
+def to_consecutive(df_notcon, column_nonconsec):
+    paragraph_id_list = df_notcon[column_nonconsec].tolist()
     id_counter = -1
     new_paragraph_id_list = []
     for index, element in enumerate(paragraph_id_list):
@@ -58,9 +59,35 @@ def flatten_comprehension(matrix):
     return [item for row in matrix for item in row]
 
 
+def ids_to_consecutive(df):
+    # take sentence and paragraph IDs and convert them to consecutive for all speeches and per speech
+    columns = ['paragraph_id', 'speech_sentence_id']
+    # include columns for paragraph id
+    new_paragraph_id_list = to_consecutive(df, 'paragraph_id')
+    df['paragraph_id_consecutive'] = new_paragraph_id_list
+
+    new_speech_id_list = to_consecutive(df, 'speech_sentence_id')
+    df['sentence_id_consecutive'] = new_speech_id_list
+
+    filenames = df['filename'].drop_duplicates().tolist()
+    for column in columns:
+        new_paragraph_id_list_per_file = []
+        for filename in filenames:
+            df_fn = df[df['filename'] == filename]
+            list_consecutive_fn = to_consecutive(df_fn, column)
+            new_paragraph_id_list_per_file.append(list_consecutive_fn)
+        new_nestedlist_per_file = new_paragraph_id_list_per_file
+        new_flatlist_per_file = flatten_comprehension(new_nestedlist_per_file)
+        assert len(new_flatlist_per_file) == len(new_paragraph_id_list)
+        new_column_name = column + '_consecutive_per_file'
+        new_column_name = re.sub('speech_', '', new_column_name)
+        df[new_column_name] = new_flatlist_per_file
+    return df
+
+
 def get_subtrees_per_paragraph(df):
     # input: prepared dataframe
-    # update paragraph_ids, take nodeid_chain and relation_chain and shorten them to subtrees (per paragraph)
+    # take nodeid_chain and relation_chain and shorten them to subtrees (per paragraph)
     # get sat value for speech and paragraph trees, will be used for NM
     # output: dataframe with subtrees and sat values
     paragraph_consec_list = []
@@ -71,20 +98,6 @@ def get_subtrees_per_paragraph(df):
 
     list_sat_value = []
     list_sat_value_subtree = []
-
-    # include columns for paragraph id
-    new_paragraph_id_list = to_consecutive(df)
-    df['paragraph_id_consecutive'] = new_paragraph_id_list
-    filenames = df['filename'].drop_duplicates().tolist()
-    new_paragraph_id_list_per_file = []
-    for filename in filenames:
-        df_fn = df[df['filename'] == filename]
-        list_consecutive_fn = to_consecutive(df_fn)
-        new_paragraph_id_list_per_file.append(list_consecutive_fn)
-    new_paragraph_id_list_per_file = flatten_comprehension(new_paragraph_id_list_per_file)
-    assert len(new_paragraph_id_list_per_file) == len(new_paragraph_id_list)
-    df['paragraph_id_consecutive_per_file'] = new_paragraph_id_list_per_file
-
 
     # iterate over apragraphs and compute over list of relations
     paragraph_idxs = df['paragraph_id_consecutive'].drop_duplicates().tolist()

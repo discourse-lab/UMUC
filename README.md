@@ -158,6 +158,8 @@ Other:
 as they did not contain any text, the original IDs have gaps. 
 This column provides consecutive IDs without gaps.
 * **paragraph_id_consecutive_per_file**: Same as the column before, but per file.
+* **sentence_id_consecutive**: consecutive IDs without gaps starting at the first EDU and ending at the last EDU of teh corpus.
+* **sentence_id_consecutive_per_file**: Same as the column before, but per file.
 
 ## Code
 

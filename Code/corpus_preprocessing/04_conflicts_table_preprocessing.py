@@ -11,22 +11,6 @@ def prepare_dataframe(original_confl_table):
     # return prepared dataframe
     df_conflicts = pd.read_csv(original_confl_table, index_col=0)
 
-    """
-    df['A0_Negative_Evaluation'] = df['A0_Negative_Evaluation'].replace("_", "")
-    df['B1_ChallengeType'] = df['B1_ChallengeType'].replace("_", "")
-    df["Conflict_Type"] = df['A0_Negative_Evaluation'] + df['B1_ChallengeType']
-    df["Conflict_Type"] = df["Conflict_Type"].replace("Direct_NegEvalChallenge", "Challenge")
-    df["Conflict_Type"] = df["Conflict_Type"].replace("Indirect_NegEvalChallenge", "Challenge")
-    df["Conflict_Type"] = df["Conflict_Type"].replace("", "_")
-    df['paragraph_id'] = df['paragraph_id'].astype("Int64")
-    df['speech_sentence_id'] = df['speech_sentence_id'].astype("Int64")
-    # rename Conflicts columns
-    df = df.drop('A0_Negative_Evaluation', axis=1)
-    df = df.drop('B1_ChallengeType', axis=1)
-    
-    # insert column with insert(location, column_name, column_value)
-    df.insert(6, "Conflict_Type", column_to_move)
-    """
     df_conflicts['Conflict_Type'] = df_conflicts['A0_Negative_Evaluation'].fillna(df_conflicts['B1_ChallengeType'])
 
     df_conflicts['Conflict_Target'] = df_conflicts['A2_Target_Council'].fillna(df_conflicts['B2_Target_Challenge'])
@@ -46,7 +30,6 @@ def prepare_dataframe(original_confl_table):
     for x in reversed(columns_to_move):
         column_to_move = df_conflicts.pop(x)
         df_conflicts.insert(6, x, column_to_move)
-
 
     df_sent_sm = df_conflicts.sort_values(['filename', 'speech_sentence_id'], ascending=[True, True])
 
