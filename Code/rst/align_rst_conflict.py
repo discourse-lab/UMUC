@@ -22,6 +22,59 @@ def get_root_path(node, tree, path):
     return path
 
 
+def get_relation_chain(rootpath, rstree):
+    """
+    Constructs a relation chain based on the `rootpath` and `rstree`.
+    Args:
+        rootpath (list): A list of elements representing the root path.
+        rstree (lxml.etree.ElementTree): The RST tree structure.
+    Returns:
+        tuple: A tuple containing the relation chain (list) and the first relation (str).
+    """
+    relation_chain = []
+
+    for x in rootpath:
+        relname = x.get('relname')
+
+        if relname != "span":
+            # if relname is None, append root relation, else append relname
+            relation_chain.append('root' if relname is None else relname)
+        else:  # relname == "span"
+            relation_id = x.get('id')
+
+            # Find all child elements of the current span
+            elements = rstree.xpath(".//segment[@parent='" + relation_id + "']") \
+                       + rstree.xpath(".//group[@parent='" + relation_id + "']")
+            # Check if these are all multinuc or other rels
+            #if len(elements) != 1:
+            #    print([elem.get('relname') for elem in elements])
+
+            # Get the relname of the parent element
+            if elements:
+                relname_parent = elements[0].get('relname')
+
+                # root relation is None, rename as root
+                if relname_parent is None:
+                    relation_chain.append("root")
+                elif relname_parent == "span":
+                    # Handle multi-nucleus spans or relations that originate from a side string and are not directly
+                    # parent relations
+                    for i, elem in enumerate(elements[1:], start=1):
+                        relname_parent_n = elem.get('relname')
+                        if relname_parent_n == "span":
+                            continue
+                        relation_chain.append(f"{relname_parent_n}_nucleus")
+                        break
+                    else:
+                        relation_chain.append("span_nucleus")
+                else:
+                    relation_chain.append(f"{relname_parent}_nucleus")
+
+    # Retrieve the first relation in the chain
+    relation = relation_chain[0] if relation_chain else None
+    return relation_chain, relation
+
+
 def align(csvf, rst_dir):
     df = pd.read_csv(csvf, index_col=0)
     df = df.sort_values(["filename", "speech_edu_id"])
@@ -45,23 +98,20 @@ def align(csvf, rst_dir):
         df_file = df_f[df_f.fileid == name]
         if len(df_file):
             rstree = lxml.etree.parse(str(rstf), parser=xmlp)
-            debug_list = []
-            debug_list1 = []
-            debug_list2 = []
-            debug_list3 = []
             count_rst_segements = len(rstree.getroot().findall('.//segment'))
 
-            #assert df_file.shape[0] == count_rst_segements, name
+            # assert df_file.shape[0] == count_rst_segements, name
             if df_file.shape[0] != count_rst_segements:
-                print("For file", name, "there is an inconsistency of EDUs.\n Conflicts num EDUs: ", df_file.shape[0], "\n RST num EDUs: ", count_rst_segements)
+                print("For file", name, "there is an inconsistency of EDUs.\n Conflicts num EDUs: ", df_file.shape[0],
+                      "\n RST num EDUs: ", count_rst_segements)
                 break
-
+            # messing up from here
             for segment in rstree.getroot().findall('.//segment'):
                 rootpath = get_root_path(segment, rstree, [segment])
                 id_chain = [x.get('id') for x in rootpath]
                 id_rel = id_chain[0]
-                relation_chain = [x.get('relname') for x in rootpath]
-                relation = relation_chain[0]
+                relation_chain, relation = get_relation_chain(rootpath, rstree)
+
                 assert len(id_chain) == len(relation_chain), 'Problem l. 72'
 
                 big_list_id_chain.append(id_chain)
@@ -69,13 +119,6 @@ def align(csvf, rst_dir):
                 big_list_relation_chain.append(relation_chain)
                 big_list_relation.append(relation)
 
-                debug_list.append(id_chain)
-                debug_list1.append(id_rel)
-                debug_list2.append(relation_chain)
-                debug_list3.append(relation)
-                #if len(debug_list3) != df_file.shape[0]:
-                #    print("Error: ", len(debug_list3), df_file.shape[0], name)
-                #debug
         elif df_file.shape[0] != count_rst_segements and len(df_file):
             print(name, "num conflict edus:", df_file[0], "num rst edus:", count_rst_segements)
         else:
@@ -85,7 +128,7 @@ def align(csvf, rst_dir):
 
     df_f['rstree_nodeid'] = big_list_id
     df_f['rstree_nodeid_chain'] = big_list_id_chain
-    df_f['rstree_relation_leave'] = big_list_relation
+    df_f['rstree_relation_leaf'] = big_list_relation
     df_f['rstree_relation_chain'] = big_list_relation_chain
     df_f = df_f.reset_index(drop=True)
 
