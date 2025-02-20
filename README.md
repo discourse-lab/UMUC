@@ -142,7 +142,7 @@ Conflict Annotations:
 RST: 
 * **rstree_nodeid_chain**: A list of node IDs extracted from rs3 files. The node IDs lists are organized starting from 
 the leaf nodes and going up to the root node.
-* **rstree_relation_leave**: The leaf node relation for the EDU. For example, if the relation is 'Circumstance', the
+* **rstree_relation_leaf**: The leaf node relation for the EDU. For example, if the relation is 'Circumstance', the
 EDU is annotated as describing the circumstances related to the content of the EDU to which the relation points. 
 * **rstree_relation_chain**: A list of relations extracted from rs3 files. The relations lists are organized starting from 
 the leaf nodes and going up to the root node.
