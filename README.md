@@ -110,6 +110,13 @@ Conflict Annotations:
 * **Conflict_Type**: Conflict labels: _Indirect_Negeval_, _Direct_NegEval_, _Challenge_ or _Correction_
 * **Conflict_Target**: Council Target Types (_Speaker or Speech_, _Country_, _Group of Countries_, _UNSC_, _Self-targeting_, _Underspecified_)
 * **Target_Country_Name**: Name of Target Country
+* **Conflict-IDs**: Conflict IDs in corpus
+
+Other:
+* * **paragraph_id_consecutive**: Since the original paragraph IDs also counted double newlines, which were then later removed 
+as they did not contain any text, the original IDs have gaps. 
+This column provides consecutive IDs without gaps.
+* **paragraph_id_consecutive_per_file**: Same as the column before, but per file.
 
 
 #### [main_conflicts_sents.csv](Corpora%2FAnnotated%2FConflicts%2Fmain_conflicts_sents.csv)
@@ -154,10 +161,6 @@ the leaf nodes and going up to the root node.
 Other: 
 * **tokenized_edus**: EDUs tokenized using SpaCy.
 * **len_tokens_edus**: Number of tokens in EDU.
-* **paragraph_id_consecutive**: Since the original paragraph IDs also counted double newlines, which were then later removed 
-as they did not contain any text, the original IDs have gaps. 
-This column provides consecutive IDs without gaps.
-* **paragraph_id_consecutive_per_file**: Same as the column before, but per file.
 * **sentence_id_consecutive**: consecutive IDs without gaps starting at the first EDU and ending at the last EDU of teh corpus.
 * **sentence_id_consecutive_per_file**: Same as the column before, but per file.
 
