@@ -67,6 +67,7 @@ def get_relation_chain(rootpath, rstree):
                         break
                     else:
                         relation_chain.append("span_nucleus")
+                        continue
                 else:
                     relation_chain.append(f"{relname_parent}_nucleus")
 
