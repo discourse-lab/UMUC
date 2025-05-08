@@ -1,0 +1,1282 @@
+ID	module	replace	replace with
+1	1-punc	good-bye*	goodbye
+2	1-punc	good bye*	goodbye
+3	1-punc	good-	good x
+4	1-punc	ill at ease	ill at xease
+5	1-punc	ill-	ill x
+6	1-punc	-like	 xlike
+7	1-punc	" well,	 xwell
+8	1-punc	- well,	 xwell
+9	1-punc	, well,	 xwell
+10	1-punc	….. well	  xwell
+11	1-punc	... well	  xwell
+12	1-punc	. Well,	. xWell
+13	1-punc	: well,	: xwell
+14	1-punc	well-	well x
+15	1-punc	"well,	xwell
+16	1-punc	 well,	 xwell
+17	1-punc	well,	xwell
+18	1-punc	Well	xWell
+19	1-punc	as well	as xwell
+20	1-punc	- okay,	 xokay
+21	1-punc	, okay,	 xokay
+22	1-punc	 okay,	 xokay
+23	1-punc	" okay,	 xokay
+24	1-punc	…. okay	  xokay
+25	1-punc	... okay	  xokay
+26	1-punc	. Okay,	. xOkay
+27	1-punc	: okay,	: xokay
+28	1-punc	OK	okay
+29	1-punc	'okay,	xokay
+30	1-punc	"okay,	xokay
+31	1-punc	Okay,	xOkay
+32	1-punc	Okay	xOkay
+33	1-punc	, too	 xtoo
+34	1-punc	too /	xtoo /
+35	1-punc	too,	xtoo
+36	1-punc	too.	xtoo.
+37	1-punc	too?	xtoo.
+38	1-punc	too:	xtoo
+39	1-punc	No. [anynumber]	#[number]
+40	1-punc	 [anybigcaseletter].	[sameletter] [sameletter]
+41	1-punc	www.	www
+42	1-punc	ain't	am not
+43	1-punc	let's	let us
+44	1-punc	won't	will not
+45	1-punc	can't	can not
+46	1-punc	n't	 not
+47	1-punc	cannot	can not
+48	1-punc	'd	 would
+49	1-punc	'll	 will
+50	1-punc	'm	 am
+51	1-punc	've	 have
+52	1-punc	're	 are
+53	1-punc	!	.
+54	1-punc	?	.
+55	1-punc	;	.
+56	1-punc	"	
+57	1-punc	,	
+58	1-punc	[hyphen][hyphen]	 
+59	1-punc	 [hyphen]	 
+60	1-punc	[hyphen]	 
+61	1-punc	é	e
+62	1-punc	è	e
+63	1-punc	à	a
+64	1-punc	ç	c
+65	1-punc	&	and
+66	1-punc	%	percent
+67	1-punc	per cent	percent
+68	1-punc	_	
+69	1-punc	Que.	Que
+70	1-punc	Ont.	Ont
+71	1-punc	Nfld.	Nfld
+72	1-punc	Alta.	Alta
+73	1-punc	Man.	Man
+74	1-punc	Sask.	Sask
+75	1-punc	St.	St
+76	1-punc	Ste.	Ste
+77	1-punc	i.e.	ie
+78	1-punc	Mr.	Mr
+79	1-punc	Ms.	Ms
+80	1-punc	Mrs.	Mrs
+81	1-punc	Prof.	Prof
+82	1-punc	.com	com
+83	1-punc	a. m.	am
+84	1-punc	p. m.	pm
+85	1-punc	 a.m.	 am
+86	1-punc	 p.m.	 pm
+87	1-punc	Jan.	Jan
+88	1-punc	Feb.	Feb
+89	1-punc	Mar.	Mar
+90	1-punc	Apr.	Apr
+91	1-punc	Jun.	Jun
+92	1-punc	Jul.	Jul
+93	1-punc	Aug.	Aug
+94	1-punc	Sept.	Sept
+95	1-punc	Oct.	Oct
+96	1-punc	Nov.	Nov
+97	1-punc	Dec.	Dec
+98	1-punc	gen.	gen
+99	1-punc	Dr.	Dr
+100	1-punc	e. coli	e coli
+101	1-punc	.[anycapletter].	.[sameletter]
+102	1-punc	[anycapletter].[anycapletter]	[sameletter][sameletter]
+103	1-punc	[anycapletter].[anycapletter]	[sameletter][sameletter]
+104	1-punc	[anycapletter].[anycapletter]	[sameletter][sameletter]
+105	1-punc	[anycapletter].[anycapletter]	[sameletter][sameletter]
+106	1-punc	[anycapletter].[anycapletter]	[sameletter][sameletter]
+107	1-punc	[anynumber].[anynumber]	[samenumber]dot[samenumber]
+108	1-punc	\[anycharacter]	\ [samecharacter]
+109	1-punc	[anyword]'	[sameword] '
+110	1-punc	'[anyword]	' [sameword]
+111	1-punc	bull ' s eye	bull's eye
+112	1-punc	no man ' s land	no man's land
+113	1-punc	pandora ' s box	pandora's box
+114	1-punc	.,	 
+115	1-punc	....	
+116	1-punc	…	
+117	1-punc	.	 .
+118	1-punc	,	
+119	1-punc	:	
+120	1-punc	    	 
+121	1-punc	   	 
+122	1-punc	  	 
+123	1-punc	  	 
+124	2-caps	[anysmallcase/anynumber] [cap]	[sameletter/digit] [samecap]_
+125	2-caps	_ [anycapletter]	 [sameletter]
+126	3-negation	nobody better	xnobody better
+127	3-negation	nothing better	xnothing better
+128	3-negation	non confidence	non xconfidence
+129	3-negation	non emergenc*	non xemergency
+130	3-negation	non essential*	non xessential
+131	3-negation	non invasive	non xinvasive
+132	3-negation	non toxic	nontoxic
+133	3-negation	no one else	(no_one else) not
+134	3-negation	no one	(no_one) not
+135	3-negation	no no	no_no
+136	3-negation	no kidding	no xkidding
+137	3-negation	well no	xwell no
+138	3-negation	no	(no) not
+139	3-negation	no_no	no no
+140	3-negation	non	(non) not
+141	3-negation	nor	(nor) not
+142	3-negation	neither	(neither) not
+143	3-negation	never	(never) not
+144	3-negation	(no) not longer	(no_longer) not
+145	3-negation	hardly	(hardly) not
+146	3-negation	nobody*	(nobody) not
+147	3-negation	none	(none) not
+148	3-negation	avoid	(avoid) not
+149	3-negation	avoided	(avoided) not
+150	3-negation	avoiding	(avoiding) not
+151	3-negation	avoids	(avoids) not
+152	3-negation	nothing	(nothing) not
+153	3-negation	less	(less) not
+154	3-negation	minimize	(minimize) not
+155	3-negation	reduce	(reduce) not
+156	3-negation	withdr*	(withdraw) not
+157	3-negation	low	(low) not
+158	3-negation	(low) not end	low end
+159	3-negation	(low) not point*	low point
+160	3-negation	(low) not quality	low quality
+161	3-negation	(low) not rank*	low rank
+162	3-negation	(low) not rated	low rated
+163	3-negation	(low) not regard	low regard
+164	3-negation	(low) not expectation*	low expectation
+165	3-negation	a little	a xlittle
+166	3-negation	as little	as xlittle
+167	3-negation	at little	at xlittle
+168	3-negation	cute little	cute xlittle
+169	3-negation	little boy*	xlittle boy
+170	3-negation	little girl*	xlittle girl
+171	3-negation	poor little rich	poor xlittle xrich
+172	3-negation	little	(little) not
+173	3-negation	without	(without) not
+174	3-negation	(no) not man's land	no man's land
+175	3-negation	break (no) not bones	break no bones
+176	3-negation	not always	not
+177	3-negation	not appear	not
+178	3-negation	not other	not
+179	3-negation	not way to	not
+180	3-negation	not way we	not
+181	3-negation	not way you	not
+182	3-negation	not a very	not
+183	3-negation	not as a	not
+184	3-negation	not as an	not
+185	3-negation	not all are	not
+186	3-negation	not all was	not
+187	3-negation	not all that	not
+188	3-negation	not all xof the	not
+189	3-negation	not actually	not
+190	3-negation	not are there	not
+191	3-negation	not at a	not
+192	3-negation	not at all	not
+193	3-negation	not at the	not
+194	3-negation	not at their	not
+195	3-negation	not back to	not
+196	3-negation	not be a	not
+197	3-negation	not be as	not
+198	3-negation	not be get*	not
+199	3-negation	not be giv*	not
+200	3-negation	not be so	not
+201	3-negation	not be able to	not able to
+202	3-negation	not be like	not
+203	3-negation	not been a	not
+204	3-negation	not been an	not
+205	3-negation	not been any	not
+206	3-negation	not been as	not
+207	3-negation	not been so	not
+208	3-negation	not been in	not
+209	3-negation	not been able to	not able to
+210	3-negation	not been like	not
+211	3-negation	not being a	not
+212	3-negation	not being as	not
+213	3-negation	not being so	not
+214	3-negation	not being like	not
+215	3-negation	not being able to	not able to
+216	3-negation	not able to	not able to x
+217	3-negation	not can it	not
+218	3-negation	not can be	not
+219	3-negation	not can really	not
+220	3-negation	not cause* for	not
+221	3-negation	not could the	not
+222	3-negation	not could they	not
+223	3-negation	not could she	not
+224	3-negation	not could he	not
+225	3-negation	not could have	not
+226	3-negation	not could	not
+227	3-negation	not did he	not
+228	3-negation	not did she	not
+229	3-negation	not did they	not
+230	3-negation	not did the	not
+231	3-negation	not did get	not
+232	3-negation	not do they have	not
+233	3-negation	not do they	not
+234	3-negation	not do the	not
+235	3-negation	not do i	not
+236	3-negation	not do a	not
+237	3-negation	not do as	not
+238	3-negation	not do us	not
+239	3-negation	not do anything	not
+240	3-negation	not does it	not
+241	3-negation	not does his	not
+242	3-negation	not does her	not
+243	3-negation	not does she	not
+244	3-negation	not does he	not
+245	3-negation	not does the	not
+246	3-negation	not doing a	not
+247	3-negation	not doing as	not
+248	3-negation	not doing anything	not
+249	3-negation	not done a	not
+250	3-negation	not done as	not
+251	3-negation	not done anything	not
+252	3-negation	not else was	not
+253	3-negation	not even a	not
+254	3-negation	not even	not
+255	3-negation	not x ever	not
+256	3-negation	not ever	not
+257	3-negation	not feel*	not
+258	3-negation	not found a	not
+259	3-negation	not found an	not
+260	3-negation	not found any	not
+261	3-negation	not found the	not
+262	3-negation	not found their	not
+263	3-negation	not get* a	not
+264	3-negation	not get* an	not
+265	3-negation	not get* any	not
+266	3-negation	not get* the	not
+267	3-negation	not get* enough	not
+268	3-negation	not get* their	not
+269	3-negation	not giv* a	not
+270	3-negation	not giv* any	not
+271	3-negation	not good	not xgood
+272	3-negation	not go* to get	not
+273	3-negation	not go* to be a	not
+274	3-negation	not go* to be	not
+275	3-negation	not go* to do	not
+276	3-negation	not go* to the	not
+277	3-negation	not go* to get	not
+278	3-negation	not go* to give	not
+279	3-negation	not go* to have the	not
+280	3-negation	not go* to have	not
+281	3-negation	not go* to make a	not
+282	3-negation	not go* to make	not
+283	3-negation	not go* to	not
+284	3-negation	not go* any	not
+285	3-negation	not go* as	not
+286	3-negation	not going	not
+287	3-negation	not got a	not
+288	3-negation	not got an	not
+289	3-negation	not got any	not
+290	3-negation	not got the	not
+291	3-negation	not got to	not
+292	3-negation	not had it so	not
+293	3-negation	not had it	not
+294	3-negation	not had any	not
+295	3-negation	not had a	not
+296	3-negation	not had an	not
+297	3-negation	not had really	not
+298	3-negation	not had he	not
+299	3-negation	not had it been	not
+300	3-negation	not had it	not
+301	3-negation	not had she	not
+302	3-negation	not had they	not
+303	3-negation	not had the	not
+304	3-negation	not had there	not
+305	3-negation	not had to	not
+306	3-negation	not had	not
+307	3-negation	not has any	not
+308	3-negation	not has a	not
+309	3-negation	not has been	not
+310	3-negation	not has ever been	not
+311	3-negation	not has ever	not
+312	3-negation	not has it been	not
+313	3-negation	not has it	not
+314	3-negation	not has their been	not
+315	3-negation	not has their	not
+316	3-negation	not has the	not
+317	3-negation	not has to	not
+318	3-negation	not has really	not
+319	3-negation	not has taken	not
+320	3-negation	not has yet	not
+321	3-negation	not has	not
+322	3-negation	not hav* a	not
+323	3-negation	not hav* an	not
+324	3-negation	not hav* any	not
+325	3-negation	not hav* as	not
+326	3-negation	not hav* been	not
+327	3-negation	not hav* much	not
+328	3-negation	not hav* the	not
+329	3-negation	not hav* their	not
+330	3-negation	not hav* they	not
+331	3-negation	not hav* to	not
+332	3-negation	not hav* enough	not
+333	3-negation	not hav*	not
+334	3-negation	not his	not
+335	3-negation	not her	not
+336	3-negation	not in the	not
+337	3-negation	not in a	not
+338	3-negation	not in	not
+339	3-negation	not is a	not
+340	3-negation	not is get*	not
+341	3-negation	not is going	not
+342	3-negation	not is more	not
+343	3-negation	not is really	not
+344	3-negation	not is it an	not
+345	3-negation	not is it	not
+346	3-negation	not is there any	not
+347	3-negation	not is there	not
+348	3-negation	not is the	not
+349	3-negation	not is	not
+350	3-negation	not it	not
+351	3-negation	not its	not
+352	3-negation	not just	not
+353	3-negation	not look*	not
+354	3-negation	not mak* any	not
+355	3-negation	not mak* an	not
+356	3-negation	not mak* a	not
+357	3-negation	not mak* it	not
+358	3-negation	not mak*	not
+359	3-negation	not much	not
+360	3-negation	not more	not
+361	3-negation	not mov*	not
+362	3-negation	not nearly as	not
+363	3-negation	not nearly	not
+364	3-negation	not of a	not
+365	3-negation	not of it is	not
+366	3-negation	not of it was	not
+367	3-negation	not of it	not
+368	3-negation	not of that	not
+369	3-negation	not of them were	not
+370	3-negation	not of them	not
+371	3-negation	not of these	not
+372	3-negation	not of this would	not
+373	3-negation	not of this	not
+374	3-negation	not of us are	not
+375	3-negation	not of us	not
+376	3-negation	not of which	not
+377	3-negation	not of whom	not
+378	3-negation	not of the	not
+379	3-negation	not of	not
+380	3-negation	not on	not
+381	3-negation	not our	not
+382	3-negation	not over	not
+383	3-negation	not pull it	not
+384	3-negation	not pull	not
+385	3-negation	not quite	not
+386	3-negation	not real	not
+387	3-negation	not really a	not
+388	3-negation	not really all	not
+389	3-negation	not really had the	not
+390	3-negation	not really had a	not
+391	3-negation	not really seen	not
+392	3-negation	not really	not
+393	3-negation	not saw any	not
+394	3-negation	not saw a	not
+395	3-negation	not seek*	not
+396	3-negation	not seem* to be	not
+397	3-negation	not seem* to	not
+398	3-negation	not seem* quite	not
+399	3-negation	not seem*	not
+400	3-negation	not should be	not
+401	3-negation	not should ever	not
+402	3-negation	not should have	not
+403	3-negation	not should	not
+404	3-negation	not sign* of any	not
+405	3-negation	not sign* of an	not
+406	3-negation	not sign* of a	not
+407	3-negation	not sign* of	not
+408	3-negation	not similar	not
+409	3-negation	not so	not
+410	3-negation	not such	not
+411	3-negation	not tak* a	not
+412	3-negation	not tak*	not
+413	3-negation	not than	not
+414	3-negation	not that	not
+415	3-negation	not the	not
+416	3-negation	not their	not
+417	3-negation	not to be a	not
+418	3-negation	not to be	not
+419	3-negation	not to get	not
+420	3-negation	not to give	not
+421	3-negation	not to have a	not
+422	3-negation	not to have any	not
+423	3-negation	not to have been	not
+424	3-negation	not to have	not
+425	3-negation	the right not to	the right xnot to
+426	3-negation	their right not to	their right xnot to
+427	3-negation	not to	not
+428	3-negation	the right xnot to	the right not to
+429	3-negation	their right xnot to	their right not to
+430	3-negation	not up to any	not
+431	3-negation	not up to	not
+432	3-negation	not too	not
+433	3-negation	not very	not
+434	3-negation	not was he	not
+435	3-negation	not was she	not
+436	3-negation	not was his	not
+437	3-negation	not was her	not
+438	3-negation	not was there any	not
+439	3-negation	not was there	not
+440	3-negation	not was the	not
+441	3-negation	not was any	not
+442	3-negation	not was a	not
+443	3-negation	not was	not
+444	3-negation	not way	not
+445	3-negation	not were there any	not
+446	3-negation	not were there	not
+447	3-negation	not were any	not
+448	3-negation	not were	not
+449	3-negation	not will be	not
+450	3-negation	not will ever	not
+451	3-negation	not will they be	not
+452	3-negation	not will they	not
+453	3-negation	not will it be	not
+454	3-negation	not will it	not
+455	3-negation	not will	not
+456	3-negation	not would be	not
+457	3-negation	not would have been	not
+458	3-negation	not would ever	not
+459	3-negation	not would have	not
+460	3-negation	not would say	not
+461	3-negation	not would it	not
+462	3-negation	not would he	not
+463	3-negation	not would she	not
+464	3-negation	not would they	not
+465	3-negation	not would	not
+466	3-negation	not yet	not
+467	3-negation	not a	not
+468	3-negation	not an	not
+469	3-negation	not as	not
+470	3-negation	not all	not
+471	3-negation	not any*	not
+472	3-negation	not are	not
+473	3-negation	not at	not
+474	3-negation	not be	not
+475	3-negation	not been	not
+476	3-negation	not become	not
+477	3-negation	not before	not
+478	3-negation	not being	not
+479	3-negation	not can	not
+480	3-negation	not could	not
+481	3-negation	not did	not
+482	3-negation	not do	not
+483	3-negation	not does	not
+484	3-negation	not doing	not
+485	3-negation	not done	not
+486	3-negation	not else	not
+487	3-negation	not far	not
+488	3-negation	not felt	not
+489	3-negation	not found	not
+490	3-negation	not further	not
+491	3-negation	not fully	not
+492	3-negation	not get*	not
+493	3-negation	not giv*	not
+494	3-negation	not go	not
+495	3-negation	not xgood	not good
+496	3-negation	not got	not
+497	3-negation	not [anyword] well	not well
+498	3-negation	not [anyword] responsib*	not responsible
+499	4-dict	lie detector	xlie detector
+500	4-dict	advance poll*	xadvance poll
+501	4-dict	in advance	in xadvance
+502	4-dict	against a back*	xagainst a backdrop
+503	4-dict	against the back*	xagainst the backdrop
+504	4-dict	balanc* that against	balance that xagainst
+505	4-dict	balanc* them against	balance them xagainst
+506	4-dict	compar* against	compare xagainst
+507	4-dict	defen* against	defend xagainst
+508	4-dict	fight back against	fight back xagainst
+509	4-dict	for and against	for and xagainst
+510	4-dict	fought back against	fought back xagainst
+511	4-dict	game is against	game is xagainst
+512	4-dict	game* against	game xagainst
+513	4-dict	information against	information xagainst
+514	4-dict	play against	play xagainst
+515	4-dict	protect* against	protect xagainst
+516	4-dict	run* against	run xagainst
+517	4-dict	safeguard against	safeguard xagainst
+518	4-dict	support against	support xagainst
+519	4-dict	unite against	unite xagainst
+520	4-dict	victory against	victory xagainst
+521	4-dict	with us or against us	with us or xagainst us
+522	4-dict	not for not against	not xfor not xagainst
+523	4-dict	anti social	antisocial
+524	4-dict	anti	anti x
+525	4-dict	awful lot	xawful lot
+526	4-dict	account balance*	account xbalance
+527	4-dict	balanc* budget*	xbalance budget
+528	4-dict	balanc* its books	xbalance its books
+529	4-dict	balanc* its budget*	xbalance its budget
+530	4-dict	balanc* the books	xbalance the books
+531	4-dict	balanc* the budget*	xbalance the budget
+532	4-dict	balanc* their books	xbalance their books
+533	4-dict	balanc* their budget*	xbalance their budgets
+534	4-dict	balanc* due	xbalance due
+535	4-dict	balanc* of probabilit*	xbalance of probabilit
+536	4-dict	balanc* ow*	xbalance owing
+537	4-dict	balanc* sheet*	xbalance sheet
+538	4-dict	check* and balanc*	check and xbalance
+539	4-dict	debit balanc*	debit xbalance
+540	4-dict	fiscal balanc*	fiscal xbalance
+541	4-dict	hang* in the balance	hang in the xbalance
+542	4-dict	hung in the balance	hung in the xbalance
+543	4-dict	los* her balance	lose her xbalance
+544	4-dict	los* his balance	lose his xbalance
+545	4-dict	los* my balance	lose my xbalance
+546	4-dict	on balance	on xbalance
+547	4-dict	power balance	power xbalance
+548	4-dict	strategic balance	strategic xbalance
+549	4-dict	trade balanc*	trade xbalance
+550	4-dict	barely any	barely
+551	4-dict	barely	barely x
+552	4-dict	at best	at xbest
+553	4-dict	best shot	best xshot
+554	4-dict	best known as	xbest known as
+555	4-dict	better known as	xbetter known as
+556	4-dict	better or not	xbetter or not
+557	4-dict	better part of	xbetter part of
+558	4-dict	better shot	better xshot
+559	4-dict	know better	know xbetter
+560	4-dict	peek a boo	peek a xboo
+561	4-dict	break* through	breakthrough
+562	4-dict	broad mind*	broadminded
+563	4-dict	speed bumps	speed xbumps
+564	4-dict	child care	child xcare
+565	4-dict	day care	day xcare
+566	4-dict	foster care	foster xcare
+567	4-dict	geriatric care	geriatric xcare
+568	4-dict	health care	health xcare
+569	4-dict	home care	home xcare
+570	4-dict	intensive care	intensive xcare
+571	4-dict	longterm care	longterm xcare
+572	4-dict	medical care	medical xcare
+573	4-dict	palliative care	palliative xcare
+574	4-dict	patient care	patient xcare
+575	4-dict	private care	private xcare
+576	4-dict	ceremonial dagger*	xceremonial dagger
+577	4-dict	civil action	xcivil action
+578	4-dict	civil suit	xcivil suit
+579	4-dict	combat troops	xcombat troops
+580	4-dict	confidence motion	xconfidence motion
+581	4-dict	consumer confidence	consumer xconfidence
+582	4-dict	matter* of confidence	matter of xconfidence
+583	4-dict	vote* of confidence	vote of xconfidence
+584	4-dict	los* confidence	lose xconfidence
+585	4-dict	not confirm not deny	not xconfirm not xdeny
+586	4-dict	guilty conscience	guilty xconscience
+587	4-dict	age of consent	age of xconsent
+588	4-dict	consent form*	xconsent form
+589	4-dict	obtain* consent	obtain xconsent
+590	4-dict	sexual consent*	sexual xconsent
+591	4-dict	crawl space	xcrawl space
+592	4-dict	pub crawl*	pub xcrawl
+593	4-dict	los* credibility	lose xcredibility
+594	4-dict	credit card*	xcredit card
+595	4-dict	employment credit*	employment xcredit
+596	4-dict	GST credit*	GST xcredit
+597	4-dict	HST credit*	HST xcredit
+598	4-dict	line* of credit*	line of xcredit
+599	4-dict	tax credit*	tax xcredit
+600	4-dict	cross* [anyword] line	cross the line
+601	4-dict	crown prosecutor	xcrown prosecutor
+602	4-dict	break down crude	break down xcrude
+603	4-dict	crude oil*	xcrude oil
+604	4-dict	crystal meth*	xcrystal meth
+605	4-dict	cut* stress*	cut stress
+606	4-dict	whole damn	xwhole damn
+607	4-dict	pretty darn	pretty xdarn
+608	4-dict	dead heat	xdead heat
+609	4-dict	public defender*	public xdefender
+610	4-dict	demon worship	demon xworship
+611	4-dict	blue devil*	blue xdevil
+612	4-dict	tax eliminat*	tax xelimination
+613	4-dict	emergency crew*	xemergency crew
+614	4-dict	emergency department*	xemergency department
+615	4-dict	emergency doctor*	xemergency doctor
+616	4-dict	emergency management	xemergency management
+617	4-dict	emergency personnel	xemergency personnel
+618	4-dict	emergency physician*	xemergency physician
+619	4-dict	emergency plan*	xemergency plan
+620	4-dict	emergency preparedness	xemergency preparedness
+621	4-dict	emergency respon*	xemergency respon
+622	4-dict	emergency room*	xemergency room
+623	4-dict	emergency service*	xemergency service
+624	4-dict	emergency ward*	xemergency ward
+625	4-dict	emergency worker*	xemergency worker
+626	4-dict	enrich* machines	xenrich machines
+627	4-dict	enrich* of uranium	xenrich of uranium
+628	4-dict	enrich* plant*	xenrich plant
+629	4-dict	enrich* uranium	xenrich uranium
+630	4-dict	enrich* white flour	xenrich white flour
+631	4-dict	nuclear enrich*	nuclear xenrich
+632	4-dict	uranium enrich*	uranium xenrich
+633	4-dict	enrichment program*	xenrichment program
+634	4-dict	adult entertainment	adult xentertainment
+635	4-dict	entertainment industr*	xentertainment industry
+636	4-dict	entertainment lawyer	xentertainment lawyer
+637	4-dict	essential fatty acid*	xessential fatty acid
+638	4-dict	essential service*	xessential service
+639	4-dict	essential surger*	xessential surger
+640	4-dict	not essential	not xessential
+641	4-dict	poor self esteem	poor self xesteem
+642	4-dict	excellency	xexcellency
+643	4-dict	life expectanc*	life xexpectancy
+644	4-dict	extreme adventur*	xextreme adventure
+645	4-dict	fail* to	fail to x
+646	4-dict	fail* effort*	failed xeffort
+647	4-dict	book fair*	book xfair
+648	4-dict	fair amount*	xfair amount
+649	4-dict	fair bit*	xfair bit
+650	4-dict	fair chance*	xfair chance
+651	4-dict	fair number*	xfair number
+652	4-dict	fair to say	xfair to say
+653	4-dict	fair trade	xfair trade
+654	4-dict	science fair*	science xfair
+655	4-dict	the fair	the xfair
+656	4-dict	world* fair	world xfair
+657	4-dict	los* faith	lose xfaith
+658	4-dict	false teeth	xfalse teeth
+659	4-dict	flip top	xflip top
+660	4-dict	floppy disk*	xfloppy disk
+661	4-dict	aluminum foil	aluminum xfoil
+662	4-dict	gold foil	gold xfoil
+663	4-dict	the foil	the xfoil
+664	4-dict	tin foil	tin xfoil
+665	4-dict	carry forward	carry xforward
+666	4-dict	fast forward*	fast xforward
+667	4-dict	forward artillery	xforward artillery
+668	4-dict	forward base*	xforward base
+669	4-dict	forward operat*	xforward operat
+670	4-dict	lean* forward	lean xforward
+671	4-dict	to forward	to xforward
+672	4-dict	foster child*	xfoster child
+673	4-dict	foster home*	xfoster home
+674	4-dict	foster mother*	xfoster mother
+675	4-dict	foster parent*	xfoster parent
+676	4-dict	free market*	xfree market
+677	4-dict	free trade	xfree trade
+678	4-dict	free vote*	xfree vote
+679	4-dict	tax free	tax xfree
+680	4-dict	friendly fire	xfriendly fire
+681	4-dict	gold stock*	xgold stocks
+682	4-dict	gold teeth	xgold teeth
+683	4-dict	golden retriever*	xgolden retriever
+684	4-dict	a good [anynumber]	a xgood #
+685	4-dict	any good	any xgood
+686	4-dict	baked good	baked xgood
+687	4-dict	for good	for xgood
+688	4-dict	good chance	xgood chance
+689	4-dict	good grief	xgood grief
+690	4-dict	good shot	good xshot
+691	4-dict	more harm than good	more harm than xgood
+692	4-dict	oh my goodness	oh my xgoodness
+693	4-dict	fall from grace	fall from xgrace
+694	4-dict	[anynumber] grand	# xgrand
+695	4-dict	grand jury	xgrand jury
+696	4-dict	grand theft	xgrand theft
+697	4-dict	grand total	xgrand total
+698	4-dict	gravel	xgravel
+699	4-dict	allah is great	allah is xgreat
+700	4-dict	god is great	god is xgreat
+701	4-dict	great amount*	xgreat amount
+702	4-dict	great aunt*	xgreat aunt
+703	4-dict	great big	xgreat big
+704	4-dict	great danger	xgreat danger
+705	4-dict	great deal*	xgreat deal
+706	4-dict	great degree*	xgreat degree
+707	4-dict	great difficulty	xgreat difficulty
+708	4-dict	great disappointment	xgreat disappointment
+709	4-dict	great disservice	xgreat disservice
+710	4-dict	great divide*	xgreat divide
+711	4-dict	great escape*	xgreat escape
+712	4-dict	great evil*	xgreat evil
+713	4-dict	great failure*	xgreat failure
+714	4-dict	great fear*	xgreat fear
+715	4-dict	great gamble*	xgreat gamble
+716	4-dict	great grandchildren*	xgreat grandchildren
+717	4-dict	great granddaughter*	xgreat granddaughter
+718	4-dict	great grandfather*	xgreat grandfather
+719	4-dict	great grandmother*	xgreat grandmother
+720	4-dict	great grandson*	xgreat grandson
+721	4-dict	great great aunt*	xgreat xgreat aunt
+722	4-dict	great great grand*	xgreat xgreat grand
+723	4-dict	great great uncle*	xgreat xgreat uncle
+724	4-dict	great harm*	xgreat harm
+725	4-dict	great loss*	xgreat loss
+726	4-dict	great offence*	xgreat offence
+727	4-dict	great pains	xgreat pains
+728	4-dict	great paradox*	xgreat paradox
+729	4-dict	great risk*	xgreat risk
+730	4-dict	great sacrific*	xgreat sacrifice
+731	4-dict	great sadness	xgreat sadness
+732	4-dict	great uncle*	xgreat uncle
+733	4-dict	great villain*	xgreat villain
+734	4-dict	greeting card*	xgreeting card
+735	4-dict	female grizzly	female xgrizzly
+736	4-dict	grizzly bear*	xgrizzly bear
+737	4-dict	grizzly habitat	xgrizzly habitat
+738	4-dict	grizzly territory	xgrizzly territory
+739	4-dict	male grizzly	male xgrizzly
+740	4-dict	gross domestic product	xgross domestic product
+741	4-dict	gross revenue*	xgross revenue
+742	4-dict	gross ton*	xgross ton
+743	4-dict	gross weight*	xgross weight
+744	4-dict	hang* by a thread	hang by a thread
+745	4-dict	hard drive*	xhard drive
+746	4-dict	love hate	xlove xhate
+747	4-dict	high* point*	high point
+748	4-dict	high* rank*	high rank
+749	4-dict	high* regard	high regard
+750	4-dict	high* expectation*	high expectation
+751	4-dict	honor guard*	xhonor guard
+752	4-dict	honour guard*	xhonour guard
+753	4-dict	your honor	your xhonor
+754	4-dict	your honour	your xhonour
+755	4-dict	buried all hope	buried all xhope
+756	4-dict	bury all hope	bury all xhope
+757	4-dict	death of hope	death of xhope
+758	4-dict	devoid of hope	devoid of xhope
+759	4-dict	false hope*	false xhope
+760	4-dict	hope fades	xhope fades
+761	4-dict	hope fading	xhope fading
+762	4-dict	hope not	xhope not
+763	4-dict	hope said	xhope said
+764	4-dict	hope was abandoned	xhope was abandoned
+765	4-dict	hope was dashed	xhope was dashed
+766	4-dict	hope was running out	xhope was running out
+767	4-dict	hope was scarce	xhope was scarce
+768	4-dict	kill* all hope	kill all xhope
+769	4-dict	los* all hope	lose all xhope
+770	4-dict	los* hope*	lose xhope
+771	4-dict	scant hope*	scant xhope
+772	4-dict	faint hope clause	xfaint xhope clause
+773	4-dict	faint hope*	faint xhope
+774	4-dict	optical illusion*	optical xillusion
+775	4-dict	impossible to	impossible to x
+776	4-dict	tax incentive*	tax xincentive
+777	4-dict	counter insurgenc*	counter xinsurgency
+778	4-dict	analyze intelligence	analyze xintelligence
+779	4-dict	artificial intelligence	xartificial xintelligence
+780	4-dict	british intelligence	british xintelligence
+781	4-dict	canadian intelligence	canadian xintelligence
+782	4-dict	counter intelligence	counter xintelligence
+783	4-dict	criminal intelligence	xcriminal xintelligence
+784	4-dict	defence intelligence	defence xintelligence
+785	4-dict	defense intelligence	defense xintelligence
+786	4-dict	domestic intelligence	domestic xintelligence
+787	4-dict	foreign intelligence	foreign xintelligence
+788	4-dict	intelligence agen*	xintelligence agency
+789	4-dict	intelligence all*	xintelligence ally
+790	4-dict	intelligence analy*	xintelligence analysis
+791	4-dict	intelligence chief*	xintelligence chief
+792	4-dict	intelligence document*	xintelligence document
+793	4-dict	intelligence expert*	xintelligence expert
+794	4-dict	intelligence gathering	xintelligence gathering
+795	4-dict	intelligence information	xintelligence information
+796	4-dict	intelligence network*	xintelligence network
+797	4-dict	intelligence officer*	xintelligence officer
+798	4-dict	intelligence official*	xintelligence official
+799	4-dict	intelligence operations	xintelligence operations
+800	4-dict	intelligence report*	xintelligence report
+801	4-dict	intelligence service*	xintelligence service
+802	4-dict	intelligence unit*	xintelligence unit
+803	4-dict	intelligent design	xintelligent design
+804	4-dict	military intelligence	military xintelligence
+805	4-dict	parliamentary intelligence	parliamentary xintelligence
+806	4-dict	police intelligence	police xintelligence
+807	4-dict	pre war intelligence	pre war xintelligence
+808	4-dict	rcmp intelligence	rcmp xintelligence
+809	4-dict	security intelligence	security xintelligence
+810	4-dict	source of intelligence	source of xintelligence
+811	4-dict	united states intelligence	united states xintelligence
+812	4-dict	isolated incident*	xisolated incident
+813	4-dict	kiss of death	xkiss of death
+814	4-dict	kiss* goodbye	xkiss goodbye
+815	4-dict	kiss* them goodbye	xkiss them goodbye
+816	4-dict	lack of a	lack ofa x
+817	4-dict	lack of	lack of x
+818	4-dict	lack* the	lack the x
+819	4-dict	lack* in	lack in x
+820	4-dict	lack*	lack x
+821	4-dict	not at liberty	not at xliberty
+822	4-dict	all you like	all you xlike
+823	4-dict	as you like	as you xlike
+824	4-dict	do you like	do you xlike
+825	4-dict	god like	god xlike
+826	4-dict	like a	xlike a
+827	4-dict	more like	more xlike
+828	4-dict	not you like	not you xlike
+829	4-dict	something like	something xlike
+830	4-dict	thank you like	thank you xlike
+831	4-dict	the likes of	the xlikes of
+832	4-dict	treat* you like	treat you xlike
+833	4-dict	was like	was xlike
+834	4-dict	whether you like	whether you xlike
+835	4-dict	would you like	would you xlike
+836	4-dict	act* like	act xlike
+837	4-dict	anything like	anything xlike
+838	4-dict	it is like	it is xlike
+839	4-dict	like it is	xlike it is
+840	4-dict	like it was	xlike it was
+841	4-dict	like* it or not	xlike it or not
+842	4-dict	look* like	look xlike
+843	4-dict	seem* like	seem xlike
+844	4-dict	be like	be xlike
+845	4-dict	being like	being xlike
+846	4-dict	feel* like	feel xlike
+847	4-dict	felt like	felt xlike
+848	4-dict	200 mile limit*	200 mile xlimit
+849	4-dict	age limit*	age xlimit
+850	4-dict	legal limit*	legal xlimit
+851	4-dict	offshore limit*	offshore xlimit
+852	4-dict	speed limit*	speed xlimit
+853	4-dict	tax limit*	tax xlimit
+854	4-dict	los* a	lose a x
+855	4-dict	los* an	lose an x
+856	4-dict	los* its	lose its x
+857	4-dict	los* of self	lose ofself x
+858	4-dict	los* of	lose of x
+859	4-dict	los* the	lose the x
+860	4-dict	los* their	lose their x
+861	4-dict	los* your	lose your x
+862	4-dict	los* weight	xlose weight
+863	4-dict	never los* hope	never xlose hope
+864	4-dict	not los* hope	not xlose hope
+865	4-dict	job loss*	job xloss
+866	4-dict	weight loss	weight xloss
+867	4-dict	los* [anynumber] pounds	xlost [samenumber] pounds
+868	4-dict	los* love*	lose xlove
+869	4-dict	low* point*	low point
+870	4-dict	low* rank*	low rank
+871	4-dict	low* regard	low regard
+872	4-dict	low* expectation*	low expectation
+873	4-dict	mad cow	xmad cow
+874	4-dict	miss* an opportunity	xmiss an opportunity
+875	4-dict	miss* the opportunity	xmiss the opportunity
+876	4-dict	mitigate [anyword] risk*	mitigate xrisk
+877	4-dict	mitigate risk*	mitigate xrisk
+878	4-dict	mud brick*	xmud brick
+879	4-dict	mud wall*	xmud wall
+880	4-dict	mud wrestl*	xmud wrestling
+881	4-dict	natural disaster*	xnatural disaster
+882	4-dict	HIV negative	HIV xnegative
+883	4-dict	negative HIV	xnegative HIV
+884	4-dict	negative test*	xnegative test
+885	4-dict	test* negative	test xnegative
+886	4-dict	[anynumber] odd	# xodd
+887	4-dict	open market*	xopen market
+888	4-dict	declin* an opportunity	decline an xopportunity
+889	4-dict	declin* the opportunity	decline the xopportunity
+890	4-dict	den* an opportunity	deny an xopportunity
+891	4-dict	den* the opportunity	deny the xopportunity
+892	4-dict	los* opportunit*	lose xopportunity
+893	4-dict	miss* opportunit*	miss xopportunity
+894	4-dict	photo opportunit*	photo xopportunity
+895	4-dict	seize* the opportunity	seize the xopportunity
+896	4-dict	squander* an opportunit*	squander an xopportunity
+897	4-dict	window* of opportunit*	window of xopportunity
+898	4-dict	in opposition	in xopposition
+899	4-dict	leader of the opposition	leader of the xopposition
+900	4-dict	official opposition	official xopposition
+901	4-dict	opposition bench*	xopposition bench
+902	4-dict	opposition leader*	xopposition leader
+903	4-dict	opposition member*	xopposition member
+904	4-dict	opposition MP*	xopposition MP
+905	4-dict	opposition part*	xopposition party
+906	4-dict	opposition politician*	xopposition politician
+907	4-dict	the opposition*	the xopposition
+908	4-dict	over price*	overprice
+909	4-dict	conjugal partner*	conjugal xpartner
+910	4-dict	corporate partner*	corporate xpartner
+911	4-dict	ex partner*	ex xpartner
+912	4-dict	industry partner*	industry xpartner
+913	4-dict	intimate partner*	xintimate xpartner
+914	4-dict	managing partner*	managing xpartner
+915	4-dict	n_afta partner*	nafta xpartner
+916	4-dict	partner* organization*	xpartner organization
+917	4-dict	sector partner*	sector xpartner
+918	4-dict	senior partner*	senior xpartner
+919	4-dict	sex* partner*	sex xpartner
+920	4-dict	shipping partner*	shipping xpartner
+921	4-dict	tax partner*	tax xpartner
+922	4-dict	trading partner*	trading xpartner
+923	4-dict	ex pat*	ex xpat
+924	4-dict	patch* up	patch up
+925	4-dict	play* down	play down
+926	4-dict	playoff game*	xplayoff game
+927	4-dict	play* games	play games
+928	4-dict	play* god	play god
+929	4-dict	play* it cool	play it cool
+930	4-dict	play* politics	play politics
+931	4-dict	false positive*	false xpositive
+932	4-dict	HIV positive	HIV xpositive
+933	4-dict	positive HIV	xpositive HIV
+934	4-dict	positive test*	xpositive test
+935	4-dict	test* positive	test xpositive
+936	4-dict	positive* identif*	xpositive identif
+937	4-dict	over powerful	overpowerful
+938	4-dict	prison guard*	xprison guard
+939	4-dict	prison official*	xprison official
+940	4-dict	prison system*	xprison system
+941	4-dict	problem* solv*	problem solve
+942	4-dict	los* productivity	lose xproductivity
+943	4-dict	in progress	in xprogress
+944	4-dict	progressive disorder	xprogressive disorder
+945	4-dict	protestant*	xprotestant
+946	4-dict	air quality	air xquality
+947	4-dict	fuel quality	fuel xquality
+948	4-dict	poor quality	poor xquality
+949	4-dict	quality of life	xquality of life
+950	4-dict	water quality	water xquality
+951	4-dict	reasonable accommodation	xreasonable xaccommodation
+952	4-dict	reasonable doubt	xreasonable xdoubt
+953	4-dict	refus* to	refuse to x
+954	4-dict	tax relief	tax xrelief
+955	4-dict	human resourc*	human xresource
+956	4-dict	resource* minister	xresource minister
+957	4-dict	in many respects	in many xrespects
+958	4-dict	in respect of	in xrespect of
+959	4-dict	in some respects	in some xrespects
+960	4-dict	in that respect	in that xrespect
+961	4-dict	in this respect	in this xrespect
+962	4-dict	with respect to	with xrespect to
+963	4-dict	claim* of responsib*	claim of xresponsibility
+964	4-dict	claim* responsib*	claim xresponsibility
+965	4-dict	conflicting responsib*	conflicting xresponsibility
+966	4-dict	criminal* responsib*	xcriminal xresponsibility
+967	4-dict	den* responsib*	deny xresponsibility
+968	4-dict	federal responsib*	federal xresponsibility
+969	4-dict	ministerial responsib*	ministerial xresponsibility
+970	4-dict	provincial responsib*	provincial xresponsibility
+971	4-dict	responsib* for	xresponsible for
+972	4-dict	shift* responsib*	shift xresponsibility
+973	4-dict	take over responsib*	take over xresponsibility
+974	4-dict	out right	outright
+975	4-dict	right hand*	xright hand
+976	4-dict	rights abus*	xrights abuse
+977	4-dict	rights complaint*	xrights complaint
+978	4-dict	rights record*	xrights record
+979	4-dict	rights violat*	xrights violation
+980	4-dict	safety board*	xsafety board
+981	4-dict	safety inspection*	xsafety inspection
+982	4-dict	safety minister*	xsafety minister
+983	4-dict	for scrap	for xscrap
+984	4-dict	of scrap	of xscrap
+985	4-dict	scrap metal	xscrap metal
+986	4-dict	scrap of	xscrap of
+987	4-dict	scrap tire*	xscrap tire
+988	4-dict	scrap yard*	xscrap yard
+989	4-dict	food scraps	food xscraps
+990	4-dict	table scraps	table xscraps
+991	4-dict	vegetable scraps	vegetable xscraps
+992	4-dict	unlikely to secure	unlikely to xsecure
+993	4-dict	seiz* the day	seize the day
+994	4-dict	a sense	a xsense
+995	4-dict	could sense	could xsense
+996	4-dict	every sense	every xsense
+997	4-dict	my sense	my xsense
+998	4-dict	not sense	not xsense
+999	4-dict	one sense	one xsense
+1000	4-dict	sense of	xsense of
+1001	4-dict	sense that	xsense that
+1002	4-dict	that sense	that xsense
+1003	4-dict	this sense	this xsense
+1004	4-dict	hyper sensitiv*	hypersensitive
+1005	4-dict	time sensitiv*	time xsensitiv
+1006	4-dict	shak* hands*	xshake hands
+1007	4-dict	shake* of hands	xshake hands
+1008	4-dict	sheltered life	xsheltered life
+1009	4-dict	a shield*	a xshield
+1010	4-dict	defence shield*	defence xshield
+1011	4-dict	defense shield*	defense xshield
+1012	4-dict	european shield*	european xshield
+1013	4-dict	missile shield*	missile xshield
+1014	4-dict	security shield*	security xshield
+1015	4-dict	shield interceptor*	xshield interceptor
+1016	4-dict	shield's	xshield's
+1017	4-dict	sigh of relief	xsigh of relief
+1018	4-dict	a significant*	a xsignificant
+1019	4-dict	significant risk	xsignificant risk
+1020	4-dict	a sink	a xsink
+1021	4-dict	bathroom sink	bathroom xsink
+1022	4-dict	floor and sink	floor and xsink
+1023	4-dict	kitchen sink	kitchen xsink
+1024	4-dict	the sink	the xsink
+1025	4-dict	of sinks	of xsinks
+1026	4-dict	sky ' s the limit	sky is the limit
+1027	4-dict	grand slam*	grand xslam
+1028	4-dict	slam dunk	xslam dunk
+1029	4-dict	slamdance*	xslamdance
+1030	4-dict	slammer*	xslammer
+1031	4-dict	slip* up	slip up
+1032	4-dict	special education*	xspecial education
+1033	4-dict	special interest*	xspecial interest
+1034	4-dict	special investigat*	xspecial investigation
+1035	4-dict	special needs	xspecial needs
+1036	4-dict	special operations	xspecial operations
+1037	4-dict	special police	xspecial police
+1038	4-dict	special prosecutor*	xspecial prosecutor
+1039	4-dict	special unit*	xspecial unit
+1040	4-dict	special victim* unit	xspecial xvictim unit
+1041	4-dict	special* force*	xspecial force
+1042	4-dict	christian spirit*	christian xspirit
+1043	4-dict	divine spirit*	divine xspirit
+1044	4-dict	beer or spirit*	beer or xspirits
+1045	4-dict	from spirits	from xspirits
+1046	4-dict	ounc* of spirits	ounce of xspirits
+1047	4-dict	wine and spirits	wine and xspirits
+1048	4-dict	stick* by	stick by
+1049	4-dict	stick* it out	stick it out
+1050	4-dict	stick* to it	stick to it
+1051	4-dict	stick* up for	stick up for
+1052	4-dict	stick* with	stick with
+1053	4-dict	stiff upper	xstiff upper
+1054	4-dict	[anynumber] strain*	# xstrain
+1055	4-dict	flu strain*	flu xstrain
+1056	4-dict	human strain*	human xstrain
+1057	4-dict	lethal strain	lethal xstrain
+1058	4-dict	strain* of	xstrain of
+1059	4-dict	superbug strain*	superbug xstrain
+1060	4-dict	viral strain*	viral xstrain
+1061	4-dict	stress* that	xstress that
+1062	4-dict	stress* the	xstress the
+1063	4-dict	stress* there	xstress there
+1064	4-dict	stress* they	xstress they
+1065	4-dict	to stress	to xstress
+1066	4-dict	stumb* upon	xstumble upon
+1067	4-dict	a superior	a xsuperior
+1068	4-dict	superior authorit*	xsuperior authority
+1069	4-dict	superior court*	xsuperior court
+1070	4-dict	superior design	xsuperior design
+1071	4-dict	% support*	% xsupport
+1072	4-dict	[anynumber] in support	# in xsupport
+1073	4-dict	[anynumber] support	# xsupport
+1074	4-dict	air support	air xsupport
+1075	4-dict	child support	child xsupport
+1076	4-dict	diminish* support	diminish xsupport
+1077	4-dict	do you support	do you xsupport
+1078	4-dict	income support	income xsupport
+1079	4-dict	life support	life xsupport
+1080	4-dict	los* support	lose xsupport
+1081	4-dict	material support	material xsupport
+1082	4-dict	party* support	party xsupport
+1083	4-dict	percent support*	percent xsupport
+1084	4-dict	public support	public xsupport
+1085	4-dict	spousal support	spousal xsupport
+1086	4-dict	support agency*	xsupport agency
+1087	4-dict	support erod*	xsupport eroding
+1088	4-dict	support has	xsupport
+1089	4-dict	support in the polls	xsupport
+1090	4-dict	support is	xsupport
+1091	4-dict	support may be	xsupport
+1092	4-dict	support of [anynumber]	xsupport of #
+1093	4-dict	support of at least	xsupport of at least
+1094	4-dict	support of only	xsupport of only
+1095	4-dict	support of terror*	xsupport of terror
+1096	4-dict	support payment*	xsupport payment
+1097	4-dict	support program	xsupport program
+1098	4-dict	support staff	xsupport staff
+1099	4-dict	support troop*	xsupport troops
+1100	4-dict	support* appear*	xsupport appears
+1101	4-dict	support* at [anynumber]	xsupport at #
+1102	4-dict	support* either	xsupport either
+1103	4-dict	support* terror*	xsupport terror
+1104	4-dict	terror* support	terror xsupport
+1105	4-dict	undermine support	undermine xsupport
+1106	4-dict	who to support	who to xsupport
+1107	4-dict	supporting actor	xsupporting actor
+1108	4-dict	supporting actress	xsupporting actress
+1109	4-dict	supporting document*	xsupporting document
+1110	4-dict	survival of the fittest	xsurvival of the fittest
+1111	4-dict	survival rate*	xsurvival rate
+1112	4-dict	survived by	xsurvived by
+1113	4-dict	swear* an	xswear an
+1114	4-dict	swear* in	xswear in
+1115	4-dict	swear* that	xswear that
+1116	4-dict	swear* they	xswear they
+1117	4-dict	tamper proof	xtamper proof
+1118	4-dict	tears of happiness	xtears of happiness
+1119	4-dict	tears of joy	xtears of joy
+1120	4-dict	tears of relief	xtears of relief
+1121	4-dict	tears of thanks	xtears of thanks
+1122	4-dict	for tender	for xtender
+1123	4-dict	original tender	original xtender
+1124	4-dict	pre tender	pre xtender
+1125	4-dict	public tender	public xtender
+1126	4-dict	tender estimat*	xtender estimate
+1127	4-dict	tender* by	xtender by
+1128	4-dict	tender* for	xtender for
+1129	4-dict	tender* it	xtender it
+1130	4-dict	tender* process	xtender process
+1131	4-dict	tender* projection*	xtender projection
+1132	4-dict	tender* to	xtender to
+1133	4-dict	the tender*	the xtender
+1134	4-dict	to tender	to xtender
+1135	4-dict	up to tender	up to xtender
+1136	4-dict	was tender*	was xtender
+1137	4-dict	will tender	will xtender
+1138	4-dict	toilet*	xtoilet
+1139	4-dict	he too	he xtoo
+1140	4-dict	she too	she xtoo
+1141	4-dict	so too	so xtoo
+1142	4-dict	them too	them xtoo
+1143	4-dict	this too	this xtoo
+1144	4-dict	too are	xtoo are
+1145	4-dict	too as	xtoo as
+1146	4-dict	too because	xtoo because
+1147	4-dict	too can	xtoo can
+1148	4-dict	too have	xtoo have
+1149	4-dict	too if	xtoo if
+1150	4-dict	too is	xtoo is
+1151	4-dict	too that	xtoo that
+1152	4-dict	too the	xtoo the
+1153	4-dict	too there	xtoo there
+1154	4-dict	too they	xtoo they
+1155	4-dict	too was	xtoo was
+1156	4-dict	too when	xtoo when
+1157	4-dict	too will	xtoo will
+1158	4-dict	too with	xtoo with
+1159	4-dict	too would	xtoo would
+1160	4-dict	too	too x
+1161	4-dict	too close to call	xtoo close to call
+1162	4-dict	too good	xtoo good
+1163	4-dict	too happy	xtoo happy
+1164	4-dict	too helpful	xtoo helpful
+1165	4-dict	too important	xtoo important
+1166	4-dict	too nice	xtoo nice
+1167	4-dict	too positive	xtoo positive
+1168	4-dict	toxico*	xtoxicology
+1169	4-dict	abus* of trust	abuse of xtrust
+1170	4-dict	betrayal of trust	betrayal of xtrust
+1171	4-dict	breach of trust	breach of xtrust
+1172	4-dict	income trust*	income xtrust
+1173	4-dict	trust fund*	xtrust fund
+1174	4-dict	unable to	unable to x
+1175	4-dict	canad* unity	canadian xunity
+1176	4-dict	national unity	national xunity
+1177	4-dict	upside down	xupside down
+1178	4-dict	vice chair*	xvice chair
+1179	4-dict	vice chancellor*	xvice chancellor
+1180	4-dict	vice chief*	xvice chief
+1181	4-dict	vice consul*	xvice consul
+1182	4-dict	vice premier*	xvice premier
+1183	4-dict	vice president*	xvice president
+1184	4-dict	vice principal*	xvice principal
+1185	4-dict	vice regal*	xvice regal
+1186	4-dict	vice versa	xvice versa
+1187	4-dict	night vision	night xvision
+1188	4-dict	peripheral vision	peripheral xvision
+1189	4-dict	vital sign*	xvital sign
+1190	4-dict	walk* on air	walk on air
+1191	4-dict	climate warm*	climate xwarming
+1192	4-dict	global warm*	global xwarming
+1193	4-dict	warm* climate*	xwarming climate
+1194	4-dict	solid waste*	solid xwaste
+1195	4-dict	waste disposal	xwaste disposal
+1196	4-dict	waste facilit*	xwaste facility
+1197	4-dict	waste management*	xwaste management
+1198	4-dict	pretty well	pretty xwell
+1199	4-dict	could well	could xwell
+1200	4-dict	damn well	damn xwell
+1201	4-dict	deep well	deep xwell
+1202	4-dict	do well	do xwell
+1203	4-dict	fall* well	fall xwell
+1204	4-dict	full well	full xwell
+1205	4-dict	how well	how xwell
+1206	4-dict	knew very well	knew very xwell
+1207	4-dict	knew well	knew xwell
+1208	4-dict	know* very well	know very xwell
+1209	4-dict	know* well	know xwell
+1210	4-dict	may very well	may very xwell
+1211	4-dict	may well	may xwell
+1212	4-dict	might very well	might very xwell
+1213	4-dict	might well	might xwell
+1214	4-dict	per well	per xwell
+1215	4-dict	said well	said xwell
+1216	4-dict	surface well	surface xwell
+1217	4-dict	tears well*	tears xwell
+1218	4-dict	the well	the xwell
+1219	4-dict	well above*	xwell above
+1220	4-dict	well advised	xwell advised
+1221	4-dict	well after	xwell after
+1222	4-dict	well ahead	xwell ahead
+1223	4-dict	well apart	xwell apart
+1224	4-dict	well armed	xwell armed
+1225	4-dict	well aware	xwell aware
+1226	4-dict	well away	xwell away
+1227	4-dict	well back	xwell back
+1228	4-dict	well be	xwell be
+1229	4-dict	well before	xwell before
+1230	4-dict	well behind	xwell behind
+1231	4-dict	well below	xwell below
+1232	4-dict	well beyond	xwell beyond
+1233	4-dict	well end up	xwell end up
+1234	4-dict	well have	xwell have
+1235	4-dict	well hidden	xwell hidden
+1236	4-dict	well how	xwell how
+1237	4-dict	well if	xwell if
+1238	4-dict	well in	xwell in
+1239	4-dict	well into	xwell into
+1240	4-dict	well kept	xwell kept
+1241	4-dict	well know*	xwell know
+1242	4-dict	well out	xwell out
+1243	4-dict	well over	xwell over
+1244	4-dict	well past	xwell past
+1245	4-dict	well short	xwell short
+1246	4-dict	well so	xwell so
+1247	4-dict	well then	xwell then
+1248	4-dict	well under	xwell under
+1249	4-dict	well water	xwell water
+1250	4-dict	well yes	xwell yes
+1251	4-dict	as well	as xwell
+1252	4-dict	as xwell to do	as well to do
+1253	4-dict	less xwell known	less well known
+1254	4-dict	whack load	xwhack load
+1255	4-dict	whack of	xwhack of
+1256	4-dict	whack upside	xwhack upside
+1257	4-dict	wild bird*	xwild bird
+1258	4-dict	wild duck*	xwild duck
+1259	4-dict	wild flower*	xwild flower
+1260	4-dict	wild rapid*	xwild rapid
+1261	4-dict	wild salmon*	xwild salmon
+1262	4-dict	wipe* out	wipe out
+1263	4-dict	dim wit	dim xwit
+1264	4-dict	slow wit	slow xwit
+1265	4-dict	[anynumber] worth	# xworth
+1266	4-dict	worth [anynumber]	xworth #
+1267	4-dict	billion* worth	billion xworth
+1268	4-dict	dollars worth	dollars xworth
+1269	4-dict	million* worth	million xworth
+1270	4-dict	net worth	net xworth
+1271	4-dict	worth a total	xworth a total
+1272	4-dict	worth about	xworth about
+1273	4-dict	worth an estimated	xworth an estimated
+1274	4-dict	worth as much as	xworth as much as
+1275	4-dict	worth less than	xworth less than
+1276	4-dict	worth more than	xworth more than
+1277	4-dict	worth up to	xworth up to
+1278	4-dict	right* and wrong*	xright and xwrong
+1279	4-dict	right* or wrong*	xright or xwrong
+1280	4-dict	short term vision	short term xvision
+1281	4-dict	over zealous*	overzealous

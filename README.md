@@ -78,7 +78,7 @@ There are four main types of conflicts annotated:
 For more information on the annotation guidelines, see our [paper](https://aclanthology.org/2024.lrec-main.716.pdf).
 This repository includes a corrected version of the original UNSC Conflicts corpus UNSCon ([GitHub](https://github.com/linatal/UNSCon)).
 
-#### [main_conflicts_not_preprocessed.csv](Corpora%2FAnnotated%2FConflicts%2Fmain_conflicts_not_preprocessed.csv)
+### [main_conflicts_not_preprocessed.csv](Corpora%2FAnnotated%2FConflicts%2Fmain_conflicts_not_preprocessed.csv)
 Table containing the speeches with Conflict annotations and metadata, with evaporate labels columns, derived from the 
 original annotation output. A more concise representation of the dataset is in [main_conflicts.csv](Corpora%2FAnnotated%2FConflicts%2Fmain_conflicts.csv).  
 
@@ -99,7 +99,7 @@ Taken from `main_edus.csv`:
 * **speech_sentence_id** and **paragraph_id**: taken from `main_edus.csv`
 
 
-#### [main_conflicts.csv](Corpora%2FAnnotated%2FConflicts%2Fmain_conflicts.csv)
+### [main_conflicts.csv](Corpora%2FAnnotated%2FConflicts%2Fmain_conflicts.csv)
 Table with speeches, Conflict labels and metadata, with summarized  and renamed columns for labels. The Table is the output from [04_conflicts_table_preprocessing.py](Code%2Fcorpus_preprocessing%2F04_conflicts_table_preprocessing.py)
 taking [main_conflicts_not_preprocessed.csv](Corpora%2FAnnotated%2FConflicts%2Fmain_conflicts_not_preprocessed.csv) as input.
 
@@ -119,9 +119,16 @@ This column provides consecutive IDs without gaps.
 * **paragraph_id_consecutive_per_file**: Same as the column before, but per file.
 
 
-#### [main_conflicts_sents.csv](Corpora%2FAnnotated%2FConflicts%2Fmain_conflicts_sents.csv)
+### [main_conflicts_sents.csv](Corpora%2FAnnotated%2FConflicts%2Fmain_conflicts_sents.csv)
 
 EDU-based Conflict annotations mapped to sentences. For overlapping labels, we simply used the first label for the sentence.
+
+### [main_conflicts_lexicoder_sentimentscores.csv](Corpora%2FAnnotated%2FConflicts%2Flexicoder_sentimentscores%2Fmain_conflicts_lexicoder_sentimentscores.csv) and [main_conflicts_sents_lexicoder_sentimentscores.csv](Corpora%2FAnnotated%2FConflicts%2Flexicoder_sentimentscores%2Fmain_conflicts_sents_lexicoder_sentimentscores.csv)
+[main_conflicts.csv](Corpora%2FAnnotated%2FConflicts%2Fmain_conflicts.csv) and [main_conflicts_sents.csv](Corpora%2FAnnotated%2FConflicts%2Fmain_conflicts_sents.csv)
+with three additional columns: 
+* **lexicoder_words_polarity**: extracted polarity words (positive, negative)
+* **lexicoder_score**: sentiment score computed with lexicoder
+* **lexicoder_score_binary**: binary sentiment score
 
 ### UNSC-RST: Rhetorical Structures
 The corpus contains 87 speeches given in the UNSC analyzed from the perspective of Rhetorical Structure Theory
@@ -132,15 +139,15 @@ For more information on the annotation guidelines, see our
 [paper](https://aclanthology.org/2024.lrec-main.716.pdf).
 This repository includes a corrected version of the original RST corpus ([GitHub](https://github.com/linatal/rhetorical_UNSC)), as well as versions mapped to other RST relation sets, namely to the RST-DT and GUM relation classes.
 
-### [RST_original](Corpora%2FAnnotated%2FRST_original)
+#### [/RST_original](Corpora%2FAnnotated%2FRST_original)
 Folder with rs3 file per speech, using annotation labels as described in our paper.
 
-### [RST_RSTDT-relations](Corpora%2FAnnotated%2FRST_RSTDT-relations) and [RST_GUM-relations](Corpora%2FAnnotated%2FRST_GUM-relations)
+#### [/RST_RSTDT-relations](Corpora%2FAnnotated%2FRST_RSTDT-relations) and [RST_GUM-relations](Corpora%2FAnnotated%2FRST_GUM-relations)
 Folder with rs3 file per speech, automatically mapped to RST-DT classes and RST-GUM relations using [mapping_relations.py](Code%2Frst%2Fmapping_relations.py).
 
 
-### Merged UNSC-RST and UNSCon table: [conflicts_rst_aligned.csv](Corpora%2FAnnotated%2Fconflicts_rst_aligned.csv)
-Table with aligned Conflicts and simplified RST label annotations.  
+### [conflicts_rst_aligned.csv](Corpora%2FAnnotated%2Fconflicts_rst_aligned.csv)
+Merged UNSC-RST and UNSCon table: Table with aligned Conflicts and simplified RST label annotations.  
 
 Metadata:
 * **filename, fileid, char_start_offset_edu, char_end_offset_edu, speech_edu_id, text_edu** same as in `main_edus.csv`
@@ -173,17 +180,39 @@ To reproduce the corpus preprocessing steps, download the requirements by typing
 For SpaCy, download language model:
 `python -m spacy download en_core_web_lg`
 
-### [03_corpus_structure.py](Code%2Fcorpus_preprocessing%2F03_corpus_structure.py)
+### [/Code/corpus_preprocessing](Code%2Fcorpus_preprocessing)
+
+#### [03_corpus_structure.py](Code%2Fcorpus_preprocessing%2F03_corpus_structure.py)
 Script that takes the raw texts and output files [main_sents.csv](Corpora%2FRaw%2Fmain_sents.csv) and [main_para.csv](Corpora%2FRaw%2Fmain_para.csv). [main_edus.csv](Corpora%2FRaw%2Fmain_edus.csv) was created using output from Inception annotation tool.
 
-### [rst](Code%2Frst)
-Scripts to map RST relations for out project to RST-DT classes and GUM relations. 
-
-### [04_conflicts_table_preprocessing.py](Code%2Fcorpus_preprocessing%2F04_conflicts_table_preprocessing.py)
+#### [04_conflicts_table_preprocessing.py](Code%2Fcorpus_preprocessing%2F04_conflicts_table_preprocessing.py)
 Script to preprocess the conflict table, condensing it by summarizing Conflict label columns. Takes [main_conflicts_not_preprocessed.csv](Corpora%2FAnnotated%2FConflicts%2Fmain_conflicts_not_preprocessed.csv) as input and gives [main_conflicts.csv](Corpora%2FAnnotated%2FConflicts%2Fmain_conflicts.csv) as output.
 
-## Other Projects on the UNSC Debates corpus
 
+### [Code/lexicoder_sentiment_scores](Code%2Flexicoder_sentiment_scores)
+#### [LSDdata](Code%2Flexicoder_sentiment_scores%2FLSDdata)
+Folder containing Lexicoder Dictionary. 
+LSDdata is the downloaded Lexicoder Sentiment Dictionary ("LSDaug2015") from the tool's website: https://www.snsoroka.com/data-lexicoder/, unzipped and preprocessed with [make_lsd.py](Code%2Flexicoder_sentiment_scores%2Fmake_lsd.py).
+#### [LSD_sentimentscores_per_EDU.py](Code%2Flexicoder_sentiment_scores%2FLSD_sentimentscores_per_EDU.py)
+Creates [main_conflicts_lexicoder_sentimentscores.csv](Corpora%2FAnnotated%2FConflicts%2Flexicoder_sentimentscores%2Fmain_conflicts_lexicoder_sentimentscores.csv) with sentiment scores per EDU, and 
+[main_conflicts_sents_lexicoder_sentimentscores.csv](Corpora%2FAnnotated%2FConflicts%2Flexicoder_sentimentscores%2Fmain_conflicts_sents_lexicoder_sentimentscores.csv) with sentiment scores per sentence.
+
+
+### [/Code/rst](Code%2Frst)
+#### [mapping_relations.py](Code%2Frst%2Fmapping_relations.py), [dictionaries.py](Code%2Frst%2Fdictionaries.py)
+Script to map RST relations for our project to RST-DT classes and GUM relations. 
+
+#### [align_rst_conflict.py](Code%2Frst%2Falign_rst_conflict.py)
+Takes RST tree from rs3 files and creates a flat representation to a list of relations, using post-order traversal (reversed depth-first), starting from leave node relation going up to the root. 
+Aligns RST list presentation per EDU to conflicts table in main_conflicts.csv. The output is [conflicts_rst_aligned.csv](Corpora%2FAnnotated%2Fconflicts_rst_aligned.csv).
+
+#### [get_rst_subtrees.py](Code%2Frst%2Fget_rst_subtrees.py)
+Creates column _rstree_relation_chain_subtree_ in [conflicts_rst_aligned.csv](Corpora%2FAnnotated%2Fconflicts_rst_aligned.csv)
+which is the paragraph-wise list of RST relations. Instead of starting from the leaf node up to the root of the document, the rootnode is now the root of all EDUs within one paragraph.
+
+
+
+## Other Projects on the UNSC Debates corpus
 
 ### UNSC-NE
 UNSC-NE is a Named Entity (NE) add-on to the UNSC Debates corpus using DBpedia-spotlight. 
