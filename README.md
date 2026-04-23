@@ -1,8 +1,8 @@
 # UMUC: UP Multilayer UNSC Corpus
 
 
-The *UP Multilayer UNSC Corpus (UMUC)* is a corpus for the analysis of diplomatic speeches given in the UN Security Council (UNSC).
-Our corpus contains a small subset of speeches selected from the original [UN Security Council Debates Corpus](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/KGVSYH) containing over 25 years of digitizing meeting notes.
+The *University Potsdam Multilayer UNSC Corpus (UMUC)* is a corpus for the analysis of diplomatic speeches given in the UN Security Council (UNSC).
+Our corpus contains 87 speeches selected from the original [UN Security Council Debates Corpus](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/KGVSYH) containing over 25 years of digitizing meeting notes.
 
 We preprocessed the speeches deleting unnecessary line breaks, removed text that are not the speech, and segmented the texts into either Elementary Discourse Units or sentences.
 In addition to the raw texts, we present annotations for different phenomena: verbal Conflicts, discourse structures using Rhetorical Structure Theory, and automatic average Sentiments using a dictionary-based approach.
@@ -136,7 +136,7 @@ The corpus contains 87 speeches given in the UNSC analyzed from the perspective 
 combining its elementary discourse units (EDUs) into one single, hierarchical tree structure.
 
 For more information on the annotation guidelines, see our 
-[paper](https://aclanthology.org/2024.lrec-main.716.pdf).
+[paper](https://aclanthology.org/2024.sigdial-1.2/).
 This repository includes a corrected version of the original RST corpus ([GitHub](https://github.com/linatal/rhetorical_UNSC)), as well as versions mapped to other RST relation sets, namely to the RST-DT and GUM relation classes.
 
 #### [/RST_original](Corpora%2FAnnotated%2FRST_original)

@@ -62,7 +62,7 @@ def parseXML(xml, rst_type):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--rst_type", choices=["GUM", "RST-DT"], required=True)
+    parser.add_argument("--rst_type", choices=["GUM", "RST-DT", "RST-DT-UniRST"], required=True)
     parser.add_argument("--path", required=True) # input path
     args = parser.parse_args()
 
